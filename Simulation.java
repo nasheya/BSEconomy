@@ -1,8 +1,8 @@
 /**
 * Authors: Joshua Hayes and Nasheya Rahman
 * A simulation concerning a buyer-seller exchange economy as part of Dr. Michael Kerckhove's summer research 2016. 
-* The assumptions are that the exchange rates are the same, the cost is always divided in half, you begin with a disconnected graph,
-* and each player knows how many global players there are.
+* The assumptions are that the exchange rates are the same, the cost is always divided in half, you begin with a disconnected
+*  graph, and each player knows how many global players there are.
 */
 
 import java.util.ArrayList;
@@ -34,7 +34,7 @@ public class Simulation {
 	* @param buyersNum 		Represents the number of inital buyers in the system
 	* @param sellersNum 	Represents the number of initial sellers in the system
 	* @param maxRounds 		Represents the maximum number of rounds the simulation should execute
-	* @param probAdd		Represents the probability that a buyer or seller would be added to the system, must be between 0 and 1
+	* @param probAdd		Represents the probability, between 0 and 1, that a buyer or seller would be added to the system
 	*/
 	public Simulation(double c, double d, int buyersNum, int sellersNum, double maxRounds, double probAdd){
 		costCreate = c;
@@ -70,7 +70,10 @@ public class Simulation {
 		}
 
 		//Executes the simulation a certain number of times
-		for(int i=0; i<maxRounds; i++){
+		a.print(1,1);
+
+		for(int i=1; i<=maxRounds; i++){
+			System.out.println("Round "+i);
 			playGame();
 		}
 	}
@@ -80,7 +83,7 @@ public class Simulation {
 	* Executes one round of the game.
 	*/
 	public static void playGame(){
-		//addAgent();
+		addAgent();
 
 		java.util.Collections.shuffle(pairs);
 
@@ -99,16 +102,18 @@ public class Simulation {
 			int buyerID = pairTemp.get(0);
 			int sellerID = pairTemp.get(1);
 
+			System.out.println(buyerID+ " "+sellerID);
+
 			k++;
 
 			//Updating the numPlayersLeft flag
-			if(playerTurns[buyerID]==true){
-				playerTurns[buyerID] = false;
+			if(playerTurns[buyerID-1]==true){
+				playerTurns[buyerID-1] = false;
 				numPlayersLeft--;
 			}
 
-			if(playerTurns[sellerID+buyers.size()]==true){
-				playerTurns[sellerID+buyers.size()] = false;
+			if(playerTurns[sellerID+buyers.size()-1]==true){
+				playerTurns[sellerID+buyers.size()-1] = false;
 				numPlayersLeft--;
 			}
 
@@ -117,14 +122,17 @@ public class Simulation {
 				if(true){ //choose to disconnect
 					buyers.get(buyerID-1).numConnections--;
 					sellers.get(sellerID-1).numConnections--;
+					a.set(buyerID-1, sellerID-1, 0);
 				} 
 			} else { //if they are not connected
 				if(true){ //choose to connect
 					buyers.get(buyerID-1).numConnections++;
 					sellers.get(sellerID-1).numConnections++;
+					a.set(buyerID-1, sellerID-1, 1);
 				} 
-			}
+			}	
 		}
+		a.print(1,1);
 
 		//trade();
 	}
@@ -141,24 +149,61 @@ public class Simulation {
 				for(int i=0; i<sellers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
 					pairTemp.add(buyers.size());
-					pairTemp.add(i);
+					pairTemp.add(i+1);
 					pairs.add(pairTemp);
 				}
 
-				//add row in matrix
+				a = addMatrixSection(true);
+				a.print(1,1);
 
 			} else {
 				sellers.add(new Agent(Agent.Party.SELLER, sellers.size()+1));
 
 				for(int i=0; i<buyers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
-					pairTemp.add(i);
+					pairTemp.add(i+1);
 					pairTemp.add(sellers.size());
 					pairs.add(pairTemp);
 				}
 
-				//add column in matrix
+				a = addMatrixSection(false);
 			}
 		}
+	}
+
+
+	/**
+	* Resizes the matrix based on whether or not you are adding a buyer or seller.
+	*/
+	private static Matrix addMatrixSection(boolean buyer){
+		Matrix temp;
+
+		if(buyer){
+			temp = new Matrix(a.getRowDimension()+1, a.getColumnDimension());
+
+			for(int i=0; i<=a.getRowDimension(); i++){
+				for(int j=0; j<a.getColumnDimension(); j++){
+					if(i!=a.getRowDimension()){
+						temp.set(i, j, a.get(i,j));
+					} else {
+						temp.set(i,j,0);
+					}
+				}
+			}
+		} else {
+			temp = new Matrix(a.getRowDimension(), a.getColumnDimension()+1);
+
+			for(int i=0; i<a.getRowDimension(); i++){
+				for(int j=0; j<=a.getColumnDimension(); j++){
+					if(j!=a.getColumnDimension()){
+						temp.set(i, j, a.get(i,j));
+					} else {
+						temp.set(i,j,0);
+					}
+				}
+			}
+		}
+
+		return temp;
 	}
 }

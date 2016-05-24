@@ -6,7 +6,7 @@ public class Agent {
 
 	ArrayList<Integer> myConnections = new ArrayList<Integer>();
 
-	int myID;
+	public int myID;
 	double myAmount = 1;
 	Party myType;
 	public int numConnections;
