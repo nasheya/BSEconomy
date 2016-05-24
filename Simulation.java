@@ -18,27 +18,32 @@ public class Simulation {
 	//Holds the buyers and sellers
 	static ArrayList<Agent> buyers = new ArrayList<Agent>();
 	static ArrayList<Agent> sellers = new ArrayList<Agent>();
+	static ArrayList<Agent> total = new ArrayList<Agent>();
 
 	//Holds all the possible pair combinations
 	static ArrayList< ArrayList<Integer> > pairs = new ArrayList< ArrayList<Integer> >();
 
 	static double costCreate;
 	static double costDissolve;
+	static double costMaintain;
 	static double prob;
+	static int numTurns = 2;
 
 
 	/**
 	* Initalizes all the variables necessary for the simulation and then runs the simulation.
 	* @param c 				Represents the cost of creating an edge
 	* @param d 				Represents the cost of dissolving an edge
+	* @param m 				Represents the cost to maintain an edge
 	* @param buyersNum 		Represents the number of inital buyers in the system
 	* @param sellersNum 	Represents the number of initial sellers in the system
 	* @param maxRounds 		Represents the maximum number of rounds the simulation should execute
 	* @param probAdd		Represents the probability, between 0 and 1, that a buyer or seller would be added to the system
 	*/
-	public Simulation(double c, double d, int buyersNum, int sellersNum, double maxRounds, double probAdd){
+	public Simulation(double c, double d, double m, int buyersNum, int sellersNum, double maxRounds, double probAdd){
 		costCreate = c;
 		costDissolve = d;
+		costMaintain = m;
 
 		if(probAdd>1){
 			prob = 1;
@@ -59,6 +64,9 @@ public class Simulation {
 			sellers.add(new Agent(Agent.Party.SELLER, i+1));
 		}
 
+		total.addAll(buyers);
+		total.addAll(sellers);
+
 		//Obtains all the possible pairs
 		for(int i=0; i<a.getRowDimension(); i++){
 			for(int j=0; j<a.getColumnDimension(); j++){
@@ -70,10 +78,8 @@ public class Simulation {
 		}
 
 		//Executes the simulation a certain number of times
-		a.print(1,1);
-
 		for(int i=1; i<=maxRounds; i++){
-			System.out.println("Round "+i);
+			//System.out.println("Round "+i);
 			playGame();
 		}
 	}
@@ -83,6 +89,22 @@ public class Simulation {
 	* Executes one round of the game.
 	*/
 	public static void playGame(){
+		//addAgent();
+		
+		java.util.Collections.shuffle(total);
+
+		for(int i=0; i<total.size(); i++){
+			int turnsTaken = 0;
+
+			
+		}
+	}
+
+
+	/**
+	* Executes one round of the game. (Old Version with pairs)
+	*/
+	public static void playGame2(){
 		addAgent();
 
 		java.util.Collections.shuffle(pairs);
@@ -102,8 +124,6 @@ public class Simulation {
 			int buyerID = pairTemp.get(0);
 			int sellerID = pairTemp.get(1);
 
-			System.out.println(buyerID+ " "+sellerID);
-
 			k++;
 
 			//Updating the numPlayersLeft flag
@@ -117,22 +137,30 @@ public class Simulation {
 				numPlayersLeft--;
 			}
 
+			int numConnectB = buyers.get(buyerID-1).numConnections;
+			int numConnectS = sellers.get(sellerID-1).numConnections;
+
 			//if they are connected
 			if(a.get(buyerID-1, sellerID-1) == 1){
+				double amtS = 1/numConnectB - costMaintain/2;
+				double amtB = 1/numConnectS - costMaintain/2;
+
 				if(true){ //choose to disconnect
 					buyers.get(buyerID-1).numConnections--;
 					sellers.get(sellerID-1).numConnections--;
 					a.set(buyerID-1, sellerID-1, 0);
 				} 
 			} else { //if they are not connected
-				if(true){ //choose to connect
+				double amtS = 1.0/(numConnectB+1) - costCreate/2;
+				double amtB = 1.0/(numConnectS+1) - costCreate/2;
+
+				if(amtS>0 && amtB>0){ //choose to connect
 					buyers.get(buyerID-1).numConnections++;
 					sellers.get(sellerID-1).numConnections++;
 					a.set(buyerID-1, sellerID-1, 1);
 				} 
 			}	
 		}
-		a.print(1,1);
 
 		//trade();
 	}
@@ -145,6 +173,7 @@ public class Simulation {
 		if(rng.nextDouble()<=prob){
 			if(rng.nextDouble()<0.5){
 				buyers.add(new Agent(Agent.Party.BUYER, buyers.size()+1));
+				total.add(buyers.get(buyers.size()-1));
 				
 				for(int i=0; i<sellers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
@@ -154,10 +183,9 @@ public class Simulation {
 				}
 
 				a = addMatrixSection(true);
-				a.print(1,1);
-
 			} else {
 				sellers.add(new Agent(Agent.Party.SELLER, sellers.size()+1));
+				total.add(sellers.get(sellers.size()-1));
 
 				for(int i=0; i<buyers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
