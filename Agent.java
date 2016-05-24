@@ -5,15 +5,18 @@ public class Agent {
 	public enum Party { BUYER, SELLER }
 
 	ArrayList<Integer> myConnections = new ArrayList<Integer>();
+
 	int myID;
 	double myAmount = 1;
 	Party myType;
+	public int numConnections;
 
 	public Agent(){}
 
 	public Agent(Party type, int id){
 		myID = id;
 		myType = type;
+		numConnections = 0;
 	}
 
 	/**

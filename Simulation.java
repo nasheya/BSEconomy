@@ -1,7 +1,8 @@
 /**
 * Authors: Joshua Hayes and Nasheya Rahman
 * A simulation concerning a buyer-seller exchange economy as part of Dr. Michael Kerckhove's summer research 2016. 
-* 
+* The assumptions are that the exchange rates are the same, the cost is always divided in half, you begin with a disconnected graph,
+* and each player knows how many global players there are.
 */
 
 import java.util.ArrayList;
@@ -86,14 +87,43 @@ public class Simulation {
 		int numPlayersLeft = buyers.size() + sellers.size();
 		boolean[] playerTurns = new boolean[numPlayersLeft];
 
+		for(int i=0; i<playerTurns.length; i++){
+			playerTurns[i] = true;
+		}
+
 		//Represents the index of the pairs that you are accessing
 		int k = 0;
 
 		while(numPlayersLeft>0){
 			ArrayList<Integer> pairTemp = pairs.get(k);
+			int buyerID = pairTemp.get(0);
+			int sellerID = pairTemp.get(1);
+
 			k++;
 
+			//Updating the numPlayersLeft flag
+			if(playerTurns[buyerID]==true){
+				playerTurns[buyerID] = false;
+				numPlayersLeft--;
+			}
 
+			if(playerTurns[sellerID+buyers.size()]==true){
+				playerTurns[sellerID+buyers.size()] = false;
+				numPlayersLeft--;
+			}
+
+			//if they are connected
+			if(a.get(buyerID-1, sellerID-1) == 1){
+				if(true){ //choose to disconnect
+					buyers.get(buyerID-1).numConnections--;
+					sellers.get(sellerID-1).numConnections--;
+				} 
+			} else { //if they are not connected
+				if(true){ //choose to connect
+					buyers.get(buyerID-1).numConnections++;
+					sellers.get(sellerID-1).numConnections++;
+				} 
+			}
 		}
 
 		//trade();
@@ -123,7 +153,7 @@ public class Simulation {
 				for(int i=0; i<buyers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
 					pairTemp.add(i);
-					pairTemp.add(sellers.size(););
+					pairTemp.add(sellers.size());
 					pairs.add(pairTemp);
 				}
 
