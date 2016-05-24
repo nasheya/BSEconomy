@@ -1,10 +1,20 @@
 import java.util.ArrayList;
 import Jama.*;
 
-public abstract class Agent {
+public class Agent {
+	public enum Party { BUYER, SELLER }
+
 	ArrayList<Integer> myConnections = new ArrayList<Integer>();
 	int myID;
 	double myAmount = 1;
+	Party myType;
+
+	public Agent(){}
+
+	public Agent(Party type, int id){
+		myID = id;
+		myType = type;
+	}
 
 	/**
 	* This method finds if the agent is connected to the other agent given.
