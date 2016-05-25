@@ -11,6 +11,7 @@ public class Agent {
 	Party myType;
 	public int numConnections;
 	double myBackpack;
+	double costsToPay;
 
 	public Agent(){}
 
@@ -19,6 +20,7 @@ public class Agent {
 		myType = type;
 		numConnections = 0;
 		myBackpack = 0;
+		costsToPay = 0;
 	}
 
 
@@ -27,6 +29,30 @@ public class Agent {
 	*/
 	public void addToBackpack(double amt){
 		myBackpack+=amt;
+	}
+
+
+	/**
+	* Adds to the costs the agent has to pay
+	*/
+	public void addToCosts(double amt){
+		costsToPay+=amt;
+	}
+
+
+	/**
+	* Sets the costs the agent has to pay
+	*/
+	public void resetCosts(){
+		costsToPay = 0;
+	}
+
+
+	/**
+	* Sets the costs the agent has to pay
+	*/
+	public void subtractCosts(){
+		myBackpack-=costsToPay;
 	}
 
 

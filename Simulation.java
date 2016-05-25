@@ -18,7 +18,7 @@ public class Simulation {
 	//Holds the buyers and sellers
 	static ArrayList<Agent> buyers = new ArrayList<Agent>();
 	static ArrayList<Agent> sellers = new ArrayList<Agent>();
-	static ArrayList<Agent> total = new ArrayList<Agent>();
+	//static ArrayList<Agent> total = new ArrayList<Agent>();
 
 	//Holds all the possible pair combinations
 	static ArrayList< ArrayList<Integer> > pairs = new ArrayList< ArrayList<Integer> >();
@@ -27,7 +27,6 @@ public class Simulation {
 	static double costDissolve;
 	static double costMaintain;
 	static double prob;
-	static int numTurns = 2;
 
 
 	/**
@@ -64,8 +63,8 @@ public class Simulation {
 			sellers.add(new Agent(Agent.Party.SELLER, i+1));
 		}
 
-		total.addAll(buyers);
-		total.addAll(sellers);
+		//total.addAll(buyers);
+		//total.addAll(sellers);
 
 		//Obtains all the possible pairs
 		for(int i=0; i<a.getRowDimension(); i++){
@@ -77,32 +76,34 @@ public class Simulation {
 			}
 		}
 
+		a.print(1,0);
+
 		//Executes the simulation a certain number of times
 		for(int i=1; i<=maxRounds; i++){
-			//System.out.println("Round "+i);
+			System.out.println("Round "+i);
 			playGame();
 		}
 	}
 
 
 	/**
-	* Executes one round of the game.
+	* Executes one round of the game by choosing random players.
 	*/
-	public static void playGame2(){
-		//addAgent();
+	// public static void playGame2(){
+	// 	//addAgent();
 		
-		java.util.Collections.shuffle(total);
+	// 	java.util.Collections.shuffle(total);
 
-		for(int i=0; i<total.size(); i++){
-			int turnsTaken = 0;
+	// 	for(int i=0; i<total.size(); i++){
+	// 		int turnsTaken = 0;
 
 			
-		}
-	}
+	// 	}
+	// }
 
 
 	/**
-	* Executes one round of the game. (Old Version with pairs)
+	* Executes one round of the game by choosing pairs.
 	*/
 	public static void playGame(){
 		addAgent();
@@ -114,6 +115,12 @@ public class Simulation {
 
 		for(int i=0; i<playerTurns.length; i++){
 			playerTurns[i] = true;
+
+			if(i<buyers.size()){
+				buyers.get(i).resetCosts();
+			} else {
+				sellers.get(i-buyers.size()).resetCosts();
+			}
 		}
 
 		//Represents the index of the pairs that you are accessing
@@ -153,6 +160,8 @@ public class Simulation {
 			}	
 		}
 
+		a.print(1,0);
+
 		trade();
 	}
 
@@ -167,17 +176,34 @@ public class Simulation {
 		double amtS = 1/numConnectB - costMaintain/2;
 		double amtB = 1/numConnectS - costMaintain/2;
 
-		double dS = dB = 0;
+		double dS = 0;
+		double dS2 = 0;
+		double dB = 0;
+		double dB2 = 0;
 
 		if(numConnectB>1){
 			dS = 1/(numConnectB-1) - costDissolve;
+			dS2 = 1/(numConnectB-1) - costDissolve/2;
 		}
 
 		if(numConnectS>1){
 			dB = 1/(numConnectS-1) - costDissolve;
+			dB2 = 1/(numConnectS-1) - costDissolve/2;
 		}
 
-		if((amtS<0||amtB<0)||(dS>amtS||dB>amtB)){
+		if(dS2>amtS && dB2>amtB){
+			buyers.get(buyerID-1).addToCosts(costDissolve/2);
+			sellers.get(sellerID-1).addToCosts(costDissolve/2);
+		} else if(dS>amtS){
+			sellers.get(sellerID-1).addToCosts(costDissolve);
+		} else if(dB>amtB){
+			buyers.get(buyerID-1).addToCosts(costDissolve);
+		} else {
+			sellers.get(sellerID-1).addToCosts(costMaintain/2);
+			buyers.get(buyerID-1).addToCosts(costMaintain/2);
+		}
+
+		if((amtS<0||amtB<0)||(dS>amtS||dB>amtB)||(dS2>amtS && dB2>amtB)){
 			return true;
 		}
 
@@ -195,6 +221,9 @@ public class Simulation {
 		double amtS = 1.0/(numConnectB+1) - costCreate/2;
 		double amtB = 1.0/(numConnectS+1) - costCreate/2;
 
+		buyers.get(buyerID-1).addToCosts(costCreate/2);
+		sellers.get(sellerID-1).addToCosts(costCreate/2);
+
 		if(amtS>0 && amtB>0){
 			return true;
 		}
@@ -208,25 +237,57 @@ public class Simulation {
 	*/
 	private static void trade(){
 		for(int i=0; i<buyers.size(); i++){
-			int connections = buyer.get(i).numConnections;
-			double amtToEach = 1/connections;
+			int connections = buyers.get(i).numConnections;
 
-			for(int j=0; j<sellers.size(); j++){
-				if(a.get(i,j)==1){
-					sellers.get(j).addToBackpack(amtToEach);
+			if(connections!=0){
+				double amtToEach = 1.0/connections;
+
+				for(int j=0; j<sellers.size(); j++){
+					if(a.get(i,j)==1){
+						sellers.get(j).addToBackpack(amtToEach);
+						System.out.println("Buyer " + (i+1) + " gave " + amtToEach + " to Seller " + (j+1));
+					}
 				}
+			} else {
+				continue;
 			}
 		}
 
 		for(int i=0; i<sellers.size(); i++){
-			int connections = buyer.get(i).numConnections;
-			double amtToEach = 1/connections;
+			int connections = sellers.get(i).numConnections;
 
-			for(int j=0; j<buyers.size(); j++){
-				if(a.get(j,i)==1){
-					buyers.get(j).addToBackpack(amtToEach);
+			if(connections!=0){
+				double amtToEach = 1.0/connections;
+
+				for(int j=0; j<buyers.size(); j++){
+					if(a.get(j,i)==1){
+						buyers.get(j).addToBackpack(amtToEach);
+						System.out.println("Seller " + (i+1) + " gave " + amtToEach + " to Buyer " + (j+1));
+					}
 				}
+			} else {
+				continue;
 			}
+		}
+
+		subtractCosts();
+	}
+
+
+	/**
+	* Subtract the costs at the end of the trading round.
+	*/
+	private static void subtractCosts(){
+		for(int i=0; i<sellers.size(); i++){
+			System.out.println("Before for Seller "+(i+1)+": "+sellers.get(i).myBackpack);
+			sellers.get(i).subtractCosts();
+			System.out.println("After for Seller "+(i+1)+": "+sellers.get(i).myBackpack);
+		}
+
+		for(int i=0; i<buyers.size(); i++){
+			System.out.println("Before for Buyer "+(i+1)+": "+buyers.get(i).myBackpack);
+			buyers.get(i).subtractCosts();
+			System.out.println("After for Buyer "+(i+1)+": "+buyers.get(i).myBackpack);
 		}
 	}
 
@@ -238,7 +299,7 @@ public class Simulation {
 		if(rng.nextDouble()<=prob){
 			if(rng.nextDouble()<0.5){
 				buyers.add(new Agent(Agent.Party.BUYER, buyers.size()+1));
-				total.add(buyers.get(buyers.size()-1));
+				//total.add(buyers.get(buyers.size()-1));
 				
 				for(int i=0; i<sellers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
@@ -250,7 +311,7 @@ public class Simulation {
 				a = addMatrixSection(true);
 			} else {
 				sellers.add(new Agent(Agent.Party.SELLER, sellers.size()+1));
-				total.add(sellers.get(sellers.size()-1));
+				//total.add(sellers.get(sellers.size()-1));
 
 				for(int i=0; i<buyers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
