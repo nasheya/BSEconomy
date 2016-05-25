@@ -88,7 +88,7 @@ public class Simulation {
 	/**
 	* Executes one round of the game.
 	*/
-	public static void playGame(){
+	public static void playGame2(){
 		//addAgent();
 		
 		java.util.Collections.shuffle(total);
@@ -104,7 +104,7 @@ public class Simulation {
 	/**
 	* Executes one round of the game. (Old Version with pairs)
 	*/
-	public static void playGame2(){
+	public static void playGame(){
 		addAgent();
 
 		java.util.Collections.shuffle(pairs);
@@ -135,26 +135,17 @@ public class Simulation {
 			if(playerTurns[sellerID+buyers.size()-1]==true){
 				playerTurns[sellerID+buyers.size()-1] = false;
 				numPlayersLeft--;
-			}
+			}			
 
-			int numConnectB = buyers.get(buyerID-1).numConnections;
-			int numConnectS = sellers.get(sellerID-1).numConnections;
-
-			//if they are connected
+			//to connect or disconnect decisions
 			if(a.get(buyerID-1, sellerID-1) == 1){
-				double amtS = 1/numConnectB - costMaintain/2;
-				double amtB = 1/numConnectS - costMaintain/2;
-
-				if(true){ //choose to disconnect
+				if(shouldDisconnect(buyerID, sellerID)){ //choose to disconnect
 					buyers.get(buyerID-1).numConnections--;
 					sellers.get(sellerID-1).numConnections--;
 					a.set(buyerID-1, sellerID-1, 0);
 				} 
-			} else { //if they are not connected
-				double amtS = 1.0/(numConnectB+1) - costCreate/2;
-				double amtB = 1.0/(numConnectS+1) - costCreate/2;
-
-				if(amtS>0 && amtB>0){ //choose to connect
+			} else {
+				if(shouldConnect(buyerID, sellerID)){ //choose to connect
 					buyers.get(buyerID-1).numConnections++;
 					sellers.get(sellerID-1).numConnections++;
 					a.set(buyerID-1, sellerID-1, 1);
@@ -162,7 +153,81 @@ public class Simulation {
 			}	
 		}
 
-		//trade();
+		trade();
+	}
+
+
+	/**
+	* This method determines if a connected pair should disconnect or not.
+	*/
+	private static boolean shouldDisconnect(int buyerID, int sellerID){
+		int numConnectB = buyers.get(buyerID-1).numConnections;
+		int numConnectS = sellers.get(sellerID-1).numConnections;
+
+		double amtS = 1/numConnectB - costMaintain/2;
+		double amtB = 1/numConnectS - costMaintain/2;
+
+		double dS = dB = 0;
+
+		if(numConnectB>1){
+			dS = 1/(numConnectB-1) - costDissolve;
+		}
+
+		if(numConnectS>1){
+			dB = 1/(numConnectS-1) - costDissolve;
+		}
+
+		if((amtS<0||amtB<0)||(dS>amtS||dB>amtB)){
+			return true;
+		}
+
+		return false;
+	}
+
+
+	/**
+	* This method determines if a pair should connect or not.
+	*/
+	private static boolean shouldConnect(int buyerID, int sellerID){
+		int numConnectB = buyers.get(buyerID-1).numConnections;
+		int numConnectS = sellers.get(sellerID-1).numConnections;
+
+		double amtS = 1.0/(numConnectB+1) - costCreate/2;
+		double amtB = 1.0/(numConnectS+1) - costCreate/2;
+
+		if(amtS>0 && amtB>0){
+			return true;
+		}
+		
+		return false;
+	}
+
+
+	/**
+	* Carries out the trading done between the estabished connections.
+	*/
+	private static void trade(){
+		for(int i=0; i<buyers.size(); i++){
+			int connections = buyer.get(i).numConnections;
+			double amtToEach = 1/connections;
+
+			for(int j=0; j<sellers.size(); j++){
+				if(a.get(i,j)==1){
+					sellers.get(j).addToBackpack(amtToEach);
+				}
+			}
+		}
+
+		for(int i=0; i<sellers.size(); i++){
+			int connections = buyer.get(i).numConnections;
+			double amtToEach = 1/connections;
+
+			for(int j=0; j<buyers.size(); j++){
+				if(a.get(j,i)==1){
+					buyers.get(j).addToBackpack(amtToEach);
+				}
+			}
+		}
 	}
 
 

@@ -10,6 +10,7 @@ public class Agent {
 	double myAmount = 1;
 	Party myType;
 	public int numConnections;
+	double myBackpack;
 
 	public Agent(){}
 
@@ -17,7 +18,17 @@ public class Agent {
 		myID = id;
 		myType = type;
 		numConnections = 0;
+		myBackpack = 0;
 	}
+
+
+	/**
+	* Adds the amount to the backpack
+	*/
+	public void addToBackpack(double amt){
+		myBackpack+=amt;
+	}
+
 
 	/**
 	* This method finds if the agent is connected to the other agent given.
@@ -25,6 +36,7 @@ public class Agent {
 	public boolean isConnected(int agentID){
 		return this.bSearch(0, myConnections.size()-1, agentID);
 	}
+
 
 	/**
 	* This method finds the agent connection by a binary search.
