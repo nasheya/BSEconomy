@@ -4,7 +4,7 @@ public class Tester {
 	public static void main(String[] args){
 		double[][] arr = {{0,0,0},{1,1,1}};
 		Matrix a = new Matrix(arr);
-		Simulation set = new Simulation(0.25, 0.2, 0.1, 5, 5, 7, 0.25);
+		Simulation set = new Simulation(0.25, 0.2, 0.1, 2, 5, 7, 0.25);
 		//Seller b  = new Seller(a);
 		//Buyer c  = new Buyer(a);
 		// for(int i=0; i<c.myConnections.size(); i++){
