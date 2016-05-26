@@ -9,7 +9,8 @@
 * decision (and if it is one-sided, then that person must pay the whole cost, otherwise, they can divide the costs 
 * in half if both decide to dissolve). As for the trading, each player would just divide their good equally among all 
 * their connections, so equal exchange rates were not upheld. After every player got all their goods from their 
-* connections, the costs were subtracted from their "backpack" (where they held all their traded goods). I suppose in 
+* connections, the costs were subtracted from their "backpack" (where they held all their traded goods). Also, there 
+* are agents randomly added throughout the simulation, according to a probability that was provided earlier. I suppose in 
 * this simulation, it is possible for a player to get a net of negative after their costs are paid because they might've 
 * expected to get more than they really did.
 */

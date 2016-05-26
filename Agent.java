@@ -13,6 +13,9 @@ public class Agent {
 	double myBackpack;
 	double costsToPay;
 
+	//This is the connected component number
+	public int ccNum;
+
 	public Agent(){}
 
 	public Agent(Party type, int id){
@@ -21,6 +24,7 @@ public class Agent {
 		numConnections = 0;
 		myBackpack = 0;
 		costsToPay = 0;
+		ccNum = 0;
 	}
 
 
