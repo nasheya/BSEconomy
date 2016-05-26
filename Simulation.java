@@ -1,8 +1,17 @@
 /**
-* Authors: Joshua Hayes and Nasheya Rahman
+* Author: Nasheya Rahman
 * A simulation concerning a buyer-seller exchange economy as part of Dr. Michael Kerckhove's summer research 2016. 
-* The assumptions are that the exchange rates are the same, the cost is always divided in half, you begin with a disconnected
-*  graph, and each player knows how many global players there are.
+*
+* This is attempt 1. The assumptions held are that there is market clearing and the players have no utility for 
+* their good. This attempt is very simplified in that a player decides to connect with another player if 
+* 1/(number of connections expected) - (costs to create)/2 is greater than 0 (meaning you get SOMETHING out of it). 
+* They choose to disconnect if the cost to maintain is higher than the cost to dissolve, and this can be a one-sided 
+* decision (and if it is one-sided, then that person must pay the whole cost, otherwise, they can divide the costs 
+* in half if both decide to dissolve). As for the trading, each player would just divide their good equally among all 
+* their connections, so equal exchange rates were not upheld. After every player got all their goods from their 
+* connections, the costs were subtracted from their "backpack" (where they held all their traded goods). I suppose in 
+* this simulation, it is possible for a player to get a net of negative after their costs are paid because they might've 
+* expected to get more than they really did.
 */
 
 import java.util.ArrayList;
@@ -18,7 +27,6 @@ public class Simulation {
 	//Holds the buyers and sellers
 	static ArrayList<Agent> buyers = new ArrayList<Agent>();
 	static ArrayList<Agent> sellers = new ArrayList<Agent>();
-	//static ArrayList<Agent> total = new ArrayList<Agent>();
 
 	//Holds all the possible pair combinations
 	static ArrayList< ArrayList<Integer> > pairs = new ArrayList< ArrayList<Integer> >();
@@ -63,9 +71,6 @@ public class Simulation {
 			sellers.add(new Agent(Agent.Party.SELLER, i+1));
 		}
 
-		//total.addAll(buyers);
-		//total.addAll(sellers);
-
 		//Obtains all the possible pairs
 		for(int i=0; i<a.getRowDimension(); i++){
 			for(int j=0; j<a.getColumnDimension(); j++){
@@ -84,22 +89,6 @@ public class Simulation {
 			playGame();
 		}
 	}
-
-
-	/**
-	* Executes one round of the game by choosing random players.
-	*/
-	// public static void playGame2(){
-	// 	//addAgent();
-		
-	// 	java.util.Collections.shuffle(total);
-
-	// 	for(int i=0; i<total.size(); i++){
-	// 		int turnsTaken = 0;
-
-			
-	// 	}
-	// }
 
 
 	/**
@@ -299,7 +288,6 @@ public class Simulation {
 		if(rng.nextDouble()<=prob){
 			if(rng.nextDouble()<0.5){
 				buyers.add(new Agent(Agent.Party.BUYER, buyers.size()+1));
-				//total.add(buyers.get(buyers.size()-1));
 				
 				for(int i=0; i<sellers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
@@ -311,7 +299,6 @@ public class Simulation {
 				a = addMatrixSection(true);
 			} else {
 				sellers.add(new Agent(Agent.Party.SELLER, sellers.size()+1));
-				//total.add(sellers.get(sellers.size()-1));
 
 				for(int i=0; i<buyers.size(); i++){
 					ArrayList<Integer> pairTemp = new ArrayList<Integer>();
