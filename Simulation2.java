@@ -22,7 +22,6 @@ public class Simulation2 {
 		}
 
 		findConnectedComponents();
-
 		printComponents();
 	}
 
@@ -71,6 +70,8 @@ public class Simulation2 {
 				components.add(ccTemp);
 			}
 		}
+
+		findOtherDisconnectedComponents();
 	}
 
 	
