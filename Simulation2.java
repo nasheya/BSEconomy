@@ -9,6 +9,24 @@ public class Simulation2 {
 	static ArrayList<Agent> buyers = new ArrayList<Agent>();
 	static ArrayList<Agent> sellers = new ArrayList<Agent>();
 
+	
+	public Simulation2(Matrix temp){
+		a = temp;
+
+		for(int i=0; i<a.getRowDimension(); i++){
+			buyers.add(new Agent(Agent.Party.BUYER, i+1));
+		}
+
+		for(int i=0; i<a.getColumnDimension(); i++){
+			sellers.add(new Agent(Agent.Party.SELLER, i+1));
+		}
+
+		findConnectedComponents();
+
+		printComponents();
+	}
+
+
 	/**
 	* Things to deal with: only one connection (okay if other person has only one connection), the seller's side, 
 	* testing, if a player has all the connections
@@ -48,6 +66,7 @@ public class Simulation2 {
 
 			if(ccTemp.size()!=0){
 				buyers.get(i).ccNum = components.size() + 1;
+				ccTemp.add(0, buyers.get(i));
 				addNeighbors(ccTemp);
 				components.add(ccTemp);
 			}
@@ -61,24 +80,15 @@ public class Simulation2 {
 	*/
 	private static void addNeighbors(ArrayList<Agent> temp){
 		if(temp.get(0).myType == Agent.Party.BUYER){
-			int stop = temp.size();
-
-			for(int i=0; i<stop; i++){
-				for(int j=0; j<sellers.size(); j++){
-					if(a.get(temp.get(i).myID-1, j)==1){
-						temp.add(sellers.get(j));
-					}
+			for(int j=0; j<sellers.size(); j++){
+				if(a.get(temp.get(0).myID-1, j)==1){
+					temp.add(sellers.get(j));
 				}
 			}
-
 		} else {
-			int stop = temp.size();
-
-			for(int i=0; i<stop; i++){
-				for(int j=0; j<buyers.size(); j++){
-					if(a.get(j, temp.get(i).myID-1)==1){
-						temp.add(buyers.get(j));
-					}
+			for(int j=0; j<buyers.size(); j++){
+				if(a.get(j, temp.get(0).myID-1)==1){
+					temp.add(buyers.get(j));
 				}
 			}
 		}
@@ -116,6 +126,22 @@ public class Simulation2 {
 		}
 
 		return true;
+	}
+
+
+	public static void printComponents(){
+		for(int i=0; i<components.size(); i++){
+			System.out.print("Component #" + (i+1) +": ");
+
+			for(int j=0; j<components.get(i).size(); j++){
+				if(components.get(i).get(j).myType == Agent.Party.BUYER)
+					System.out.print("B"+components.get(i).get(j).myID+" ");
+				else 
+					System.out.print("S"+components.get(i).get(j).myID+" ");
+			}
+
+			System.out.println();
+		}
 	}
 
 }

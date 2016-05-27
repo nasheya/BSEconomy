@@ -8,7 +8,7 @@ public class Agent {
 
 	public int myID;
 	double myAmount = 1;
-	Party myType;
+	public Party myType;
 	public int numConnections;
 	double myBackpack;
 	double costsToPay;
