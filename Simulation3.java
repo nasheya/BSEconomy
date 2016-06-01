@@ -108,13 +108,23 @@ public class Simulation3 {
 
 	private static void updateCostMatrix(Agent player, Matrix costMatrix, ArrayList<Integer> maxes, double[] netBenefit){
 		if(player.myType == Agent.Party.BUYER){
-			
+
+		} else {
+
 		}
 	}
 
 
 	private static double connect(int buyerID, int sellerID, Agent.Party type){
-		return -2;
+		if(buyerPrices.get(buyerID-1)<sellerPrices.get(sellerID-1)){
+			return -1;
+		}
+
+		if(type == Agent.Party.BUYER){
+			return 0;
+		}
+
+		return 0;
 	}
 
 	private static double disconnect(int buyerID, int sellerID, Agent.Party type){
