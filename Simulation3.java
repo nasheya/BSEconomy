@@ -121,7 +121,7 @@ public class Simulation3 {
 		}
 
 		if(type == Agent.Party.BUYER){
-			return 0;
+			
 		}
 
 		return 0;
