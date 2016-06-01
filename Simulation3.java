@@ -24,6 +24,10 @@ public class Simulation3 {
 	static ArrayList<Double> buyerPrices = new ArrayList<Double>();
 	static ArrayList<Double> sellerPrices = new ArrayList<Double>();
 
+	//These are probability of how much the seller would be willing to lower their price.
+	//It is based on a normal distribution.
+	static ArrayList<Double> sellerNeg = new ArrayList<Double>();
+
 	//list of buyers and sellers
 	static ArrayList<Agent> buyers = new ArrayList<Agent>();
 	static ArrayList<Agent> sellers = new ArrayList<Agent>();
@@ -56,6 +60,7 @@ public class Simulation3 {
 		for(int i=0; i<sellersNum; i++){
 			sellers.add(new Agent(Agent.Party.SELLER, i+1));
 			sellerPrices.add(rand.nextDouble());
+			sellerNeg.add(Math.abs(fRandom.nextGaussian()));
 		}
 
 		for(int i=0; i<maxRounds; i++){
@@ -65,7 +70,7 @@ public class Simulation3 {
 	}
 	
 	public static void makeConnections(){
-		Matrix costMatrix = new Matrix(buyers.size() + sellers.size(), buyers.size() + sellers.size());
+		Matrix benefitMatrix = new Matrix(buyers.size() + sellers.size(), buyers.size() + sellers.size());
 
 		ArrayList<Agent> total = new ArrayList<Agent>();
 		total.addAll(buyers);
@@ -81,14 +86,18 @@ public class Simulation3 {
 				net = new double[sellers.size()];
 
 				for(int j=0; j<sellers.size(); j++){
-					if(a.get(i,j) == 1){
-						net[j] = connect(temp.myID, sellers.get(j).myID, Agent.Party.BUYER);
+					if(benefitMatrix.get(i,buyers.size()+j) != 0){
+						net[j] = benefitMatrix.get(i,buyers.size()+j);
 					} else {
-						net[j] = disconnect(temp.myID, sellers.get(j).myID, Agent.Party.BUYER);
+						if(a.get(i,j) == 1){
+							net[j] = connect(temp.myID, sellers.get(j).myID, Agent.Party.BUYER);
+						} else {
+							net[j] = disconnect(temp.myID, sellers.get(j).myID, Agent.Party.BUYER);
+						}
 					}	
 				}
 
-				updateCostMatrix(temp, costMatrix, findMaximums(net), net);
+				updateBenefitMatrix(temp, benefitMatrix, findMaximums(net), net);
 			} else {
 				net = new double[buyers.size()];
 			}
@@ -106,9 +115,15 @@ public class Simulation3 {
 		}
 	}
 
-	private static void updateCostMatrix(Agent player, Matrix costMatrix, ArrayList<Integer> maxes, double[] netBenefit){
+	private static void updateBenefitMatrix(Agent player, Matrix matrix, ArrayList<Integer> maxes, double[] netBenefit){
 		if(player.myType == Agent.Party.BUYER){
-
+			for(int i=0; i<sellers.size(); i++){
+				if(maxes.indexOf(i)!=-1){
+					matrix.set(player.myID-1, buyers.size()+i, netBenefit[i]);
+				} else {
+					matrix.set(player.myID-1, buyers.size()+i, -1);
+				}
+			}
 		} else {
 
 		}
@@ -118,13 +133,27 @@ public class Simulation3 {
 	private static double connect(int buyerID, int sellerID, Agent.Party type){
 		if(buyerPrices.get(buyerID-1)<sellerPrices.get(sellerID-1)){
 			return -1;
+			//later renegotiate
 		}
+
+		double alpha = nashBargain();
+		double amount = 0;
 
 		if(type == Agent.Party.BUYER){
-			
+			double toReturn = amount - alpha*costCreate
+			if(toReturn <= 0){
+				return -1;
+			} else {
+				return toReturn;
+			}
+		} else {
+			double toReturn = amount - (1-alpha)*costCreate
+			if(toReturn <= 0){
+				return -1;
+			} else {
+				return toReturn;
+			}
 		}
-
-		return 0;
 	}
 
 	private static double disconnect(int buyerID, int sellerID, Agent.Party type){
