@@ -157,9 +157,10 @@ public class Simulation {
 
 
 	/**
-	* This method determines if a connected pair should disconnect or not.
+	* This method determines if a connected pair should disconnect or not. This was an earlier attempt, but 
+	* upon a closer look, I realized it was incorrect. Still keeping this here for reference purposes though!
 	*/
-	private static boolean shouldDisconnect(int buyerID, int sellerID){
+	private static boolean shouldDisconnectWrong(int buyerID, int sellerID){
 		int numConnectB = buyers.get(buyerID-1).numConnections;
 		int numConnectS = sellers.get(sellerID-1).numConnections;
 
@@ -198,6 +199,42 @@ public class Simulation {
 		}
 
 		return false;
+	}
+
+
+	/**
+	* This method determines if a connected pair should disconnect or not.
+	*/	
+	private static boolean shouldDisconnect(int buyerID, int sellerID){
+		int numConnectB = buyers.get(buyerID-1).numConnections;
+		int numConnectS = sellers.get(sellerID-1).numConnections;
+
+		double maintain = costMaintain/2;
+
+		double dS = 0;
+		double dS2 = 0;
+		double dB = 0;
+		double dB2 = 0;
+
+		dB = 1/(numConnectS) + costDissolve;
+		dB2 = 1/(numConnectS) + costDissolve/2;
+		dS = 1/(numConnectB) + costDissolve;
+		dS2 = 1/(numConnectB) + costDissolve/2;
+
+		if(dS2<maintain && dB2<maintain){
+			buyers.get(buyerID-1).addToCosts(costDissolve/2);
+			sellers.get(sellerID-1).addToCosts(costDissolve/2);
+		} else if(dS<maintain){
+			sellers.get(sellerID-1).addToCosts(costDissolve);
+		} else if(dB<maintain){
+			buyers.get(buyerID-1).addToCosts(costDissolve);
+		} else {
+			sellers.get(sellerID-1).addToCosts(maintain);
+			buyers.get(buyerID-1).addToCosts(maintain);
+			return false;
+		}
+
+		return true;
 	}
 
 
