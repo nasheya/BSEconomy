@@ -1,50 +1,61 @@
 import Jama.*;
 import java.util.Random;
+import java.util.ArrayList;
 
 public class Simulation3 {
-	Random rand = new Random();
+	static Random rand = new Random();
 
 	//adjacency matrix
-	Matrix a;
+	static Matrix a;
 
 	//consumption plan matrix
-	Matrix x;
+	static Matrix x;
 
 	//seller order matrix
-	Matrix y;
+	static Matrix y;
 
 	//filling these orders matrix
-	Matrix z;
+	static Matrix z;
 
 	//cash payments matrix
-	Matrix w;
+	static Matrix w;
 
 	//vectors of prices willing to give/accept
-	ArrayList<Integer> buyerPrices = new ArrayList<Integer>();
-	ArrayList<Integer> sellerPrices = new ArrayList<Integer>();
+	static ArrayList<Double> buyerPrices = new ArrayList<Double>();
+	static ArrayList<Double> sellerPrices = new ArrayList<Double>();
 
-	ArrayList<Agent> buyers = new ArrayList<Agent>();
-	ArrayList<Agent> sellers = new ArrayList<Agent>();
+	static ArrayList<Agent> buyers = new ArrayList<Agent>();
+	static ArrayList<Agent> sellers = new ArrayList<Agent>();
 
-	public Simulation3(int buyers, int sellers){
-		Matrix a = new Matrix(buyers, sellers);
-		Matrix x = new Matrix(buyers, sellers);
-		Matrix y = new Matrix(sellers, buyers);
-		Matrix z = new Matrix(buyers, sellers);
-		Matrix w = new Matrix(buyers, sellers);
+	static double costCreate;
+	static double costDissolve;
+	static double costMaintain;
 
-		for(int i=0; i<buyers; i++){
-			buyers.add(Agent.Party.BUYER, i+1);
+	public Simulation3(int buyersNum, int sellersNum, double c, double d, double m, int maxRounds){
+		costCreate = c;
+		costDissolve = d;
+		costMaintain = m;
+
+		Matrix a = new Matrix(buyersNum, sellersNum);
+		Matrix x = new Matrix(buyersNum, sellersNum);
+		Matrix y = new Matrix(sellersNum, buyersNum);
+		Matrix z = new Matrix(buyersNum, sellersNum);
+		Matrix w = new Matrix(buyersNum, sellersNum);
+
+		for(int i=0; i<buyersNum; i++){
+			buyers.add(new Agent(Agent.Party.BUYER, i+1));
 			buyerPrices.add(rand.nextDouble());
 		}
 
-		for(int i=0; i<sellers; i++){
-			sellers.add(Agent.Party.SELLER, i+1);
+		for(int i=0; i<sellersNum; i++){
+			sellers.add(new Agent(Agent.Party.SELLER, i+1));
 			sellerPrices.add(rand.nextDouble());
 		}
 
-		makeConnections();
-		trade();
+		for(int i=0; i<maxRounds; i++){
+			makeConnections();
+			trade();
+		}
 	}
 	
 	public static void makeConnections(){
