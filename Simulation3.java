@@ -60,7 +60,7 @@ public class Simulation3 {
 		for(int i=0; i<sellersNum; i++){
 			sellers.add(new Agent(Agent.Party.SELLER, i+1));
 			sellerPrices.add(rand.nextDouble());
-			sellerNeg.add(Math.abs(fRandom.nextGaussian()));
+			//sellerNeg.add(Math.abs(fRandom.nextGaussian()));
 		}
 
 		for(int i=0; i<maxRounds; i++){
@@ -136,18 +136,18 @@ public class Simulation3 {
 			//later renegotiate
 		}
 
-		double alpha = nashBargain();
+		double alpha = 0.5;//nashBargain();
 		double amount = 0;
 
 		if(type == Agent.Party.BUYER){
-			double toReturn = amount - alpha*costCreate
+			double toReturn = amount - alpha*costCreate;
 			if(toReturn <= 0){
 				return -1;
 			} else {
 				return toReturn;
 			}
 		} else {
-			double toReturn = amount - (1-alpha)*costCreate
+			double toReturn = amount - (1-alpha)*costCreate;
 			if(toReturn <= 0){
 				return -1;
 			} else {
