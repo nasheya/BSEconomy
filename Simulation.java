@@ -50,7 +50,7 @@ public class Simulation{
 	}
 
 
-	public static ArrayList<Agent> cloneAgents(ArrayList<Agent> temp){
+	private static ArrayList<Agent> cloneAgents(ArrayList<Agent> temp){
 		ArrayList<Agent> toReturn = new ArrayList<Agent>();
 
 		for(int i=0; i<temp.size(); i++){
@@ -107,5 +107,5 @@ public class Simulation{
 			}
 		}
 	}
-	
+
 }
