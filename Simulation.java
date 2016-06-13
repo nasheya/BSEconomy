@@ -124,9 +124,10 @@ public class Simulation{
 				while(bPayoff <= bPayoffOrig){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
+					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 				}
 				
-				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t)-1);
+				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
 				if(sPayoff>sPayoffOrig){
 					consensus = true;
@@ -139,6 +140,7 @@ public class Simulation{
 				while(sPayoff <= sPayoffOrig){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
+					sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 				}
 				
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
