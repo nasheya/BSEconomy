@@ -8,7 +8,9 @@ public class Simulation{
 
 	static ArrayList<Agent> agents = new ArrayList<Agent>();
 
-	static double maxTimeForHaggling = 10;
+	static int maxTimeForHaggling = 10;
+	static double delta1;
+	static double delta2;
 
 	public Simulation(int numAgents){
 		for(int i=0; i<numAgents; i++){
@@ -25,28 +27,38 @@ public class Simulation{
 		ArrayList<Agent> total = cloneAgents(agents);
 
 		//boolean equilibrium = false;
+		int i = 0;
 
 		while(total.size()>1){
+			System.out.println("Round "+ i + " with " + total.size() + " agents");
 			//pick an agent index number based on a uniform distribution
-			int index = Random.nextInt(total.size());
+			int index = rng.nextInt(total.size());
 
 			//pick agent here based on an uniform distribution but conditional probability function later
-			int indexPair = Random.nextInt(total.size());
+			int indexPair = rng.nextInt(total.size());
 
 			//do not let them be the same number
 			while(indexPair == index){
-				indexPair = Random.nextInt(total.size());
+				indexPair = rng.nextInt(total.size());
 			}
 
 			Agent one = total.get(index);
 			Agent two = total.get(indexPair);
 
-			if(one.getCash()>two.getCash() || two.getWheat()>one.getWheat()){
+			if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
 				haggling(one, two);
-			} else {
+				total.remove(index);
+				total.remove(indexPair);
+			} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
 				haggling(two, one);
+				total.remove(index);
+				total.remove(indexPair);
 			}
+
+			i++;
 		}
+
+		
 	}
 
 
@@ -62,11 +74,68 @@ public class Simulation{
 
 
 	public static void haggling(Agent buyer, Agent seller){
+		System.out.println("Agent " + buyer.getID() + " is the buyer and Agent " + seller.getID() + " is the seller.");
+		//the deltas are randomly picked
+		delta1 = Math.random();
+		delta2 = Math.random();
+
+		//these are the original values that the buyer and seller have
+		double bPayoffOrig = buyer.getCash()*buyer.getWheat();
+		double sPayoffOrig = seller.getCash()*seller.getWheat();
+
+		double cash = 0;
+		double wheat = 0;
+
 		boolean consensus = false;
-		double t = 0;
+		int t = 0;
 
 		while(!consensus && t < maxTimeForHaggling){
+			double surplusCash = buyer.getCash() - 0.5;
+			double surplusWheat = seller.getWheat() - 0.5;
 
+			cash = Math.random() * surplusCash;
+			wheat = Math.random() * surplusWheat;
+
+			//if it is an odd numbered time
+			if(t%2 == 1){
+				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t))*(buyer.getWheat()+wheat*Math.pow(delta1, t));
+
+				while(bPayoff <= bPayoffOrig){
+					cash = Math.random() * surplusCash;
+					wheat = Math.random() * surplusWheat;
+				}
+				
+				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t))*(seller.getWheat()-wheat*Math.pow(delta2, t));
+
+				if(sPayoff>sPayoffOrig){
+					consensus = true;
+				}
+
+			} else {
+				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t))*(seller.getWheat()-wheat*Math.pow(delta2, t));
+
+
+				while(sPayoff <= sPayoffOrig){
+					cash = Math.random() * surplusCash;
+					wheat = Math.random() * surplusWheat;
+				}
+				
+				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t))*(buyer.getWheat()+wheat*Math.pow(delta1, t));
+
+				if(bPayoff>bPayoffOrig){
+					consensus = true;
+				}
+			}
+
+			t++;
+		}
+
+		if(consensus == true){
+			buyer.setCash(buyer.getCash() - cash);
+			buyer.setWheat(buyer.getWheat() + wheat);
+
+			seller.setCash(seller.getCash() + cash);
+			seller.setWheat(seller.getWheat() - wheat);
 		}
 	}
 
@@ -76,7 +145,7 @@ public class Simulation{
 	* has a total unit of good and that there is only 0.5 * numAgents amount of
 	* cash and wheat in the entire system.
 	*/
-	private static distributeCashAndWheat(){
+	private static void distributeCashAndWheat(){
 		double totalWheat = 0.5 * agents.size();
 		double distributedWheat = 0;
 
