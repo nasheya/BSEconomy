@@ -20,7 +20,7 @@ public class Simulation{
 
 		distributeCashAndWheat();
 
-		run();
+		//run();
 	}
 
 	public static void run(){
@@ -94,7 +94,7 @@ public class Simulation{
 		double bPayoffOrig = buyer.getCash()*buyer.getWheat();
 		double sPayoffOrig = seller.getCash()*seller.getWheat();
 
-		System.out.println("These are the respective original payoffs: "+ bPayoffOrig + ", " + sPayoffOrig);
+		System.out.printf("These are the respective original payoffs: %.2f is buyer's and %.2f is seller." , bPayoffOrig, sPayoffOrig);
 
 		double cash = 0;
 		double wheat = 0;
@@ -174,19 +174,39 @@ public class Simulation{
 		//so that the total amount is equal to 0.5 * numAgents and each agent has
 		//at most 1 unit of good
 		if(distributedWheat - totalWheat > 0){
+			double leftover = distributedWheat - totalWheat;
 			double amtToEach = (distributedWheat - totalWheat)/agents.size();
 
-			for(int i=0; i<agents.size(); i++){
-				agents.get(i).setWheat(agents.get(i).getWheat() - amtToEach);
-				agents.get(i).setCash(1-agents.get(i).getWheat());
+			while(leftover>0){
+				for(int i=0; i<agents.size(); i++){
+					if(agents.get(i).getWheat()>amtToEach){
+						agents.get(i).setWheat(agents.get(i).getWheat() - amtToEach);
+						leftover-=amtToEach;
+					}
+				}
+
+				amtToEach = leftover/agents.size();
 			}
+			
 		} else if(distributedWheat - totalWheat < 0){
+			double leftover = totalWheat - distributedWheat;
 			double amtToEach = (totalWheat - distributedWheat)/agents.size();
 
-			for(int i=0; i<agents.size(); i++){
-				agents.get(i).setWheat(agents.get(i).getWheat() + amtToEach);
-				agents.get(i).setCash(1-agents.get(i).getWheat());
-			}
+			while(leftover>0){
+				for(int i=0; i<agents.size(); i++){
+					if(agents.get(i).getWheat()+amtToEach<=1){
+						agents.get(i).setWheat(agents.get(i).getWheat() + amtToEach);
+						leftover-=amtToEach;
+					}
+				}
+
+				amtToEach = leftover/agents.size();
+			}	
+		}
+
+		for(int i=0; i<agents.size(); i++){
+			agents.get(i).setCash(1-agents.get(i).getWheat());
+			System.out.println("Agent "+ agents.get(i).getID() + " has "+ agents.get(i).getCash()+ " amount of cash and " + agents.get(i).getWheat() + " amount of wheat.");
 		}
 	}
 
