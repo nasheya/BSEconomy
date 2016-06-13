@@ -20,7 +20,7 @@ public class Simulation{
 
 		distributeCashAndWheat();
 
-		//run();
+		run();
 	}
 
 	public static void run(){
@@ -64,9 +64,13 @@ public class Simulation{
 				} else {
 					total.remove(indexPair);
 				}
+			} else {
+				System.out.printf("Agent one has %.2f cash and %.2f wheat, and agent two has %.2f cash and %.2f wheat.", 
+						  one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
 			}
 
 			i++;
+			System.out.println();
 		}
 
 		
@@ -94,7 +98,11 @@ public class Simulation{
 		double bPayoffOrig = buyer.getCash()*buyer.getWheat();
 		double sPayoffOrig = seller.getCash()*seller.getWheat();
 
-		System.out.printf("These are the respective original payoffs: %.2f is buyer's and %.2f is seller." , bPayoffOrig, sPayoffOrig);
+		System.out.printf("The original payoffs are %.2f for the buyer and %.2f for the seller." , bPayoffOrig, sPayoffOrig);
+		System.out.println();
+		System.out.printf("The buyer has %.2f cash and %.2f wheat, and the seller has %.2f cash and %.2f wheat.", 
+						  buyer.getCash(), buyer.getWheat(), seller.getCash(), seller.getWheat());
+		System.out.println();
 
 		double cash = 0;
 		double wheat = 0;
@@ -102,10 +110,10 @@ public class Simulation{
 		boolean consensus = false;
 		int t = 1;
 
-		while(!consensus && t <= maxTimeForHaggling){
-			double surplusCash = buyer.getCash() - 0.5;
-			double surplusWheat = seller.getWheat() - 0.5;
+		double surplusCash = buyer.getCash() - 0.5;
+		double surplusWheat = seller.getWheat() - 0.5;
 
+		while(!consensus && t <= maxTimeForHaggling){
 			cash = Math.random() * surplusCash;
 			wheat = Math.random() * surplusWheat;
 
@@ -149,7 +157,13 @@ public class Simulation{
 
 			seller.setCash(seller.getCash() + cash);
 			seller.setWheat(seller.getWheat() - wheat);
+			System.out.printf("The buyer gave %.2f cash and the seller gave %.2f wheat to the buyer.", cash, wheat);
+			System.out.println();
+		} else {
+			System.out.println("The buyer and seller could not come to a consensus.");
 		}
+
+		System.out.println();
 	}
 
 
@@ -206,7 +220,7 @@ public class Simulation{
 
 		for(int i=0; i<agents.size(); i++){
 			agents.get(i).setCash(1-agents.get(i).getWheat());
-			System.out.println("Agent "+ agents.get(i).getID() + " has "+ agents.get(i).getCash()+ " amount of cash and " + agents.get(i).getWheat() + " amount of wheat.");
+			//System.out.println("Agent "+ agents.get(i).getID() + " has "+ agents.get(i).getCash()+ " amount of cash and " + agents.get(i).getWheat() + " amount of wheat.");
 		}
 	}
 
