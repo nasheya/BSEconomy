@@ -1,3 +1,12 @@
+/**********
+* This simulation simulates haggling between a defined amount of agents. It first distributes an amount of cash and wheat 
+* randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
+* the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 
+* has more cash than they have utility for (dpeending on the Cobb-Douglas Utility function), they will randomly choose to 
+* trade some amount depending on the Rubenstein haggling model.
+*/
+
+
 import Jama.*;
 import java.util.ArrayList;
 import java.util.Random;
@@ -26,7 +35,6 @@ public class Simulation{
 	public static void run(){
 		ArrayList<Agent> total = cloneAgents(agents);
 
-		//boolean equilibrium = false;
 		int i = 0;
 
 		while(total.size()>1){
@@ -77,6 +85,9 @@ public class Simulation{
 	}
 
 
+	/**
+	* This method just deep copies an arraylist to another arraylist.
+	*/
 	private static ArrayList<Agent> cloneAgents(ArrayList<Agent> temp){
 		ArrayList<Agent> toReturn = new ArrayList<Agent>();
 
@@ -88,6 +99,10 @@ public class Simulation{
 	}
 
 
+	/**
+	* This handles all the haggling between a specific designated buyer and seller.
+	* It follows a special case of the Rubenstein model.
+	*/
 	public static void haggling(Agent buyer, Agent seller){
 		System.out.println("Agent " + buyer.getID() + " is the buyer and Agent " + seller.getID() + " is the seller.");
 		//the deltas are randomly picked
