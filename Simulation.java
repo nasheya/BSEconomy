@@ -17,7 +17,7 @@ public class Simulation{
 
 	static ArrayList<Agent> agents = new ArrayList<Agent>();
 
-	static int maxTimeForHaggling = 10;
+	static int maxTimeForHaggling = 5;
 	static double delta1;
 	static double delta2;
 
@@ -210,7 +210,7 @@ public class Simulation{
 
 			seller.setCash(seller.getCash() + cash);
 			seller.setWheat(seller.getWheat() - wheat);
-			System.out.println("They came to a consensus at time " + t);
+			System.out.println("They came to a consensus at time " + (t-1));
 			System.out.printf("The buyer gave %.2f cash and the seller gave %.2f wheat to the buyer.", cash, wheat);
 			System.out.println();
 		} else {
