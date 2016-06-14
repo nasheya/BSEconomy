@@ -29,13 +29,18 @@ public class Simulation{
 
 		distributeCashAndWheat();
 
+		printAgentAmounts();
+
 		run();
+
+		printAgentAmounts();
 	}
+
 
 	public static void run(){
 		ArrayList<Agent> total = cloneAgents(agents);
 
-		int i = 0;
+		int i = 1;
 
 		while(total.size()>1){
 			System.out.println("Round "+ i + " with " + total.size() + " agents");
@@ -73,15 +78,46 @@ public class Simulation{
 					total.remove(indexPair);
 				}
 			} else {
-				System.out.printf("Agent one has %.2f cash and %.2f wheat, and agent two has %.2f cash and %.2f wheat.", 
+				System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
 						  one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
+
+				System.out.println();
+				System.out.println();
+
+				if(!tradeable(total)){
+					break;
+				}
 			}
 
 			i++;
-			System.out.println();
 		}
 
 		
+	}
+
+
+	/**
+	* This method determines if the set given can trade at all.
+	*/
+	private static boolean tradeable(ArrayList<Agent> total){
+		boolean moreWheat = true;
+		boolean moreCash= true;
+
+		for(int i=0; i<total.size(); i++){
+			if(total.get(i).getWheat()<0.5){
+				moreWheat = false;
+			}
+
+			if(total.get(i).getCash()<0.5){
+				moreCash = false;
+			}
+		}
+
+		if(moreCash || moreWheat){
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 
@@ -136,7 +172,7 @@ public class Simulation{
 			if(t%2 == 1){
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 
-				while(bPayoff <= bPayoffOrig){
+				while(bPayoff <= bPayoffOrig || cash == 0 || wheat == 0){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
@@ -152,7 +188,7 @@ public class Simulation{
 				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
 
-				while(sPayoff <= sPayoffOrig){
+				while(sPayoff <= sPayoffOrig || cash == 0 || wheat == 0){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
@@ -237,8 +273,20 @@ public class Simulation{
 
 		for(int i=0; i<agents.size(); i++){
 			agents.get(i).setCash(1-agents.get(i).getWheat());
-			//System.out.println("Agent "+ agents.get(i).getID() + " has "+ agents.get(i).getCash()+ " amount of cash and " + agents.get(i).getWheat() + " amount of wheat.");
 		}
+	}
+
+
+	/**
+	* Prints the amounts each agent has
+	*/
+	public static void printAgentAmounts(){
+		for(int i=0; i<agents.size(); i++){
+			System.out.printf("Agent "+ agents.get(i).getID() + " has %.2f amount of cash and %.2f amount of wheat.", agents.get(i).getCash(), agents.get(i).getWheat());
+			System.out.println();
+		}
+
+		System.out.println();
 	}
 
 }
