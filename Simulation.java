@@ -37,6 +37,9 @@ public class Simulation{
 	}
 
 
+	/**
+	* Runs the simulation
+	*/
 	public static void run(){
 		ArrayList<Agent> total = cloneAgents(agents);
 
@@ -58,6 +61,7 @@ public class Simulation{
 			Agent one = total.get(index);
 			Agent two = total.get(indexPair);
 
+			//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
 			if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
 				haggling(one, two);
 				total.remove(index);
@@ -67,7 +71,7 @@ public class Simulation{
 				} else {
 					total.remove(indexPair);
 				}
-				
+			//or vice versa
 			} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
 				haggling(two, one);
 				total.remove(index);
@@ -84,6 +88,7 @@ public class Simulation{
 				System.out.println();
 				System.out.println();
 
+				//if the set is not tradeable, then just break
 				if(!tradeable(total)){
 					break;
 				}
@@ -103,6 +108,7 @@ public class Simulation{
 		boolean moreWheat = true;
 		boolean moreCash= true;
 
+		//if *everybody* has an abundance of wheat or cash, don't trade
 		for(int i=0; i<total.size(); i++){
 			if(total.get(i).getWheat()<0.5){
 				moreWheat = false;
@@ -172,12 +178,14 @@ public class Simulation{
 			if(t%2 == 1){
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 
+				//keep on trying to find an amount that works for the buyer in terms of payoff
 				while(bPayoff <= bPayoffOrig || cash == 0 || wheat == 0){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 				}
 				
+				//see if the amount works for the seller
 				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
 				if(sPayoff>sPayoffOrig){
@@ -187,13 +195,14 @@ public class Simulation{
 			} else {
 				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
-
+				//keep on trying to find an amount that works for the seller in terms of payoff
 				while(sPayoff <= sPayoffOrig || cash == 0 || wheat == 0){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 				}
 				
+				//see if the amount works for the buyer
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 
 				if(bPayoff>bPayoffOrig){
@@ -247,6 +256,7 @@ public class Simulation{
 
 			while(leftover>0){
 				for(int i=0; i<agents.size(); i++){
+					//make sure no one goes in the negatives
 					if(agents.get(i).getWheat()>amtToEach){
 						agents.get(i).setWheat(agents.get(i).getWheat() - amtToEach);
 						leftover-=amtToEach;
@@ -262,6 +272,7 @@ public class Simulation{
 
 			while(leftover>0){
 				for(int i=0; i<agents.size(); i++){
+					//make sure no one gets more than 1
 					if(agents.get(i).getWheat()+amtToEach<=1){
 						agents.get(i).setWheat(agents.get(i).getWheat() + amtToEach);
 						leftover-=amtToEach;
