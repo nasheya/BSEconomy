@@ -45,7 +45,8 @@ public class Simulation{
 
 		int i = 1;
 
-		while(total.size()>1){
+		//while(total.size()>1){
+		while(tradeable(total)){
 			System.out.println("Round "+ i + " with " + total.size() + " agents");
 			//pick an agent index number based on a uniform distribution
 			int index = rng.nextInt(total.size());
@@ -64,22 +65,22 @@ public class Simulation{
 			//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
 			if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
 				haggling(one, two);
-				total.remove(index);
+				//total.remove(index);
 
 				if(index<indexPair){
-					total.remove(indexPair-1);
+					//total.remove(indexPair-1);
 				} else {
-					total.remove(indexPair);
+					//total.remove(indexPair);
 				}
 			//or vice versa
 			} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
 				haggling(two, one);
-				total.remove(index);
+				//total.remove(index);
 
 				if(index<indexPair){
-					total.remove(indexPair-1);
+					//total.remove(indexPair-1);
 				} else {
-					total.remove(indexPair);
+					//total.remove(indexPair);
 				}
 			} else {
 				System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
@@ -89,9 +90,9 @@ public class Simulation{
 				System.out.println();
 
 				//if the set is not tradeable, then just break
-				if(!tradeable(total)){
-					break;
-				}
+				//if(!tradeable(total)){
+				//	break;
+				//}
 			}
 
 			i++;
