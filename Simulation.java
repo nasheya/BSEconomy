@@ -33,12 +33,16 @@ public class Simulation{
 		try{
 			BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
 			PrintWriter before1 = new PrintWriter(before);
+			BufferedWriter beforeU = new BufferedWriter(new FileWriter("BeforeUtility.txt", true));
+			PrintWriter beforeU1 = new PrintWriter(beforeU);
 
 			for(int i=0; i<agents.size(); i++){
 				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+				beforeU1.println((agents.get(i).getCash()*agents.get(i).getWheat()));
 			}
 
 			before1.close();
+			beforeU1.close();
 		} catch (IOException e) {
 			System.out.println("Error error!");
 		}

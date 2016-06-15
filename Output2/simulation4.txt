@@ -1,0 +1,342 @@
+Agent 0 has 0.20 amount of cash and 0.80 amount of wheat.
+Agent 1 has 0.20 amount of cash and 0.80 amount of wheat.
+Agent 2 has 0.29 amount of cash and 0.71 amount of wheat.
+Agent 3 has 0.12 amount of cash and 0.88 amount of wheat.
+Agent 4 has 0.85 amount of cash and 0.15 amount of wheat.
+Agent 5 has 0.22 amount of cash and 0.78 amount of wheat.
+Agent 6 has 0.80 amount of cash and 0.20 amount of wheat.
+Agent 7 has 0.31 amount of cash and 0.69 amount of wheat.
+Agent 8 has 0.63 amount of cash and 0.37 amount of wheat.
+Agent 9 has 0.86 amount of cash and 0.14 amount of wheat.
+Agent 10 has 0.26 amount of cash and 0.74 amount of wheat.
+Agent 11 has 0.55 amount of cash and 0.45 amount of wheat.
+Agent 12 has 0.69 amount of cash and 0.31 amount of wheat.
+Agent 13 has 0.92 amount of cash and 0.08 amount of wheat.
+Agent 14 has 0.83 amount of cash and 0.17 amount of wheat.
+Agent 15 has 0.82 amount of cash and 0.18 amount of wheat.
+Agent 16 has 0.84 amount of cash and 0.16 amount of wheat.
+Agent 17 has 0.29 amount of cash and 0.71 amount of wheat.
+Agent 18 has 0.27 amount of cash and 0.73 amount of wheat.
+Agent 19 has 0.11 amount of cash and 0.89 amount of wheat.
+Agent 20 has 0.74 amount of cash and 0.26 amount of wheat.
+Agent 21 has 0.47 amount of cash and 0.53 amount of wheat.
+Agent 22 has 0.30 amount of cash and 0.70 amount of wheat.
+Agent 23 has 0.31 amount of cash and 0.69 amount of wheat.
+Agent 24 has 0.66 amount of cash and 0.34 amount of wheat.
+Agent 25 has 0.80 amount of cash and 0.20 amount of wheat.
+Agent 26 has 0.05 amount of cash and 0.95 amount of wheat.
+Agent 27 has 1.00 amount of cash and 0.00 amount of wheat.
+Agent 28 has 0.71 amount of cash and 0.29 amount of wheat.
+Agent 29 has 0.23 amount of cash and 0.77 amount of wheat.
+Agent 30 has 0.92 amount of cash and 0.08 amount of wheat.
+Agent 31 has 0.71 amount of cash and 0.29 amount of wheat.
+Agent 32 has 0.27 amount of cash and 0.73 amount of wheat.
+Agent 33 has 0.35 amount of cash and 0.65 amount of wheat.
+Agent 34 has 0.42 amount of cash and 0.58 amount of wheat.
+Agent 35 has 0.18 amount of cash and 0.82 amount of wheat.
+Agent 36 has 0.34 amount of cash and 0.66 amount of wheat.
+Agent 37 has 0.78 amount of cash and 0.22 amount of wheat.
+Agent 38 has 0.62 amount of cash and 0.38 amount of wheat.
+Agent 39 has 0.09 amount of cash and 0.91 amount of wheat.
+Agent 40 has 0.28 amount of cash and 0.72 amount of wheat.
+Agent 41 has 0.15 amount of cash and 0.85 amount of wheat.
+Agent 42 has 0.31 amount of cash and 0.69 amount of wheat.
+Agent 43 has 0.26 amount of cash and 0.74 amount of wheat.
+Agent 44 has 0.17 amount of cash and 0.83 amount of wheat.
+Agent 45 has 0.90 amount of cash and 0.10 amount of wheat.
+Agent 46 has 0.87 amount of cash and 0.13 amount of wheat.
+Agent 47 has 0.69 amount of cash and 0.31 amount of wheat.
+Agent 48 has 0.85 amount of cash and 0.15 amount of wheat.
+Agent 49 has 0.54 amount of cash and 0.46 amount of wheat.
+
+Round 1 with 50 agents
+Agent 43 has 0.26 cash and 0.74 wheat, and Agent 32 has 0.27 cash and 0.73 wheat.
+
+Round 2 with 50 agents
+Agent 31 has 0.71 cash and 0.29 wheat, and Agent 49 has 0.54 cash and 0.46 wheat.
+
+Round 3 with 50 agents
+Agent 27 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.00 for the buyer and 0.09 for the seller.
+The buyer has 1.00 cash and 0.00 wheat, and the seller has 0.09 cash and 0.91 wheat.
+They came to a consensus at time 1
+The buyer gave 0.23 cash and the seller gave 0.15 wheat to the buyer.
+
+Round 4 with 48 agents
+Agent 21 has 0.47 cash and 0.53 wheat, and Agent 36 has 0.34 cash and 0.66 wheat.
+
+Round 5 with 48 agents
+Agent 6 is the buyer and Agent 10 is the seller.
+The original payoffs are 0.16 for the buyer and 0.19 for the seller.
+The buyer has 0.80 cash and 0.20 wheat, and the seller has 0.26 cash and 0.74 wheat.
+They came to a consensus at time 1
+The buyer gave 0.12 cash and the seller gave 0.09 wheat to the buyer.
+
+Round 6 with 46 agents
+Agent 41 has 0.15 cash and 0.85 wheat, and Agent 42 has 0.31 cash and 0.69 wheat.
+
+Round 7 with 46 agents
+Agent 16 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.14 for the buyer and 0.21 for the seller.
+The buyer has 0.84 cash and 0.16 wheat, and the seller has 0.31 cash and 0.69 wheat.
+They came to a consensus at time 1
+The buyer gave 0.33 cash and the seller gave 0.16 wheat to the buyer.
+
+Round 8 with 44 agents
+Agent 7 has 0.31 cash and 0.69 wheat, and Agent 40 has 0.28 cash and 0.72 wheat.
+
+Round 9 with 44 agents
+Agent 14 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.14 for the buyer and 0.20 for the seller.
+The buyer has 0.83 cash and 0.17 wheat, and the seller has 0.28 cash and 0.72 wheat.
+They came to a consensus at time 1
+The buyer gave 0.14 cash and the seller gave 0.09 wheat to the buyer.
+
+Round 10 with 42 agents
+Agent 45 has 0.90 cash and 0.10 wheat, and Agent 46 has 0.87 cash and 0.13 wheat.
+
+Round 11 with 42 agents
+Agent 9 has 0.86 cash and 0.14 wheat, and Agent 45 has 0.90 cash and 0.10 wheat.
+
+Round 12 with 42 agents
+Agent 32 has 0.27 cash and 0.73 wheat, and Agent 43 has 0.26 cash and 0.74 wheat.
+
+Round 13 with 42 agents
+Agent 47 has 0.69 cash and 0.31 wheat, and Agent 20 has 0.74 cash and 0.26 wheat.
+
+Round 14 with 42 agents
+Agent 49 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.25 for the buyer and 0.20 for the seller.
+The buyer has 0.54 cash and 0.46 wheat, and the seller has 0.27 cash and 0.73 wheat.
+They came to a consensus at time 4
+The buyer gave 0.03 cash and the seller gave 0.03 wheat to the buyer.
+
+Round 15 with 40 agents
+Agent 7 has 0.31 cash and 0.69 wheat, and Agent 1 has 0.20 cash and 0.80 wheat.
+
+Round 16 with 40 agents
+Agent 31 has 0.71 cash and 0.29 wheat, and Agent 25 has 0.80 cash and 0.20 wheat.
+
+Round 17 with 40 agents
+Agent 20 has 0.74 cash and 0.26 wheat, and Agent 15 has 0.82 cash and 0.18 wheat.
+
+Round 18 with 40 agents
+Agent 44 has 0.17 cash and 0.83 wheat, and Agent 35 has 0.18 cash and 0.82 wheat.
+
+Round 19 with 40 agents
+Agent 9 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.12 for the buyer and 0.24 for the seller.
+The buyer has 0.86 cash and 0.14 wheat, and the seller has 0.42 cash and 0.58 wheat.
+They came to a consensus at time 1
+The buyer gave 0.04 cash and the seller gave 0.03 wheat to the buyer.
+
+Round 20 with 38 agents
+Agent 13 is the buyer and Agent 3 is the seller.
+The original payoffs are 0.07 for the buyer and 0.10 for the seller.
+The buyer has 0.92 cash and 0.08 wheat, and the seller has 0.12 cash and 0.88 wheat.
+They came to a consensus at time 2
+The buyer gave 0.27 cash and the seller gave 0.27 wheat to the buyer.
+
+Round 21 with 36 agents
+Agent 20 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.19 for the buyer and 0.20 for the seller.
+The buyer has 0.74 cash and 0.26 wheat, and the seller has 0.27 cash and 0.73 wheat.
+They came to a consensus at time 1
+The buyer gave 0.08 cash and the seller gave 0.06 wheat to the buyer.
+
+Round 22 with 34 agents
+Agent 17 has 0.29 cash and 0.71 wheat, and Agent 33 has 0.35 cash and 0.65 wheat.
+
+Round 23 with 34 agents
+Agent 30 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.07 for the buyer and 0.05 for the seller.
+The buyer has 0.92 cash and 0.08 wheat, and the seller has 0.05 cash and 0.95 wheat.
+They came to a consensus at time 1
+The buyer gave 0.10 cash and the seller gave 0.06 wheat to the buyer.
+
+Round 24 with 32 agents
+Agent 48 is the buyer and Agent 33 is the seller.
+The original payoffs are 0.13 for the buyer and 0.23 for the seller.
+The buyer has 0.85 cash and 0.15 wheat, and the seller has 0.35 cash and 0.65 wheat.
+They came to a consensus at time 1
+The buyer gave 0.14 cash and the seller gave 0.08 wheat to the buyer.
+
+Round 25 with 30 agents
+Agent 25 is the buyer and Agent 17 is the seller.
+The original payoffs are 0.16 for the buyer and 0.20 for the seller.
+The buyer has 0.80 cash and 0.20 wheat, and the seller has 0.29 cash and 0.71 wheat.
+They came to a consensus at time 1
+The buyer gave 0.29 cash and the seller gave 0.13 wheat to the buyer.
+
+Round 26 with 28 agents
+Agent 38 has 0.62 cash and 0.38 wheat, and Agent 28 has 0.71 cash and 0.29 wheat.
+
+Round 27 with 28 agents
+Agent 38 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.24 for the buyer and 0.16 for the seller.
+The buyer has 0.62 cash and 0.38 wheat, and the seller has 0.20 cash and 0.80 wheat.
+They came to a consensus at time 2
+The buyer gave 0.09 cash and the seller gave 0.13 wheat to the buyer.
+
+Round 28 with 26 agents
+Agent 11 is the buyer and Agent 22 is the seller.
+The original payoffs are 0.25 for the buyer and 0.21 for the seller.
+The buyer has 0.55 cash and 0.45 wheat, and the seller has 0.30 cash and 0.70 wheat.
+They came to a consensus at time 2
+The buyer gave 0.05 cash and the seller gave 0.09 wheat to the buyer.
+
+Round 29 with 24 agents
+Agent 45 has 0.90 cash and 0.10 wheat, and Agent 46 has 0.87 cash and 0.13 wheat.
+
+Round 30 with 24 agents
+Agent 24 is the buyer and Agent 41 is the seller.
+The original payoffs are 0.22 for the buyer and 0.13 for the seller.
+The buyer has 0.66 cash and 0.34 wheat, and the seller has 0.15 cash and 0.85 wheat.
+They came to a consensus at time 1
+The buyer gave 0.09 cash and the seller gave 0.17 wheat to the buyer.
+
+Round 31 with 22 agents
+Agent 4 is the buyer and Agent 21 is the seller.
+The original payoffs are 0.13 for the buyer and 0.25 for the seller.
+The buyer has 0.85 cash and 0.15 wheat, and the seller has 0.47 cash and 0.53 wheat.
+They came to a consensus at time 1
+The buyer gave 0.01 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 32 with 20 agents
+Agent 46 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.11 for the buyer and 0.22 for the seller.
+The buyer has 0.87 cash and 0.13 wheat, and the seller has 0.31 cash and 0.69 wheat.
+They came to a consensus at time 1
+The buyer gave 0.19 cash and the seller gave 0.17 wheat to the buyer.
+
+Round 33 with 18 agents
+Agent 35 has 0.18 cash and 0.82 wheat, and Agent 42 has 0.31 cash and 0.69 wheat.
+
+Round 34 with 18 agents
+Agent 28 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.21 for the seller.
+The buyer has 0.71 cash and 0.29 wheat, and the seller has 0.29 cash and 0.71 wheat.
+They came to a consensus at time 1
+The buyer gave 0.18 cash and the seller gave 0.16 wheat to the buyer.
+
+Round 35 with 16 agents
+Agent 37 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.17 for the buyer and 0.15 for the seller.
+The buyer has 0.78 cash and 0.22 wheat, and the seller has 0.18 cash and 0.82 wheat.
+They came to a consensus at time 1
+The buyer gave 0.05 cash and the seller gave 0.07 wheat to the buyer.
+
+Round 36 with 14 agents
+Agent 47 has 0.69 cash and 0.31 wheat, and Agent 31 has 0.71 cash and 0.29 wheat.
+
+Round 37 with 14 agents
+Agent 47 has 0.69 cash and 0.31 wheat, and Agent 15 has 0.82 cash and 0.18 wheat.
+
+Round 38 with 14 agents
+Agent 12 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.22 for the buyer and 0.18 for the seller.
+The buyer has 0.69 cash and 0.31 wheat, and the seller has 0.23 cash and 0.77 wheat.
+They came to a consensus at time 2
+The buyer gave 0.05 cash and the seller gave 0.10 wheat to the buyer.
+
+Round 39 with 12 agents
+Agent 42 has 0.31 cash and 0.69 wheat, and Agent 44 has 0.17 cash and 0.83 wheat.
+
+Round 40 with 12 agents
+Agent 15 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.15 for the buyer and 0.14 for the seller.
+The buyer has 0.82 cash and 0.18 wheat, and the seller has 0.17 cash and 0.83 wheat.
+They came to a consensus at time 1
+The buyer gave 0.31 cash and the seller gave 0.17 wheat to the buyer.
+
+Round 41 with 10 agents
+Agent 31 is the buyer and Agent 5 is the seller.
+The original payoffs are 0.21 for the buyer and 0.17 for the seller.
+The buyer has 0.71 cash and 0.29 wheat, and the seller has 0.22 cash and 0.78 wheat.
+They came to a consensus at time 2
+The buyer gave 0.04 cash and the seller gave 0.13 wheat to the buyer.
+
+Round 42 with 8 agents
+Agent 0 has 0.20 cash and 0.80 wheat, and Agent 19 has 0.11 cash and 0.89 wheat.
+
+Round 43 with 8 agents
+Agent 43 has 0.26 cash and 0.74 wheat, and Agent 0 has 0.20 cash and 0.80 wheat.
+
+Round 44 with 8 agents
+Agent 8 is the buyer and Agent 36 is the seller.
+The original payoffs are 0.23 for the buyer and 0.22 for the seller.
+The buyer has 0.63 cash and 0.37 wheat, and the seller has 0.34 cash and 0.66 wheat.
+They came to a consensus at time 1
+The buyer gave 0.08 cash and the seller gave 0.09 wheat to the buyer.
+
+Round 45 with 6 agents
+Agent 19 has 0.11 cash and 0.89 wheat, and Agent 0 has 0.20 cash and 0.80 wheat.
+
+Round 46 with 6 agents
+Agent 47 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.22 for the buyer and 0.16 for the seller.
+The buyer has 0.69 cash and 0.31 wheat, and the seller has 0.20 cash and 0.80 wheat.
+They came to a consensus at time 2
+The buyer gave 0.09 cash and the seller gave 0.25 wheat to the buyer.
+
+Round 47 with 4 agents
+Agent 45 is the buyer and Agent 42 is the seller.
+The original payoffs are 0.09 for the buyer and 0.21 for the seller.
+The buyer has 0.90 cash and 0.10 wheat, and the seller has 0.31 cash and 0.69 wheat.
+They came to a consensus at time 1
+The buyer gave 0.32 cash and the seller gave 0.06 wheat to the buyer.
+
+Round 48 with 2 agents
+Agent 43 has 0.26 cash and 0.74 wheat, and Agent 19 has 0.11 cash and 0.89 wheat.
+
+Agent 0 has 0.29 amount of cash and 0.54 amount of wheat.
+Agent 1 has 0.29 amount of cash and 0.67 amount of wheat.
+Agent 2 has 0.47 amount of cash and 0.55 amount of wheat.
+Agent 3 has 0.38 amount of cash and 0.61 amount of wheat.
+Agent 4 has 0.84 amount of cash and 0.15 amount of wheat.
+Agent 5 has 0.26 amount of cash and 0.66 amount of wheat.
+Agent 6 has 0.67 amount of cash and 0.29 amount of wheat.
+Agent 7 has 0.50 amount of cash and 0.51 amount of wheat.
+Agent 8 has 0.55 amount of cash and 0.46 amount of wheat.
+Agent 9 has 0.82 amount of cash and 0.17 amount of wheat.
+Agent 10 has 0.38 amount of cash and 0.65 amount of wheat.
+Agent 11 has 0.50 amount of cash and 0.54 amount of wheat.
+Agent 12 has 0.64 amount of cash and 0.41 amount of wheat.
+Agent 13 has 0.65 amount of cash and 0.35 amount of wheat.
+Agent 14 has 0.69 amount of cash and 0.26 amount of wheat.
+Agent 15 has 0.51 amount of cash and 0.35 amount of wheat.
+Agent 16 has 0.50 amount of cash and 0.32 amount of wheat.
+Agent 17 has 0.58 amount of cash and 0.58 amount of wheat.
+Agent 18 has 0.36 amount of cash and 0.67 amount of wheat.
+Agent 19 has 0.11 amount of cash and 0.89 amount of wheat.
+Agent 20 has 0.65 amount of cash and 0.32 amount of wheat.
+Agent 21 has 0.48 amount of cash and 0.53 amount of wheat.
+Agent 22 has 0.35 amount of cash and 0.61 amount of wheat.
+Agent 23 has 0.65 amount of cash and 0.53 amount of wheat.
+Agent 24 has 0.58 amount of cash and 0.50 amount of wheat.
+Agent 25 has 0.51 amount of cash and 0.33 amount of wheat.
+Agent 26 has 0.15 amount of cash and 0.89 amount of wheat.
+Agent 27 has 0.77 amount of cash and 0.15 amount of wheat.
+Agent 28 has 0.54 amount of cash and 0.45 amount of wheat.
+Agent 29 has 0.28 amount of cash and 0.67 amount of wheat.
+Agent 30 has 0.82 amount of cash and 0.14 amount of wheat.
+Agent 31 has 0.67 amount of cash and 0.42 amount of wheat.
+Agent 32 has 0.29 amount of cash and 0.70 amount of wheat.
+Agent 33 has 0.49 amount of cash and 0.57 amount of wheat.
+Agent 34 has 0.46 amount of cash and 0.55 amount of wheat.
+Agent 35 has 0.23 amount of cash and 0.75 amount of wheat.
+Agent 36 has 0.42 amount of cash and 0.57 amount of wheat.
+Agent 37 has 0.73 amount of cash and 0.29 amount of wheat.
+Agent 38 has 0.53 amount of cash and 0.51 amount of wheat.
+Agent 39 has 0.32 amount of cash and 0.75 amount of wheat.
+Agent 40 has 0.42 amount of cash and 0.63 amount of wheat.
+Agent 41 has 0.24 amount of cash and 0.68 amount of wheat.
+Agent 42 has 0.63 amount of cash and 0.63 amount of wheat.
+Agent 43 has 0.26 amount of cash and 0.74 amount of wheat.
+Agent 44 has 0.48 amount of cash and 0.66 amount of wheat.
+Agent 45 has 0.58 amount of cash and 0.16 amount of wheat.
+Agent 46 has 0.69 amount of cash and 0.30 amount of wheat.
+Agent 47 has 0.60 amount of cash and 0.57 amount of wheat.
+Agent 48 has 0.71 amount of cash and 0.23 amount of wheat.
+Agent 49 has 0.51 amount of cash and 0.49 amount of wheat.
+
