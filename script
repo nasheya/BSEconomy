@@ -1,0 +1,10 @@
+javac *.java
+
+for i in `seq 1 50`;
+	do
+			fileName=Output/simulation$i.txt
+			java Tester -> $fileName
+	done 
+
+#open //Volumes/Macintosh\ HD/Applications/Abscissa.app/
+#open -a "Abscissa.app" 

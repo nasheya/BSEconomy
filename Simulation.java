@@ -10,6 +10,7 @@
 import Jama.*;
 import java.util.ArrayList;
 import java.util.Random;
+import java.io.*;
 
 public class Simulation{
 
@@ -29,11 +30,45 @@ public class Simulation{
 
 		distributeCashAndWheat();
 
+		try{
+			BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
+			PrintWriter before1 = new PrintWriter(before);
+
+			for(int i=0; i<agents.size(); i++){
+				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+			}
+
+			before1.close();
+		} catch (IOException e) {
+			System.out.println("Error error!");
+		}
+
 		printAgentAmounts();
 
 		run();
 
 		printAgentAmounts();
+
+		try{
+			BufferedWriter utility = new BufferedWriter(new FileWriter("TotalUtility.txt", true));
+			BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
+			BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
+			PrintWriter utility1 = new PrintWriter(utility);
+			PrintWriter amount1 = new PrintWriter(amount);
+			PrintWriter after1 = new PrintWriter(after);
+
+			for(int i=0; i<agents.size(); i++){
+				utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
+				after1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
+			}
+
+			utility1.close();
+			amount1.close();
+			after1.close();
+		} catch (IOException e) {
+			System.out.println("Error error!");
+		}
 	}
 
 
@@ -45,8 +80,8 @@ public class Simulation{
 
 		int i = 1;
 
-		//while(total.size()>1){
-		while(tradeable(total)){
+		while(total.size()>1){
+		//while(tradeable(total)){
 			System.out.println("Round "+ i + " with " + total.size() + " agents");
 			//pick an agent index number based on a uniform distribution
 			int index = rng.nextInt(total.size());
@@ -65,22 +100,22 @@ public class Simulation{
 			//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
 			if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
 				haggling(one, two);
-				//total.remove(index);
+				total.remove(index);
 
 				if(index<indexPair){
-					//total.remove(indexPair-1);
+					total.remove(indexPair-1);
 				} else {
-					//total.remove(indexPair);
+					total.remove(indexPair);
 				}
 			//or vice versa
 			} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
 				haggling(two, one);
-				//total.remove(index);
+				total.remove(index);
 
 				if(index<indexPair){
-					//total.remove(indexPair-1);
+					total.remove(indexPair-1);
 				} else {
-					//total.remove(indexPair);
+					total.remove(indexPair);
 				}
 			} else {
 				System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
@@ -90,9 +125,9 @@ public class Simulation{
 				System.out.println();
 
 				//if the set is not tradeable, then just break
-				//if(!tradeable(total)){
-				//	break;
-				//}
+				if(!tradeable(total)){
+					break;
+				}
 			}
 
 			i++;
@@ -180,7 +215,7 @@ public class Simulation{
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 
 				//keep on trying to find an amount that works for the buyer in terms of payoff
-				while(bPayoff <= bPayoffOrig || cash == 0 || wheat == 0){
+				while(bPayoff <= bPayoffOrig){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
@@ -197,7 +232,7 @@ public class Simulation{
 				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
 				//keep on trying to find an amount that works for the seller in terms of payoff
-				while(sPayoff <= sPayoffOrig || cash == 0 || wheat == 0){
+				while(sPayoff <= sPayoffOrig){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));

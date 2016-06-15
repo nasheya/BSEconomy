@@ -1,0 +1,14 @@
+print TO_ABS "-x newDocument -d \"/tmp/untitled.absd\"\n";
+print TO_ABS "-x open -f /Users/nr2rt/Desktop/BSEconomy/test1 -rY\n";
+print TO_ABS "-x setAttributes -lN\n";
+print TO_ABS "-x setAttributes2 -m 12 -n -1\n";
+print TO_ABS "-x setAttributes2 -y 5\n";
+print TO_ABS "-x setAttributes2 -r 0.580819 -g 0.0884276 -b 0.318639\n";
+print TO_ABS "-x setAttributes2 -R 0.580819 -G 0.0884276 -B 0.318639\n";
+print TO_ABS "-x display -rY\n";
+print TO_ABS "-x saveDocument -f /Users/nr2rt/Desktop/BSEconomy/AbscissaPlots/Utility.absd -bY -kN\n";
+print TO_ABS "-x setAttributes2 -m 12 -n -1\n";
+print TO_ABS "-x display -rY\n";
+die "Can't save document! Script stopped \n" unless <FROM_ABS> =~ /succeeded/;
+print TO_ABS "-x savePNG -f /Users/nr2rt/Desktop/BSEconomy/Graphs/Utility.png\n";
+die "Can't save PNG file! Script stopped \n" unless <FROM_ABS> =~ /succeeded/;
