@@ -19,7 +19,6 @@ public class Simulation{
 	static ArrayList<Agent> agents = new ArrayList<Agent>();
 
 	static int maxTimeForHaggling = 5;
-	static int maxRounds = 20;
 	static double delta1;
 	static double delta2;
 
@@ -31,11 +30,49 @@ public class Simulation{
 
 		distributeCashAndWheat();
 
+		try{
+			BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
+			PrintWriter before1 = new PrintWriter(before);
+			BufferedWriter beforeU = new BufferedWriter(new FileWriter("BeforeUtility.txt", true));
+			PrintWriter beforeU1 = new PrintWriter(beforeU);
+
+			for(int i=0; i<agents.size(); i++){
+				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+				beforeU1.println((agents.get(i).getCash()*agents.get(i).getWheat()));
+			}
+
+			before1.close();
+			beforeU1.close();
+		} catch (IOException e) {
+			System.out.println("Error error!");
+		}
+
 		printAgentAmounts();
 
 		run();
 
 		printAgentAmounts();
+
+		try{
+			BufferedWriter utility = new BufferedWriter(new FileWriter("TotalUtility.txt", true));
+			BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
+			BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
+			PrintWriter utility1 = new PrintWriter(utility);
+			PrintWriter amount1 = new PrintWriter(amount);
+			PrintWriter after1 = new PrintWriter(after);
+
+			for(int i=0; i<agents.size(); i++){
+				utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
+				after1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
+			}
+
+			utility1.close();
+			amount1.close();
+			after1.close();
+		} catch (IOException e) {
+			System.out.println("Error error!");
+		}
 	}
 
 
@@ -44,76 +81,63 @@ public class Simulation{
 	*/
 	public static void run(){
 		ArrayList<Agent> total = cloneAgents(agents);
-		ArrayList<Agent> particpants = cloneAgents(agents);
 
-		for(int k=0; k<maxRounds || (particpants.size()>1 && tradeable(particpants)); k++){
-			System.out.println("ROUND "+ k + " WITH " + particpants.size() + " AGENTS");
-			
-			int i = 0;
+		int i = 1;
 
-			while(total.size()>1){
-				System.out.println("Round "+ i);
+		while(total.size()>1){
+		//while(tradeable(total)){
+			System.out.println("Round "+ i + " with " + total.size() + " agents");
+			//pick an agent index number based on a uniform distribution
+			int index = rng.nextInt(total.size());
 
-				//pick an agent index number based on a uniform distribution
-				int index = rng.nextInt(total.size());
+			//pick agent here based on an uniform distribution but conditional probability function later
+			int indexPair = rng.nextInt(total.size());
 
-				//pick agent here based on an uniform distribution but conditional probability function later
-				int indexPair = rng.nextInt(total.size());
-
-				//do not let them be the same number
-				while(indexPair == index){
-					indexPair = rng.nextInt(total.size());
-				}
-
-				Agent one = total.get(index);
-				Agent two = total.get(indexPair);
-
-				//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
-				if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
-					haggling(one, two);
-
-					maxUtility(particpants, one, two, index, indexPair);
-
-					total.remove(index);
-
-					if(index<indexPair){
-						total.remove(indexPair-1);
-					} else {
-						total.remove(indexPair);
-					}
-				//or vice versa
-				} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
-					haggling(two, one);
-
-					maxUtility(particpants, one, two, index, indexPair);
-
-					total.remove(index);
-
-					if(index<indexPair){
-						total.remove(indexPair-1);
-					} else {
-						total.remove(indexPair);
-					}
-				} else {
-					System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
-							  one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
-
-					System.out.println();
-					System.out.println();
-
-					maxUtility(particpants, one, two, index, indexPair);
-
-					//if the set is not tradeable, then just break
-					if(!tradeable(total)){
-						break;
-					}
-				}
-
-				i++;
+			//do not let them be the same number
+			while(indexPair == index){
+				indexPair = rng.nextInt(total.size());
 			}
 
-			total = cloneAgents(particpants);
+			Agent one = total.get(index);
+			Agent two = total.get(indexPair);
+
+			//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
+			if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
+				haggling(one, two);
+				total.remove(index);
+
+				if(index<indexPair){
+					total.remove(indexPair-1);
+				} else {
+					total.remove(indexPair);
+				}
+			//or vice versa
+			} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
+				haggling(two, one);
+				total.remove(index);
+
+				if(index<indexPair){
+					total.remove(indexPair-1);
+				} else {
+					total.remove(indexPair);
+				}
+			} else {
+				System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
+						  one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
+
+				System.out.println();
+				System.out.println();
+
+				//if the set is not tradeable, then just break
+				if(!tradeable(total)){
+					break;
+				}
+			}
+
+			i++;
 		}
+
+		
 	}
 
 
@@ -122,7 +146,7 @@ public class Simulation{
 	*/
 	private static boolean tradeable(ArrayList<Agent> total){
 		boolean moreWheat = true;
-		boolean moreCash = true;
+		boolean moreCash= true;
 
 		//if *everybody* has an abundance of wheat or cash, don't trade
 		for(int i=0; i<total.size(); i++){
@@ -315,29 +339,6 @@ public class Simulation{
 		}
 
 		System.out.println();
-	}
-
-
-	/**
-	* Finds out if the agents given have reached their maximum utility, and if so, removes them from the list
-	*/
-	private static void maxUtility(ArrayList<Agent> particpants, Agent one, Agent two, int index, int indexPair){
-		boolean removed = false;
-
-		if(one.getWheat() == one.getCash() && one.getWheat() == (one.getCash()+one.getWheat())/2){
-			particpants.remove(index);
-			removed = true;
-		}
-
-		if(two.getWheat() == two.getCash() && two.getWheat() == (two.getCash()+two.getWheat())/2){
-			if(removed){
-				if(index<indexPair){
-					particpants.remove(indexPair-1);
-				}
-			} else {
-				particpants.remove(indexPair);
-			}
-		}
 	}
 
 }
