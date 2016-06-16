@@ -19,7 +19,7 @@ public class Simulation{
 	static ArrayList<Agent> agents = new ArrayList<Agent>();
 
 	static int maxTimeForHaggling = 5;
-	static int maxRounds = 20;
+	static int maxRounds = 50;
 	static double delta1;
 	static double delta2;
 
@@ -46,7 +46,7 @@ public class Simulation{
 		ArrayList<Agent> total = cloneAgents(agents);
 		ArrayList<Agent> particpants = cloneAgents(agents);
 
-		for(int k=0; k<maxRounds || (particpants.size()>1 && tradeable(particpants)); k++){
+		for(int k=0; k<maxRounds && (particpants.size()>1 && tradeable(particpants)); k++){
 			System.out.println("ROUND "+ k + " WITH " + particpants.size() + " AGENTS");
 			
 			int i = 0;
@@ -69,10 +69,11 @@ public class Simulation{
 				Agent two = total.get(indexPair);
 
 				//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
-				if(one.getCash()>0.5 && two.getCash()<0.5 && one.getWheat()<0.5 && two.getWheat()>0.5){
+				if(getDivided(one, 1, true)>getDivided(one, 1, false) && getDivided(two, 1, false)>getDivided(two, 1, true)){
 					haggling(one, two);
 
-					maxUtility(particpants, one, two, index, indexPair);
+					maxUtility(particpants, one);
+					maxUtility(particpants, two);
 
 					total.remove(index);
 
@@ -82,10 +83,11 @@ public class Simulation{
 						total.remove(indexPair);
 					}
 				//or vice versa
-				} else if(one.getWheat()>0.5 && two.getWheat()<0.5 && one.getCash()<0.5 && two.getCash()>0.5){
+				} else if(getDivided(one, 1, false)>getDivided(one, 1, true) && getDivided(two, 1, true)>getDivided(two, 1, false)){
 					haggling(two, one);
 
-					maxUtility(particpants, one, two, index, indexPair);
+					maxUtility(particpants, one);
+					maxUtility(particpants, two);
 
 					total.remove(index);
 
@@ -101,7 +103,8 @@ public class Simulation{
 					System.out.println();
 					System.out.println();
 
-					maxUtility(particpants, one, two, index, indexPair);
+					maxUtility(particpants, one);
+					maxUtility(particpants, two);
 
 					//if the set is not tradeable, then just break
 					if(!tradeable(total)){
@@ -126,11 +129,11 @@ public class Simulation{
 
 		//if *everybody* has an abundance of wheat or cash, don't trade
 		for(int i=0; i<total.size(); i++){
-			if(total.get(i).getWheat()<0.5){
+			if(getDivided(total.get(i), 2, false)<getDivided(total.get(i), 2, true)){
 				moreWheat = false;
 			}
 
-			if(total.get(i).getCash()<0.5){
+			if(getDivided(total.get(i), 2, true)<getDivided(total.get(i), 2, false)){
 				moreCash = false;
 			}
 		}
@@ -183,8 +186,8 @@ public class Simulation{
 		boolean consensus = false;
 		int t = 1;
 
-		double surplusCash = buyer.getCash() - 0.5;
-		double surplusWheat = seller.getWheat() - 0.5;
+		double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())/2;
+		double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())/2;
 
 		while(!consensus && t <= maxTimeForHaggling){
 			cash = Math.random() * surplusCash;
@@ -319,24 +322,25 @@ public class Simulation{
 
 
 	/**
-	* Finds out if the agents given have reached their maximum utility, and if so, removes them from the list
+	* Finds out if the agent given have reached its maximum utility, and if so, removes it from the list
 	*/
-	private static void maxUtility(ArrayList<Agent> particpants, Agent one, Agent two, int index, int indexPair){
+	private static boolean maxUtility(ArrayList<Agent> particpants, Agent one){
 		boolean removed = false;
 
-		if(one.getWheat() == one.getCash() && one.getWheat() == (one.getCash()+one.getWheat())/2){
-			particpants.remove(index);
+		if(getDivided(one, 1, false) == getDivided(one, 1, true)){
+			particpants.remove(particpants.indexOf(one));
 			removed = true;
 		}
 
-		if(two.getWheat() == two.getCash() && two.getWheat() == (two.getCash()+two.getWheat())/2){
-			if(removed){
-				if(index<indexPair){
-					particpants.remove(indexPair-1);
-				}
-			} else {
-				particpants.remove(indexPair);
-			}
+		return removed;
+	}
+
+
+	private static double getDivided(Agent temp, double numToDivide, boolean cash){
+		if(cash){
+			return ((double)Math.round(temp.getCash()/numToDivide*10000.0))/10000.0;
+		} else {
+			return ((double)Math.round(temp.getWheat()/numToDivide*10000.0))/10000.0;
 		}
 	}
 

@@ -53,6 +53,7 @@ public class Simulation {
 		costDissolve = d;
 		costMaintain = m;
 
+		//if probability is greater than 1 or less than 0, adjust
 		if(probAdd>1){
 			prob = 1;
 		} else if(probAdd<0){

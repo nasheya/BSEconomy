@@ -19,6 +19,6 @@ public class Tester {
 		// 	System.out.println(c.myConnections.get(i));
 		// }
 
-		Simulation newSet = new Simulation(50);
+		Simulation newSet = new Simulation(10);
 	}
 }
