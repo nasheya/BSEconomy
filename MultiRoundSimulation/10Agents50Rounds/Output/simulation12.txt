@@ -1,0 +1,1824 @@
+Agent 0 has 0.8858 amount of cash and 0.1142 amount of wheat.
+Agent 1 has 0.8389 amount of cash and 0.1611 amount of wheat.
+Agent 2 has 0.0290 amount of cash and 0.9710 amount of wheat.
+Agent 3 has 0.7553 amount of cash and 0.2447 amount of wheat.
+Agent 4 has 0.8757 amount of cash and 0.1243 amount of wheat.
+Agent 5 has 0.6230 amount of cash and 0.3770 amount of wheat.
+Agent 6 has 0.5980 amount of cash and 0.4020 amount of wheat.
+Agent 7 has 0.0878 amount of cash and 0.9122 amount of wheat.
+Agent 8 has 0.1558 amount of cash and 0.8442 amount of wheat.
+Agent 9 has 0.1508 amount of cash and 0.8492 amount of wheat.
+
+ROUND 0 WITH 10 AGENTS
+Round 0
+Agent 5 has 0.62 cash and 0.38 wheat, and Agent 0 has 0.89 cash and 0.11 wheat.
+
+Round 1
+Agent 3 has 0.76 cash and 0.24 wheat, and Agent 6 has 0.60 cash and 0.40 wheat.
+
+Round 2
+Agent 1 has 0.84 cash and 0.16 wheat, and Agent 3 has 0.76 cash and 0.24 wheat.
+
+Round 3
+Agent 5 has 0.62 cash and 0.38 wheat, and Agent 4 has 0.88 cash and 0.12 wheat.
+
+Round 4
+Agent 0 has 0.89 cash and 0.11 wheat, and Agent 4 has 0.88 cash and 0.12 wheat.
+
+Round 5
+Agent 7 has 0.09 cash and 0.91 wheat, and Agent 8 has 0.16 cash and 0.84 wheat.
+
+Round 6
+Agent 1 has 0.84 cash and 0.16 wheat, and Agent 4 has 0.88 cash and 0.12 wheat.
+
+Round 7
+Agent 7 has 0.09 cash and 0.91 wheat, and Agent 9 has 0.15 cash and 0.85 wheat.
+
+Round 8
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.18 for the buyer and 0.13 for the seller.
+The buyer has 0.76 cash and 0.24 wheat, and the seller has 0.16 cash and 0.84 wheat.
+They came to a consensus at time 1
+The buyer gave 0.02 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 9
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.10 for the buyer and 0.08 for the seller.
+The buyer has 0.89 cash and 0.11 wheat, and the seller has 0.09 cash and 0.91 wheat.
+They came to a consensus at time 1
+The buyer gave 0.30 cash and the seller gave 0.15 wheat to the buyer.
+
+Round 10
+Agent 6 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.24 for the buyer and 0.03 for the seller.
+The buyer has 0.60 cash and 0.40 wheat, and the seller has 0.03 cash and 0.97 wheat.
+They came to a consensus at time 1
+The buyer gave 0.03 cash and the seller gave 0.29 wheat to the buyer.
+
+Round 11
+Agent 1 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.14 for the buyer and 0.13 for the seller.
+The buyer has 0.84 cash and 0.16 wheat, and the seller has 0.15 cash and 0.85 wheat.
+They came to a consensus at time 1
+The buyer gave 0.32 cash and the seller gave 0.32 wheat to the buyer.
+
+Round 12
+Agent 4 has 0.88 cash and 0.12 wheat, and Agent 5 has 0.62 cash and 0.38 wheat.
+
+ROUND 1 WITH 10 AGENTS
+Round 0
+Agent 0 has 0.58 cash and 0.26 wheat, and Agent 1 has 0.52 cash and 0.48 wheat.
+
+Round 1
+Agent 0 has 0.58 cash and 0.26 wheat, and Agent 1 has 0.52 cash and 0.48 wheat.
+
+Round 2
+Agent 0 has 0.58 cash and 0.26 wheat, and Agent 5 has 0.62 cash and 0.38 wheat.
+
+Round 3
+Agent 5 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.23 for the buyer and 0.25 for the seller.
+The buyer has 0.62 cash and 0.38 wheat, and the seller has 0.47 cash and 0.53 wheat.
+They came to a consensus at time 4
+The buyer gave 0.02 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 4
+Agent 0 has 0.58 cash and 0.26 wheat, and Agent 3 has 0.73 cash and 0.26 wheat.
+
+Round 5
+Agent 1 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.15 for the seller.
+The buyer has 0.52 cash and 0.48 wheat, and the seller has 0.18 cash and 0.83 wheat.
+They came to a consensus at time 2
+The buyer gave 0.02 cash and the seller gave 0.05 wheat to the buyer.
+
+Round 6
+Agent 0 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.15 for the buyer and 0.04 for the seller.
+The buyer has 0.58 cash and 0.26 wheat, and the seller has 0.05 cash and 0.68 wheat.
+They came to a consensus at time 1
+The buyer gave 0.02 cash and the seller gave 0.14 wheat to the buyer.
+
+Round 7
+Agent 4 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.11 for the buyer and 0.30 for the seller.
+The buyer has 0.88 cash and 0.12 wheat, and the seller has 0.39 cash and 0.76 wheat.
+They came to a consensus at time 1
+The buyer gave 0.26 cash and the seller gave 0.09 wheat to the buyer.
+
+Round 8
+Agent 3 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.19 for the buyer and 0.40 for the seller.
+The buyer has 0.73 cash and 0.26 wheat, and the seller has 0.57 cash and 0.70 wheat.
+They came to a consensus at time 5
+The buyer gave 0.11 cash and the seller gave 0.06 wheat to the buyer.
+
+ROUND 2 WITH 10 AGENTS
+Round 0
+Agent 0 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.22 for the buyer and 0.04 for the seller.
+The buyer has 0.56 cash and 0.40 wheat, and the seller has 0.08 cash and 0.54 wheat.
+They came to a consensus at time 2
+The buyer gave 0.03 cash and the seller gave 0.07 wheat to the buyer.
+
+Round 1
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.24 for the buyer and 0.15 for the seller.
+The buyer has 0.61 cash and 0.39 wheat, and the seller has 0.20 cash and 0.78 wheat.
+They came to a consensus at time 1
+The buyer gave 0.04 cash and the seller gave 0.04 wheat to the buyer.
+
+Round 2
+Agent 4 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.13 for the buyer and 0.27 for the seller.
+The buyer has 0.61 cash and 0.22 wheat, and the seller has 0.51 cash and 0.53 wheat.
+They came to a consensus at time 5
+The buyer gave 0.01 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 3
+Agent 6 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.44 for the buyer and 0.25 for the seller.
+The buyer has 0.68 cash and 0.64 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 3 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.20 for the buyer and 0.44 for the seller.
+The buyer has 0.62 cash and 0.31 wheat, and the seller has 0.65 cash and 0.67 wheat.
+The buyer and seller could not come to a consensus.
+
+ROUND 3 WITH 10 AGENTS
+Round 0
+Agent 6 has 0.68 cash and 0.64 wheat, and Agent 5 has 0.56 cash and 0.43 wheat.
+
+Round 1
+Agent 4 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.13 for the buyer and 0.27 for the seller.
+The buyer has 0.61 cash and 0.22 wheat, and the seller has 0.51 cash and 0.52 wheat.
+They came to a consensus at time 5
+The buyer gave 0.01 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 2
+Agent 6 has 0.68 cash and 0.64 wheat, and Agent 3 has 0.62 cash and 0.31 wheat.
+
+Round 3
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.18 for the seller.
+The buyer has 0.53 cash and 0.47 wheat, and the seller has 0.24 cash and 0.75 wheat.
+They came to a consensus at time 4
+The buyer gave 0.01 cash and the seller gave 0.02 wheat to the buyer.
+
+Round 4
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.24 for the buyer and 0.05 for the seller.
+The buyer has 0.56 cash and 0.43 wheat, and the seller has 0.11 cash and 0.47 wheat.
+They came to a consensus at time 3
+The buyer gave 0.05 cash and the seller gave 0.05 wheat to the buyer.
+
+Round 5
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.68 cash and 0.64 wheat, and the seller has 0.65 cash and 0.67 wheat.
+They came to a consensus at time 5
+The buyer gave 0.01 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 6
+Agent 3 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.20 for the buyer and 0.25 for the seller.
+The buyer has 0.62 cash and 0.31 wheat, and the seller has 0.48 cash and 0.51 wheat.
+They came to a consensus at time 3
+The buyer gave 0.02 cash and the seller gave 0.01 wheat to the buyer.
+
+ROUND 4 WITH 10 AGENTS
+Round 0
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 6 has 0.68 cash and 0.65 wheat.
+
+Round 1
+Agent 0 has 0.52 cash and 0.48 wheat, and Agent 6 has 0.68 cash and 0.65 wheat.
+
+Round 2
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.07 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.16 cash and 0.42 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.18 for the seller.
+The buyer has 0.51 cash and 0.48 wheat, and the seller has 0.25 cash and 0.73 wheat.
+They came to a consensus at time 2
+The buyer gave 0.01 cash and the seller gave 0.02 wheat to the buyer.
+
+Round 4
+Agent 3 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.20 for the buyer and 0.44 for the seller.
+The buyer has 0.60 cash and 0.33 wheat, and the seller has 0.66 cash and 0.66 wheat.
+They came to a consensus at time 3
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 5
+Agent 6 has 0.68 cash and 0.65 wheat, and Agent 0 has 0.52 cash and 0.48 wheat.
+
+ROUND 5 WITH 10 AGENTS
+Round 0
+Agent 4 has 0.60 cash and 0.23 wheat, and Agent 3 has 0.60 cash and 0.33 wheat.
+
+Round 1
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 0 has 0.52 cash and 0.48 wheat.
+
+Round 2
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.48 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.07 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.16 cash and 0.42 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.18 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.25 cash and 0.71 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 6 has 0.68 cash and 0.65 wheat, and Agent 3 has 0.60 cash and 0.33 wheat.
+
+ROUND 6 WITH 10 AGENTS
+Round 0
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 2 has 0.16 cash and 0.42 wheat.
+
+Round 1
+Agent 4 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.14 for the buyer and 0.18 for the seller.
+The buyer has 0.60 cash and 0.23 wheat, and the seller has 0.25 cash and 0.71 wheat.
+They came to a consensus at time 1
+The buyer gave 0.17 cash and the seller gave 0.14 wheat to the buyer.
+
+Round 2
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 9 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.07 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.16 cash and 0.42 wheat.
+They came to a consensus at time 2
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 4
+Agent 3 has 0.60 cash and 0.33 wheat, and Agent 6 has 0.68 cash and 0.65 wheat.
+
+ROUND 7 WITH 10 AGENTS
+Round 0
+Agent 3 has 0.60 cash and 0.33 wheat, and Agent 0 has 0.52 cash and 0.48 wheat.
+
+Round 1
+Agent 0 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.07 for the seller.
+The buyer has 0.52 cash and 0.48 wheat, and the seller has 0.16 cash and 0.42 wheat.
+They came to a consensus at time 4
+The buyer gave 0.01 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 2
+Agent 8 has 0.42 cash and 0.57 wheat, and Agent 7 has 0.66 cash and 0.66 wheat.
+
+Round 3
+Agent 3 has 0.60 cash and 0.33 wheat, and Agent 6 has 0.68 cash and 0.65 wheat.
+
+Round 4
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.24 for the seller.
+The buyer has 0.68 cash and 0.65 wheat, and the seller has 0.42 cash and 0.57 wheat.
+They came to a consensus at time 2
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 5
+Agent 4 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.16 for the buyer and 0.44 for the seller.
+The buyer has 0.43 cash and 0.37 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 3 has 0.60 cash and 0.33 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+ROUND 8 WITH 10 AGENTS
+Round 0
+Agent 4 has 0.43 cash and 0.37 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 1
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.60 cash and 0.33 wheat.
+
+Round 2
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 3 has 0.60 cash and 0.33 wheat.
+
+Round 4
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.07 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.17 cash and 0.40 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 9 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 4 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.16 for the buyer and 0.24 for the seller.
+The buyer has 0.43 cash and 0.37 wheat, and the seller has 0.42 cash and 0.57 wheat.
+They came to a consensus at time 2
+The buyer gave 0.02 cash and the seller gave 0.02 wheat to the buyer.
+
+Round 7
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.60 cash and 0.33 wheat.
+
+ROUND 9 WITH 10 AGENTS
+Round 0
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 8 has 0.45 cash and 0.55 wheat.
+
+Round 1
+Agent 8 has 0.45 cash and 0.55 wheat, and Agent 2 has 0.17 cash and 0.40 wheat.
+
+Round 2
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 8 has 0.45 cash and 0.55 wheat, and Agent 7 has 0.66 cash and 0.66 wheat.
+
+Round 4
+Agent 2 has 0.17 cash and 0.40 wheat, and Agent 7 has 0.66 cash and 0.66 wheat.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 3 has 0.60 cash and 0.33 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 7
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 8
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 9
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.07 for the seller.
+The buyer has 0.41 cash and 0.39 wheat, and the seller has 0.17 cash and 0.40 wheat.
+They came to a consensus at time 2
+The buyer gave 0.00 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 10
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 11
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.24 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.45 cash and 0.55 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.60 cash and 0.33 wheat.
+
+ROUND 10 WITH 10 AGENTS
+Round 0
+Agent 3 has 0.60 cash and 0.33 wheat, and Agent 4 has 0.41 cash and 0.39 wheat.
+
+Round 1
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.07 for the seller.
+The buyer has 0.60 cash and 0.33 wheat, and the seller has 0.17 cash and 0.40 wheat.
+They came to a consensus at time 1
+The buyer gave 0.09 cash and the seller gave 0.06 wheat to the buyer.
+
+Round 2
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.24 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.45 cash and 0.55 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 4
+Agent 4 has 0.41 cash and 0.39 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 5
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 7
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+ROUND 11 WITH 10 AGENTS
+Round 0
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.24 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.45 cash and 0.55 wheat.
+They came to a consensus at time 4
+The buyer gave 0.01 cash and the seller gave 0.01 wheat to the buyer.
+
+Round 1
+Agent 4 has 0.41 cash and 0.39 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 2
+Agent 4 has 0.41 cash and 0.39 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 4
+Agent 4 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.16 for the buyer and 0.44 for the seller.
+The buyer has 0.41 cash and 0.39 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+ROUND 12 WITH 10 AGENTS
+Round 0
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 1
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.41 cash and 0.39 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 4
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 5
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 1 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.27 for the buyer and 0.24 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+ROUND 13 WITH 10 AGENTS
+Round 0
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.41 cash and 0.39 wheat, and the seller has 0.27 cash and 0.33 wheat.
+They came to a consensus at time 2
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 2
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 3
+Agent 1 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.27 for the buyer and 0.24 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+ROUND 14 WITH 10 AGENTS
+Round 0
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 1
+Agent 3 has 0.51 cash and 0.39 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 2
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 3
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 4
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 5
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.09 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 8 has 0.45 cash and 0.54 wheat.
+
+Round 7
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.20 for the buyer and 0.24 for the seller.
+The buyer has 0.51 cash and 0.39 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 9
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 10
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 11
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 12
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 13
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 14
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 15
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 16
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+ROUND 15 WITH 10 AGENTS
+Round 0
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.27 cash and 0.33 wheat.
+They came to a consensus at time 4
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 1
+Agent 5 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 4
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 6
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 7
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.24 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+ROUND 16 WITH 10 AGENTS
+Round 0
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 1
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 2
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 3
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 4
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.09 for the seller.
+The buyer has 0.51 cash and 0.39 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.24 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.45 cash and 0.54 wheat.
+They came to a consensus at time 4
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 7
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+ROUND 17 WITH 10 AGENTS
+Round 0
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.20 for the buyer and 0.24 for the seller.
+The buyer has 0.51 cash and 0.39 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 2
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 4
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 18 WITH 10 AGENTS
+Round 0
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.09 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.27 cash and 0.33 wheat.
+They came to a consensus at time 4
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 1
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 2
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 8 has 0.45 cash and 0.54 wheat.
+
+Round 3
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.24 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 5 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+ROUND 19 WITH 10 AGENTS
+Round 0
+Agent 6 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.44 for the buyer and 0.09 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 3 has 0.51 cash and 0.39 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 2
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.24 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.45 cash and 0.54 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 4
+Agent 3 has 0.51 cash and 0.39 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 5
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 6
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 7
+Agent 3 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.20 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.39 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+ROUND 20 WITH 10 AGENTS
+Round 0
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.09 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.27 cash and 0.33 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 2
+Agent 4 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.16 for the buyer and 0.44 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 4
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.51 cash and 0.39 wheat.
+
+Round 6
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.20 for the buyer and 0.24 for the seller.
+The buyer has 0.51 cash and 0.39 wheat, and the seller has 0.45 cash and 0.54 wheat.
+They came to a consensus at time 1
+The buyer gave 0.03 cash and the seller gave 0.03 wheat to the buyer.
+
+Round 7
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+ROUND 21 WITH 10 AGENTS
+Round 0
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 3
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.48 cash and 0.42 wheat.
+
+Round 4
+Agent 3 has 0.48 cash and 0.42 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 5
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.48 cash and 0.42 wheat.
+
+Round 6
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 7
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 8
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 9
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.09 for the seller.
+The buyer has 0.48 cash and 0.42 wheat, and the seller has 0.27 cash and 0.33 wheat.
+They came to a consensus at time 1
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 10
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 22 WITH 10 AGENTS
+Round 0
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.48 cash and 0.42 wheat.
+
+Round 1
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 8 has 0.48 cash and 0.51 wheat.
+
+Round 2
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 3
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 5
+Agent 3 has 0.48 cash and 0.42 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 6
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 7
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.27 cash and 0.33 wheat.
+They came to a consensus at time 4
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 8
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.48 cash and 0.42 wheat.
+
+Round 9
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+ROUND 23 WITH 10 AGENTS
+Round 0
+Agent 5 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.09 for the seller.
+The buyer has 0.48 cash and 0.42 wheat, and the seller has 0.27 cash and 0.32 wheat.
+They came to a consensus at time 4
+The buyer gave 0.02 cash and the seller gave 0.02 wheat to the buyer.
+
+Round 2
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 3
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 4
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 5
+Agent 4 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.16 for the buyer and 0.25 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+ROUND 24 WITH 10 AGENTS
+Round 0
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.25 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 0 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.26 for the buyer and 0.09 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.29 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 4 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.16 for the buyer and 0.44 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+ROUND 25 WITH 10 AGENTS
+Round 0
+Agent 9 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.29 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 1 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.27 for the buyer and 0.25 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 26 WITH 10 AGENTS
+Round 0
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.25 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 2 has 0.29 cash and 0.30 wheat.
+
+Round 2
+Agent 3 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.20 for the buyer and 0.44 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 4
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 5
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 6
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.09 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.29 cash and 0.30 wheat.
+They came to a consensus at time 3
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 7
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+ROUND 27 WITH 10 AGENTS
+Round 0
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 1
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 2
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 5
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 6
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 7
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 8
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 9
+Agent 9 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 28 WITH 10 AGENTS
+Round 0
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 1
+Agent 0 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.26 for the buyer and 0.09 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 4
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 5
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 7
+Agent 5 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+ROUND 29 WITH 10 AGENTS
+Round 0
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 3
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 4
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 5
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.20 for the buyer and 0.25 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+ROUND 30 WITH 10 AGENTS
+Round 0
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 1
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 2
+Agent 9 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 4
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 5
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 7
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.25 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.09 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+ROUND 31 WITH 10 AGENTS
+Round 0
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 1
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 3
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.09 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 6
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+ROUND 32 WITH 10 AGENTS
+Round 0
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 4
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 5
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 7
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 8
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+ROUND 33 WITH 10 AGENTS
+Round 0
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 1
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 2
+Agent 7 has 0.66 cash and 0.66 wheat, and Agent 8 has 0.48 cash and 0.51 wheat.
+
+Round 3
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 5
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 6
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 7
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 9
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 10
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 11
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 12
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 13
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 14
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 15
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 16
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 17
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.25 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+They came to a consensus at time 2
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 18
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+ROUND 34 WITH 10 AGENTS
+Round 0
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.20 for the buyer and 0.09 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.25 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+ROUND 35 WITH 10 AGENTS
+Round 0
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.25 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 2
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 4
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 6
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 7
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 8
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.30 cash and 0.30 wheat.
+They came to a consensus at time 2
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 9
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+ROUND 36 WITH 10 AGENTS
+Round 0
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 6 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.44 for the buyer and 0.09 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 3
+Agent 4 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.16 for the buyer and 0.25 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+ROUND 37 WITH 10 AGENTS
+Round 0
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 2
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 3
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 4
+Agent 6 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.44 for the buyer and 0.09 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 6
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 7
+Agent 9 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 38 WITH 10 AGENTS
+Round 0
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.25 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 2
+Agent 3 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.20 for the buyer and 0.44 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+ROUND 39 WITH 10 AGENTS
+Round 0
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 1
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 2
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 3
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 4
+Agent 2 has 0.30 cash and 0.30 wheat, and Agent 7 has 0.66 cash and 0.66 wheat.
+
+Round 5
+Agent 3 has 0.46 cash and 0.44 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 6
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 7
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 8
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 9
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.09 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 12
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 13
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 3 has 0.46 cash and 0.44 wheat.
+
+Round 14
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 15
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 16
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 17
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.20 for the buyer and 0.25 for the seller.
+The buyer has 0.46 cash and 0.44 wheat, and the seller has 0.48 cash and 0.51 wheat.
+They came to a consensus at time 1
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 18
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 40 WITH 10 AGENTS
+Round 0
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 4 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.16 for the buyer and 0.25 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 3 has 0.45 cash and 0.45 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+ROUND 41 WITH 10 AGENTS
+Round 0
+Agent 5 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 2
+Agent 8 has 0.48 cash and 0.51 wheat, and Agent 7 has 0.66 cash and 0.66 wheat.
+
+Round 3
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 4
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 5
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 3 has 0.45 cash and 0.45 wheat.
+
+Round 6
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 7
+Agent 9 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 4 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.16 for the buyer and 0.44 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.66 cash and 0.66 wheat.
+They came to a consensus at time 4
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 9
+Agent 3 has 0.45 cash and 0.45 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+ROUND 42 WITH 10 AGENTS
+Round 0
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 1
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.25 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+ROUND 43 WITH 10 AGENTS
+Round 0
+Agent 0 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.26 for the buyer and 0.44 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 2
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 3
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+Round 5
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 6
+Agent 6 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.44 for the buyer and 0.25 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+ROUND 44 WITH 10 AGENTS
+Round 0
+Agent 1 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.27 for the buyer and 0.09 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 3
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 3 has 0.45 cash and 0.45 wheat.
+
+Round 4
+Agent 0 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.26 for the buyer and 0.25 for the seller.
+The buyer has 0.51 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 3 has 0.45 cash and 0.45 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 45 WITH 10 AGENTS
+Round 0
+Agent 6 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.44 for the buyer and 0.09 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.30 cash and 0.30 wheat.
+They came to a consensus at time 1
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 1
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+Round 2
+Agent 1 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.27 for the buyer and 0.25 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 4
+Agent 5 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+ROUND 46 WITH 10 AGENTS
+Round 0
+Agent 6 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.44 for the buyer and 0.09 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.25 for the buyer and 0.44 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 3 has 0.45 cash and 0.45 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 3
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.48 cash and 0.51 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 3 has 0.45 cash and 0.45 wheat, and Agent 4 has 0.40 cash and 0.40 wheat.
+
+ROUND 47 WITH 10 AGENTS
+Round 0
+Agent 3 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.20 for the buyer and 0.25 for the seller.
+The buyer has 0.45 cash and 0.45 wheat, and the seller has 0.48 cash and 0.51 wheat.
+They came to a consensus at time 1
+The buyer gave 0.00 cash and the seller gave 0.00 wheat to the buyer.
+
+Round 1
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 2
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 3
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 1 has 0.52 cash and 0.52 wheat.
+
+Round 5
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 6
+Agent 9 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 7
+Agent 5 has 0.50 cash and 0.50 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+Round 8
+Agent 9 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 0 has 0.51 cash and 0.50 wheat.
+
+ROUND 48 WITH 10 AGENTS
+Round 0
+Agent 5 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.25 for the buyer and 0.25 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.49 cash and 0.50 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 9 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.25 for the buyer and 0.09 for the seller.
+The buyer has 0.50 cash and 0.50 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 1 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.27 for the buyer and 0.44 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 4 has 0.40 cash and 0.40 wheat, and Agent 6 has 0.67 cash and 0.65 wheat.
+
+ROUND 49 WITH 10 AGENTS
+Round 0
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 1
+Agent 6 has 0.67 cash and 0.65 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 2
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.44 for the buyer and 0.44 for the seller.
+The buyer has 0.67 cash and 0.65 wheat, and the seller has 0.66 cash and 0.66 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 9 has 0.50 cash and 0.50 wheat.
+
+Round 4
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 5 has 0.50 cash and 0.50 wheat.
+
+Round 5
+Agent 4 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.16 for the buyer and 0.09 for the seller.
+The buyer has 0.40 cash and 0.40 wheat, and the seller has 0.30 cash and 0.30 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 1 has 0.52 cash and 0.52 wheat, and Agent 3 has 0.45 cash and 0.45 wheat.
+
+Round 7
+Agent 1 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.27 for the buyer and 0.25 for the seller.
+The buyer has 0.52 cash and 0.52 wheat, and the seller has 0.49 cash and 0.50 wheat.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 0 has 0.51 cash and 0.50 wheat, and Agent 3 has 0.45 cash and 0.45 wheat.
+
+Agent 0 has 0.5074 amount of cash and 0.5045 amount of wheat.
+Agent 1 has 0.5203 amount of cash and 0.5198 amount of wheat.
+Agent 2 has 0.2974 amount of cash and 0.3008 amount of wheat.
+Agent 3 has 0.4504 amount of cash and 0.4497 amount of wheat.
+Agent 4 has 0.4006 amount of cash and 0.4005 amount of wheat.
+Agent 5 has 0.5028 amount of cash and 0.5024 amount of wheat.
+Agent 6 has 0.6702 amount of cash and 0.6534 amount of wheat.
+Agent 7 has 0.6610 amount of cash and 0.6617 amount of wheat.
+Agent 8 has 0.4868 amount of cash and 0.5045 amount of wheat.
+Agent 9 has 0.5030 amount of cash and 0.5029 amount of wheat.
+

@@ -31,11 +31,49 @@ public class Simulation{
 
 		distributeCashAndWheat();
 
+		try{
+			BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
+			PrintWriter before1 = new PrintWriter(before);
+			BufferedWriter beforeU = new BufferedWriter(new FileWriter("BeforeUtility.txt", true));
+			PrintWriter beforeU1 = new PrintWriter(beforeU);
+
+			for(int i=0; i<agents.size(); i++){
+				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+				beforeU1.println((agents.get(i).getCash()*agents.get(i).getWheat()));
+			}
+
+			before1.close();
+			beforeU1.close();
+		} catch (IOException e) {
+			System.out.println("Error error!");
+		}
+
 		printAgentAmounts();
 
 		run();
 
 		printAgentAmounts();
+
+		try{
+			BufferedWriter utility = new BufferedWriter(new FileWriter("AfterUtility.txt", true));
+			BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
+			BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
+			PrintWriter utility1 = new PrintWriter(utility);
+			PrintWriter amount1 = new PrintWriter(amount);
+			PrintWriter after1 = new PrintWriter(after);
+
+			for(int i=0; i<agents.size(); i++){
+				utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
+				after1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
+			}
+
+			utility1.close();
+			amount1.close();
+			after1.close();
+		} catch (IOException e) {
+			System.out.println("Error error!");
+		}
 	}
 
 
@@ -197,34 +235,40 @@ public class Simulation{
 			if(t%2 == 1){
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 
+				int i = 0;
+
 				//keep on trying to find an amount that works for the buyer in terms of payoff
-				while(bPayoff <= bPayoffOrig){
+				while(bPayoff <= bPayoffOrig && i<100){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
+					i++;
 				}
 				
 				//see if the amount works for the seller
 				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
-				if(sPayoff>sPayoffOrig){
+				if(sPayoff>sPayoffOrig && bPayoff > bPayoffOrig){
 					consensus = true;
 				}
 
 			} else {
 				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
+				int i = 0;
+
 				//keep on trying to find an amount that works for the seller in terms of payoff
-				while(sPayoff <= sPayoffOrig){
+				while(sPayoff <= sPayoffOrig && i<100){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
 					sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
+					i++;
 				}
 				
 				//see if the amount works for the buyer
 				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
 
-				if(bPayoff>bPayoffOrig){
+				if(sPayoff>sPayoffOrig && bPayoff>bPayoffOrig){
 					consensus = true;
 				}
 			}
@@ -313,7 +357,7 @@ public class Simulation{
 	*/
 	public static void printAgentAmounts(){
 		for(int i=0; i<agents.size(); i++){
-			System.out.printf("Agent "+ agents.get(i).getID() + " has %.2f amount of cash and %.2f amount of wheat.", agents.get(i).getCash(), agents.get(i).getWheat());
+			System.out.printf("Agent "+ agents.get(i).getID() + " has %.4f amount of cash and %.4f amount of wheat.", agents.get(i).getCash(), agents.get(i).getWheat());
 			System.out.println();
 		}
 
@@ -329,6 +373,7 @@ public class Simulation{
 
 		if(getDivided(one, 1, false) == getDivided(one, 1, true)){
 			particpants.remove(particpants.indexOf(one));
+			System.out.println("Agent " + one.getID() + " got removed.");
 			removed = true;
 		}
 

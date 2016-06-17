@@ -2,7 +2,7 @@ javac *.java
 
 for i in `seq 1 50`;
 	do
-			fileName=Output2/simulation$i.txt
+			fileName=Output/simulation$i.txt
 			java Tester -> $fileName
 	done 
 
