@@ -48,4 +48,18 @@ public class Agent {
 	public double getDelta(){
 		return delta;
 	}
+
+	public double getDivided(double numToDivide, boolean cash){
+		if(cash){
+			return ((double)Math.round(this.getCash()/numToDivide*10000.0))/10000.0;
+		} else {
+			return ((double)Math.round(this.getWheat()/numToDivide*10000.0))/10000.0;
+		}
+	}
+
+	public void printAmounts(){
+		System.out.printf("Agent "+ this.getID() + " has %.4f amount of cash and %.4f amount of wheat.", this.getCash(), this.getWheat());
+		System.out.println();
+	}
+
 }

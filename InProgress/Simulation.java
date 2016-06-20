@@ -1,5 +1,5 @@
 /**********
-* This simulation simulates haggling between a defined amount of agents in multiple rounds (a set number of rounds). It first distributes an amount of cash and wheat 
+* This simulation simulates haggling between a defined amount of agents. It first distributes an amount of cash and wheat 
 * randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
 * the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 
 * has more cash than they have utility for (dpeending on the Cobb-Douglas Utility function), they will randomly choose to 
@@ -23,30 +23,49 @@ public class Simulation{
 	static double delta1;
 	static double delta2;
 
+	
+	static BufferedWriter amounts1;
+	//static BufferedWriter amounts2;
+	static PrintWriter amts1;
+	//static PrintWriter amts2;
+	
+	
 	public Simulation(int numAgents){
 		for(int i=0; i<numAgents; i++){
 			//give each agent an id number starting from 0 to n-1
 			agents.add(new Agent(i));
 		}
 
+		agents.get(0).setWheat(0.1);
+		agents.get(0).setCash(0.9);
+
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
-			PrintWriter before1 = new PrintWriter(before);
-			BufferedWriter beforeU = new BufferedWriter(new FileWriter("BeforeUtility.txt", true));
-			PrintWriter beforeU1 = new PrintWriter(beforeU);
-
-			for(int i=0; i<agents.size(); i++){
-				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
-				beforeU1.println((agents.get(i).getCash()*agents.get(i).getWheat()));
-			}
-
-			before1.close();
-			beforeU1.close();
-		} catch (IOException e) {
-			System.out.println("Error error!");
+			amounts1 = new BufferedWriter(new FileWriter("Amounts1.1.txt", true));
+			//amounts2 = new BufferedWriter(new FileWriter("Amounts2.1.txt", true));
+			amts1 = new PrintWriter(amounts1);
+			//amts2 = new PrintWriter(amounts2);
+		} catch(IOException e){
+			System.out.println("Error error! Cannot find file.");
 		}
+
+		// try{
+		// 	BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
+		// 	PrintWriter before1 = new PrintWriter(before);
+		// 	BufferedWriter beforeU = new BufferedWriter(new FileWriter("BeforeUtility.txt", true));
+		// 	PrintWriter beforeU1 = new PrintWriter(beforeU);
+
+		// 	for(int i=0; i<agents.size(); i++){
+		// 		before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+		// 		beforeU1.println((agents.get(i).getCash()*agents.get(i).getWheat()));
+		// 	}
+
+		// 	before1.close();
+		// 	beforeU1.close();
+		// } catch (IOException e) {
+		// 	System.out.println("Error error!");
+		// }
 
 		printAgentAmounts();
 
@@ -54,26 +73,28 @@ public class Simulation{
 
 		printAgentAmounts();
 
-		try{
-			BufferedWriter utility = new BufferedWriter(new FileWriter("AfterUtility.txt", true));
-			BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
-			BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
-			PrintWriter utility1 = new PrintWriter(utility);
-			PrintWriter amount1 = new PrintWriter(amount);
-			PrintWriter after1 = new PrintWriter(after);
+		// try{
+		// 	BufferedWriter utility = new BufferedWriter(new FileWriter("AfterUtility.txt", true));
+		// 	BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
+		// 	BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
+		// 	PrintWriter utility1 = new PrintWriter(utility);
+		// 	PrintWriter amount1 = new PrintWriter(amount);
+		// 	PrintWriter after1 = new PrintWriter(after);
 
-			for(int i=0; i<agents.size(); i++){
-				utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
-				after1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
-				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
-			}
+		// 	for(int i=0; i<agents.size(); i++){
+		// 		utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
+		// 		after1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
+		// 		amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
+		// 	}
 
-			utility1.close();
-			amount1.close();
-			after1.close();
-		} catch (IOException e) {
-			System.out.println("Error error!");
-		}
+		// 	utility1.close();
+		// 	amount1.close();
+		// 	after1.close();
+		// } catch (IOException e) {
+		// 	System.out.println("Error error!");
+		// }
+		amts1.close();
+		//amts2.close();
 	}
 
 
@@ -103,8 +124,12 @@ public class Simulation{
 					indexPair = rng.nextInt(total.size());
 				}
 
-				Agent one = total.get(index);
-				Agent two = total.get(indexPair);
+				Agent one = total.get(0);
+				Agent two = total.get(1);
+
+				System.out.printf("Agent "+ one.getID() +" has %.4f cash and %.4f wheat, and Agent " + two.getID() + " has %.4f cash and %.4f wheat.", 
+							one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
+
 
 				//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
 				if(getDivided(one, 1, true)>getDivided(one, 1, false) && getDivided(two, 1, false)>getDivided(two, 1, true)){
@@ -116,10 +141,11 @@ public class Simulation{
 					total.remove(index);
 
 					if(index<indexPair){
-						total.remove(indexPair-1);
+						total.remove(indexPair - 1);
 					} else {
 						total.remove(indexPair);
 					}
+					
 				//or vice versa
 				} else if(getDivided(one, 1, false)>getDivided(one, 1, true) && getDivided(two, 1, true)>getDivided(two, 1, false)){
 					haggling(two, one);
@@ -130,13 +156,13 @@ public class Simulation{
 					total.remove(index);
 
 					if(index<indexPair){
-						total.remove(indexPair-1);
+						total.remove(indexPair - 1);
 					} else {
 						total.remove(indexPair);
 					}
 				} else {
-					System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
-							  one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
+					//System.out.printf("Agent "+ one.getID() +" has %.2f cash and %.2f wheat, and Agent " + two.getID() + " has %.2f cash and %.2f wheat.", 
+					//		  one.getCash(), one.getWheat(), two.getCash(), two.getWheat());
 
 					System.out.println();
 					System.out.println();
@@ -149,6 +175,12 @@ public class Simulation{
 						break;
 					}
 				}
+
+				if(one.getID() == 0){
+					amts1.println((k+i) + " " + one.getCash() + " " + one.getWheat());
+				} else if(two.getID() == 0){
+					amts1.println((k+i) + " " + two.getCash() + " " + two.getWheat());
+				}	
 
 				i++;
 			}
@@ -214,8 +246,8 @@ public class Simulation{
 
 		System.out.printf("The original payoffs are %.2f for the buyer and %.2f for the seller." , bPayoffOrig, sPayoffOrig);
 		System.out.println();
-		System.out.printf("The buyer has %.2f cash and %.2f wheat, and the seller has %.2f cash and %.2f wheat.", 
-						  buyer.getCash(), buyer.getWheat(), seller.getCash(), seller.getWheat());
+		// System.out.printf("The buyer has %.2f cash and %.2f wheat, and the seller has %.2f cash and %.2f wheat.", 
+		// 				  buyer.getCash(), buyer.getWheat(), seller.getCash(), seller.getWheat());
 		System.out.println();
 
 		double cash = 0;
@@ -299,12 +331,12 @@ public class Simulation{
 	* cash and wheat in the entire system.
 	*/
 	private static void distributeCashAndWheat(){
-		double totalWheat = 0.5 * agents.size();
+		double totalWheat = 0.5 * agents.size()-0.1;
 		double distributedWheat = 0;
 
 		//Randomly give each person an amount of wheat, not caring whether or 
 		//not the total is greater or less than 1
-		for(int i=0; i<agents.size(); i++){
+		for(int i=1; i<agents.size(); i++){
 			double wheat = Math.random();
 			agents.get(i).setWheat(wheat);
 			distributedWheat += wheat;
@@ -318,7 +350,7 @@ public class Simulation{
 			double amtToEach = (distributedWheat - totalWheat)/agents.size();
 
 			while(leftover>0){
-				for(int i=0; i<agents.size(); i++){
+				for(int i=1; i<agents.size(); i++){
 					//make sure no one goes in the negatives
 					if(agents.get(i).getWheat()>amtToEach){
 						agents.get(i).setWheat(agents.get(i).getWheat() - amtToEach);
@@ -334,7 +366,7 @@ public class Simulation{
 			double amtToEach = (totalWheat - distributedWheat)/agents.size();
 
 			while(leftover>0){
-				for(int i=0; i<agents.size(); i++){
+				for(int i=1; i<agents.size(); i++){
 					//make sure no one gets more than 1
 					if(agents.get(i).getWheat()+amtToEach<=1){
 						agents.get(i).setWheat(agents.get(i).getWheat() + amtToEach);
@@ -346,7 +378,7 @@ public class Simulation{
 			}	
 		}
 
-		for(int i=0; i<agents.size(); i++){
+		for(int i=1; i<agents.size(); i++){
 			agents.get(i).setCash(1-agents.get(i).getWheat());
 		}
 	}

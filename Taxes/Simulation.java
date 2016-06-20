@@ -23,6 +23,8 @@ public class Simulation{
 	static double delta1;
 	static double delta2;
 	static double tax = 0.0025;
+	static double govtWheat = 0;
+	static double govtCash = 0;
 
 	public Simulation(int numAgents){
 		for(int i=0; i<numAgents; i++){
@@ -59,9 +61,11 @@ public class Simulation{
 			BufferedWriter utility = new BufferedWriter(new FileWriter("AfterUtility.txt", true));
 			BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
 			BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
+			BufferedWriter govt = new BufferedWriter(new FileWriter("GovtCashWheat.txt", true));
 			PrintWriter utility1 = new PrintWriter(utility);
 			PrintWriter amount1 = new PrintWriter(amount);
 			PrintWriter after1 = new PrintWriter(after);
+			PrintWriter govt1 = new PrintWriter(govt);
 
 			for(int i=0; i<agents.size(); i++){
 				utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
@@ -69,9 +73,12 @@ public class Simulation{
 				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
 			}
 
+			govt1.println(govtCash + " " + govtWheat);
+
 			utility1.close();
 			amount1.close();
 			after1.close();
+			govt1.close();
 		} catch (IOException e) {
 			System.out.println("Error error!");
 		}
@@ -108,7 +115,7 @@ public class Simulation{
 				Agent two = total.get(indexPair);
 
 				//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
-				if(getDivided(one, 1, true)>getDivided(one, 1, false) && getDivided(two, 1, false)>getDivided(two, 1, true)){
+				if(one.getDivided(1, true)>one.getDivided(1, false) && two.getDivided(1, false)>two.getDivided(1, true)){
 					haggling(one, two);
 
 					maxUtility(particpants, one);
@@ -122,7 +129,7 @@ public class Simulation{
 						total.remove(indexPair);
 					}
 				//or vice versa
-				} else if(getDivided(one, 1, false)>getDivided(one, 1, true) && getDivided(two, 1, true)>getDivided(two, 1, false)){
+				} else if(one.getDivided(1, false)>one.getDivided(1, true) && two.getDivided(1, true)>two.getDivided(1, false)){
 					haggling(two, one);
 
 					maxUtility(particpants, one);
@@ -142,8 +149,13 @@ public class Simulation{
 					System.out.println();
 					System.out.println();
 
-					maxUtility(particpants, one);
-					maxUtility(particpants, two);
+					if(maxUtility(particpants, one)){
+						total.remove(total.indexOf(one));
+					}
+					
+					if(maxUtility(particpants, two)){
+						total.remove(total.indexOf(two));
+					}
 
 					//if the set is not tradeable, then just break
 					if(!tradeable(total)){
@@ -168,11 +180,11 @@ public class Simulation{
 
 		//if *everybody* has an abundance of wheat or cash, don't trade
 		for(int i=0; i<total.size(); i++){
-			if(getDivided(total.get(i), 2, false)<getDivided(total.get(i), 2, true)){
+			if(total.get(i).getDivided(2, false)<total.get(i).getDivided(2, true)){
 				moreWheat = false;
 			}
 
-			if(getDivided(total.get(i), 2, true)<getDivided(total.get(i), 2, false)){
+			if(total.get(i).getDivided(2, true)<total.get(i).getDivided(2, false)){
 				moreCash = false;
 			}
 		}
@@ -234,7 +246,7 @@ public class Simulation{
 
 			//if it is an odd numbered time
 			if(t%2 == 1){
-				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
+				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*(1-tax)*Math.pow(delta1, t-1));
 
 				int i = 0;
 
@@ -242,19 +254,19 @@ public class Simulation{
 				while(bPayoff <= bPayoffOrig && i<100){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
-					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
+					bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*(1-tax)*Math.pow(delta1, t-1));
 					i++;
 				}
 				
 				//see if the amount works for the seller
-				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
+				double sPayoff = (seller.getCash()+cash*(1-tax)*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
 				if(sPayoff>sPayoffOrig && bPayoff > bPayoffOrig){
 					consensus = true;
 				}
 
 			} else {
-				double sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
+				double sPayoff = (seller.getCash()+cash*(1-tax)*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 
 				int i = 0;
 
@@ -262,12 +274,12 @@ public class Simulation{
 				while(sPayoff <= sPayoffOrig && i<100){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
-					sPayoff = (seller.getCash()+cash*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
+					sPayoff = (seller.getCash()+cash*(1-tax)*Math.pow(delta2, t-1))*(seller.getWheat()-wheat*Math.pow(delta2, t-1));
 					i++;
 				}
 				
 				//see if the amount works for the buyer
-				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*Math.pow(delta1, t-1));
+				double bPayoff = (buyer.getCash()-cash*Math.pow(delta1, t-1))*(buyer.getWheat()+wheat*(1-tax)*Math.pow(delta1, t-1));
 
 				if(sPayoff>sPayoffOrig && bPayoff>bPayoffOrig){
 					consensus = true;
@@ -279,10 +291,11 @@ public class Simulation{
 
 		if(consensus == true){
 			buyer.setCash(buyer.getCash() - cash);
-			buyer.setWheat(buyer.getWheat() + wheat);
-
-			seller.setCash(seller.getCash() + cash);
+			buyer.setWheat(buyer.getWheat() + (1-tax)*wheat);
+			govtWheat += tax*wheat;
+			seller.setCash(seller.getCash() + (1-tax)*cash);
 			seller.setWheat(seller.getWheat() - wheat);
+			govtCash += tax*cash;
 			System.out.println("They came to a consensus at time " + (t-1));
 			System.out.printf("The buyer gave %.2f cash and the seller gave %.2f wheat to the buyer.", cash, wheat);
 			System.out.println();
@@ -358,8 +371,7 @@ public class Simulation{
 	*/
 	public static void printAgentAmounts(){
 		for(int i=0; i<agents.size(); i++){
-			System.out.printf("Agent "+ agents.get(i).getID() + " has %.4f amount of cash and %.4f amount of wheat.", agents.get(i).getCash(), agents.get(i).getWheat());
-			System.out.println();
+			agents.get(i).printAmounts();
 		}
 
 		System.out.println();
@@ -372,22 +384,14 @@ public class Simulation{
 	private static boolean maxUtility(ArrayList<Agent> particpants, Agent one){
 		boolean removed = false;
 
-		if(getDivided(one, 1, false) == getDivided(one, 1, true)){
+		if(one.getDivided(1, false) == one.getDivided(1, true)){
+			int index = particpants.indexOf(one);
 			particpants.remove(particpants.indexOf(one));
 			System.out.println("Agent " + one.getID() + " got removed.");
 			removed = true;
 		}
 
 		return removed;
-	}
-
-
-	private static double getDivided(Agent temp, double numToDivide, boolean cash){
-		if(cash){
-			return ((double)Math.round(temp.getCash()/numToDivide*10000.0))/10000.0;
-		} else {
-			return ((double)Math.round(temp.getWheat()/numToDivide*10000.0))/10000.0;
-		}
 	}
 
 }
