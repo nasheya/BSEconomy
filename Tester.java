@@ -10,6 +10,6 @@ public class Tester {
 		//Simulation2 set2 = new Simulation2(a);
 		//Simulation3 set3 = new Simulation3(5,5,2,2,2,2);
 
-		Simulation newSet = new Simulation(50);
+		Simulation newSet = new Simulation(10);
 	}
 }
