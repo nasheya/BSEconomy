@@ -1,4 +1,5 @@
 /**********
+* MULTI-ROUND SIMULATION (NO COSTS)
 * This simulation simulates haggling between a defined amount of agents in multiple rounds (a set number of rounds). It first distributes an amount of cash and wheat 
 * randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
 * the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 

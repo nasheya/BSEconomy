@@ -1,9 +1,10 @@
 /**********
+* MULTI-ROUND SIMULATION (TAXES AS COST)
 * This simulation simulates haggling between a defined amount of agents. It first distributes an amount of cash and wheat 
 * randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
 * the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 
 * has more cash than they have utility for (dpeending on the Cobb-Douglas Utility function), they will randomly choose to 
-* trade some amount depending on the Rubenstein haggling model.
+* trade some amount depending on the Rubenstein haggling model and the tax amount they have to give.
 */
 
 
