@@ -55,7 +55,13 @@ public class Agent {
 		return exponent;
 	}
 
-	public double getDivided(double numToDivide, boolean cash){
+	/**
+	* This method gives you the rounded amount of some divided amount of 
+	* cash or wheat (depending on the argument).
+	* Ex. If you want half of the cash, it will give you the rounded amount 
+	* of half of the cash
+	*/
+	public double getRoundedAmount(double numToDivide, boolean cash){
 		if(cash){
 			return ((double)Math.round(this.getCash()/numToDivide*10000.0))/10000.0;
 		} else {
@@ -63,7 +69,7 @@ public class Agent {
 		}
 	}
 
-	public void printAmounts(){
+	public void printInfo(){
 		System.out.printf("Agent "+ this.getID() + " has %.4f amount of cash, %.4f amount of wheat, and a %.4f exponent.", this.getCash(), this.getWheat(), this.getExponent());
 		System.out.println();
 	}

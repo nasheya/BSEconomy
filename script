@@ -6,5 +6,4 @@ for i in `seq 1 50`;
 			java Tester -> $fileName
 	done 
 
-#open //Volumes/Macintosh\ HD/Applications/Abscissa.app/
-#open -a "Abscissa.app" 
+open -a Abscissa BeforeCashWheat.txt AfterCashWheat.txt CashWheatLayout.abs
