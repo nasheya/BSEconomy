@@ -24,6 +24,8 @@ public class Simulation{
 
 	static PrintWriter amts1;
 
+	static int tracker = 0;
+
 	public Simulation(int numAgents, int rounds, int maxTime){
 		maxRounds = rounds;
 		maxTimeForHaggling = maxTime;
@@ -36,9 +38,9 @@ public class Simulation{
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("Amounts1.0.txt", true));
+			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("Amounts1.4.txt", true));
 			amts1 = new PrintWriter(amounts1);
-			amts1.println(0 + " " + agents.get(0).getCash() + " " + agents.get(0).getWheat());
+			amts1.println(tracker + " " + agents.get(0).getCash() + " " + agents.get(0).getWheat());
 		} catch(IOException e){
 			System.out.println("Error error! Cannot find file.");
 		}
@@ -48,6 +50,8 @@ public class Simulation{
 		run();
 
 		printAgentInfo();
+
+		amts1.close();
 	}
 
 
@@ -127,9 +131,11 @@ public class Simulation{
 				}
 
 				if(one.getID() == 0){
-					amts1.println((k+i) + " " + one.getCash() + " " + one.getWheat());
+					tracker++;
+					amts1.println(tracker + " " + one.getCash() + " " + one.getWheat());
 				} else if(two.getID() == 0){
-					amts1.println((k+i) + " " + two.getCash() + " " + two.getWheat());
+					tracker++;
+					amts1.println(tracker + " " + two.getCash() + " " + two.getWheat());
 				}	
 
 				i++;
@@ -283,10 +289,10 @@ public class Simulation{
 	* cash and wheat in the entire system.
 	*/
 	private static void distributeCashAndWheat(){
-		agents.get(0).setCash(0.9);
-		agents.get(0).setWheat(0.1);
+		agents.get(0).setCash(0.6);
+		agents.get(0).setWheat(0.4);
 
-		double totalWheat = 0.5 * agents.size() - 0.1;
+		double totalWheat = 0.5 * agents.size() - agents.get(0).getWheat();
 		double distributedWheat = 0;
 
 		//Randomly give each person an amount of wheat, not caring whether or 
