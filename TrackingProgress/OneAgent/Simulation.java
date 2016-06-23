@@ -38,7 +38,7 @@ public class Simulation{
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("Amounts1.4.txt", true));
+			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("Amounts1.5.txt", true));
 			amts1 = new PrintWriter(amounts1);
 			amts1.println(tracker + " " + agents.get(0).getCash() + " " + agents.get(0).getWheat());
 		} catch(IOException e){
@@ -289,8 +289,8 @@ public class Simulation{
 	* cash and wheat in the entire system.
 	*/
 	private static void distributeCashAndWheat(){
-		agents.get(0).setCash(0.6);
-		agents.get(0).setWheat(0.4);
+		agents.get(0).setCash(0.8);
+		agents.get(0).setWheat(0.2);
 
 		double totalWheat = 0.5 * agents.size() - agents.get(0).getWheat();
 		double distributedWheat = 0;
