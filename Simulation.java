@@ -1,5 +1,5 @@
 /**********
-* MULTI-ROUND SIMULATION (NO COSTS, SAME UTILITY, TRANSACTION RATES)
+* MULTI-ROUND SIMULATION (DIFFERENT UTILITY)
 * This simulation simulates haggling between a defined amount of agents. It first distributes an amount of cash and wheat 
 * randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
 * the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 
@@ -25,10 +25,10 @@ public class Simulation{
 	static PrintWriter amts1;
 	static PrintWriter rates;
 
-	static int tracker = 0;
-
-	static int amtTotal = 0;
 	static int amtAgree = 0;
+	static int amtTotal = 0;
+
+	static int tracker = 0;
 
 	public Simulation(int numAgents, int rounds, int maxTime){
 		maxRounds = rounds;
@@ -42,9 +42,9 @@ public class Simulation{
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("AgreementRates2.txt", true));
+			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("AgreementRates4.txt", true));
 			amts1 = new PrintWriter(amounts1);
-			BufferedWriter rates1 = new BufferedWriter(new FileWriter("Rates1.txt", true));
+			BufferedWriter rates1 = new BufferedWriter(new FileWriter("Rates4.txt", true));
 			rates = new PrintWriter(rates1);
 		} catch(IOException e){
 			System.out.println("Error error! Cannot find file.");
@@ -94,31 +94,29 @@ public class Simulation{
 				Agent two = total.get(indexPair);
 
 				//Have to get the rounded amounts of the cash and wheat or else it may mess up
-				double cashAmt1 = one.getRoundedAmount(1, true);
-				double cashAmt2 = two.getRoundedAmount(1, true);
-				double wheatAmt1 = one.getRoundedAmount(1, false);
-				double wheatAmt2 = two.getRoundedAmount(1, false);
+				double cashAmt1 = round(one.getRoundedAmount(1, true)*(1-one.getExponent()) , 4);
+				double cashAmt2 = round(two.getRoundedAmount(1, true)*(1-two.getExponent()) , 4);
+				double wheatAmt1 = round(one.getRoundedAmount(1, false)*one.getExponent() , 4);
+				double wheatAmt2 = round(two.getRoundedAmount(1, false)*two.getExponent() , 4);
 
 				//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
 				if(cashAmt1 > wheatAmt1 && wheatAmt2 > cashAmt2){
 					haggling(one, two);
 
-					tracker++;
-					amts1.println(tracker+" "+(double)amtAgree/amtTotal);
-
 					maxUtility(particpants, one);
 					maxUtility(particpants, two);
+
+					amts1.println(tracker + " " + (double)amtAgree/amtTotal);
 
 					removeAgentsFromHaggling(total, index, indexPair);
 
 				} else if(cashAmt1 < wheatAmt1 && wheatAmt2 < cashAmt2){
 					haggling(two, one);
 
-					tracker++;
-					amts1.println(tracker+" "+(double)amtAgree/amtTotal);
-
 					maxUtility(particpants, one);
 					maxUtility(particpants, two);
+
+					amts1.println(tracker + " " + (double)amtAgree/amtTotal);
 
 					removeAgentsFromHaggling(total, index, indexPair);
 
@@ -169,10 +167,11 @@ public class Simulation{
 		int t = 1;
 		boolean consensus = false;
 
-		double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())/2;
-		double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())/2;
+		double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())*buyer.getExponent();
+		double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())*(1-seller.getExponent());
 
 		amtTotal++;
+		tracker++;
 
 		while(!consensus && t <= maxTimeForHaggling){
 			cash = Math.random() * surplusCash;
@@ -253,8 +252,8 @@ public class Simulation{
 
 		//if *everybody* has an abundance of wheat or cash, don't trade
 		for(int i=0; i<total.size(); i++){
-			double cashAmt = total.get(i).getRoundedAmount(1, true);
-			double wheatAmt = total.get(i).getRoundedAmount(1, false);
+			double cashAmt = round(total.get(i).getRoundedAmount(1, true)*(1-total.get(i).getExponent()), 4);
+			double wheatAmt = round(total.get(i).getRoundedAmount(1, false)*total.get(i).getExponent(), 4);
 
 			if(wheatAmt < cashAmt){
 				moreWheat = false;
@@ -278,7 +277,7 @@ public class Simulation{
 	* NOTE: MUST ALWAYS ROUND OR WILL NOT RECOGNIZE AS AMOUNTS BEING EQUAL
 	*/
 	private static boolean maxUtility(ArrayList<Agent> particpants, Agent one){
-		if(one.getRoundedAmount(1, true) == one.getRoundedAmount(1, false)){
+		if(round((1-one.getExponent())*one.getRoundedAmount(1, true), 4) == round(one.getRoundedAmount(1, false)*one.getExponent(), 4)){
 			int index = particpants.indexOf(one);
 			particpants.remove(index);
 
@@ -297,7 +296,7 @@ public class Simulation{
 	* cash and wheat in the entire system.
 	*/
 	private static void distributeCashAndWheat(){
-		double totalWheat = 0.5 * agents.size();
+		double totalWheat = 0.4 * agents.size();
 		double distributedWheat = 0;
 
 		//Randomly give each person an amount of wheat, not caring whether or 
@@ -313,7 +312,7 @@ public class Simulation{
 		//at most 1 unit of good
 		if(distributedWheat - totalWheat > 0){
 			double leftover = distributedWheat - totalWheat;
-			double amtToEach = (distributedWheat - totalWheat)/(agents.size());
+			double amtToEach = (distributedWheat - totalWheat)/agents.size();
 
 			while(leftover>0){
 				for(int i=0; i<agents.size(); i++){
@@ -324,12 +323,12 @@ public class Simulation{
 					}
 				}
 
-				amtToEach = leftover/(agents.size());
+				amtToEach = leftover/agents.size();
 			}
 			
 		} else if(distributedWheat - totalWheat < 0){
 			double leftover = totalWheat - distributedWheat;
-			double amtToEach = (totalWheat - distributedWheat)/(agents.size());
+			double amtToEach = (totalWheat - distributedWheat)/agents.size();
 
 			while(leftover>0){
 				for(int i=0; i<agents.size(); i++){
@@ -340,7 +339,7 @@ public class Simulation{
 					}
 				}
 
-				amtToEach = leftover/(agents.size());
+				amtToEach = leftover/agents.size();
 			}	
 		}
 
@@ -380,7 +379,7 @@ public class Simulation{
 
 
 	/**
-	* Prints the amount each agent has
+	* Prints the amount each agent has, along with the exponent
 	*/
 	public static void printAgentInfo(){
 		for(int i=0; i<agents.size(); i++){

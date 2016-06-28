@@ -1,5 +1,5 @@
 /**********
-* MULTI-ROUND SIMULATION (NO COSTS, SAME UTILITY, TRANSACTION RATES)
+* MULTI-ROUND SIMULATION (NO COSTS, SAME UTILITY, TRACKING PROGRESS)
 * This simulation simulates haggling between a defined amount of agents. It first distributes an amount of cash and wheat 
 * randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
 * the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 
@@ -42,9 +42,9 @@ public class Simulation{
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("AgreementRates2.txt", true));
+			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("AgreementRates4.txt", true));
 			amts1 = new PrintWriter(amounts1);
-			BufferedWriter rates1 = new BufferedWriter(new FileWriter("Rates1.txt", true));
+			BufferedWriter rates1 = new BufferedWriter(new FileWriter("Rates4.txt", true));
 			rates = new PrintWriter(rates1);
 		} catch(IOException e){
 			System.out.println("Error error! Cannot find file.");
@@ -297,7 +297,7 @@ public class Simulation{
 	* cash and wheat in the entire system.
 	*/
 	private static void distributeCashAndWheat(){
-		double totalWheat = 0.5 * agents.size();
+		double totalWheat = 0.8 * agents.size();
 		double distributedWheat = 0;
 
 		//Randomly give each person an amount of wheat, not caring whether or 
