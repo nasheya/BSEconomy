@@ -42,9 +42,9 @@ public class Simulation{
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("AgreementRates4.txt", true));
+			BufferedWriter amounts1 = new BufferedWriter(new FileWriter("AgreementRates8.txt", true));
 			amts1 = new PrintWriter(amounts1);
-			BufferedWriter rates1 = new BufferedWriter(new FileWriter("Rates4.txt", true));
+			BufferedWriter rates1 = new BufferedWriter(new FileWriter("Rates8.txt", true));
 			rates = new PrintWriter(rates1);
 		} catch(IOException e){
 			System.out.println("Error error! Cannot find file.");
@@ -167,8 +167,10 @@ public class Simulation{
 		int t = 1;
 		boolean consensus = false;
 
-		double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())*buyer.getExponent();
-		double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())*(1-seller.getExponent());
+		//double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())*buyer.getExponent();
+		//double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())*(1-seller.getExponent());
+		double surplusCash = Math.min(buyer.getCash(), seller.getCash());
+		double surplusWheat = Math.min(buyer.getWheat(), seller.getWheat());
 
 		amtTotal++;
 		tracker++;
