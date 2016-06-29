@@ -42,7 +42,7 @@ public class Simulation{
 
 			for(int i=0; i<agents.size(); i++){
 				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
-				beforeU1.println((agents.get(i).getCash()*agents.get(i).getWheat()));
+				beforeU1.println(agents.get(i).getUtility());
 			}
 
 			before1.close();
@@ -68,7 +68,7 @@ public class Simulation{
 			PrintWriter govt1 = new PrintWriter(govt);
 
 			for(int i=0; i<agents.size(); i++){
-				utility1.println(agents.get(i).getCash()*agents.get(i).getWheat());
+				utility1.println(agents.get(i).getUtility());
 				after1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
 				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
 			}

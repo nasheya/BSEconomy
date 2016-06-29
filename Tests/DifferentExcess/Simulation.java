@@ -1,5 +1,5 @@
 /**********
-* MULTI-ROUND SIMULATION (FIXED COSTS, NASH BARGAINING, DIFFERENT UTILITY)
+* TEMPLATE
 * This simulation simulates haggling between a defined amount of agents. It first distributes an amount of cash and wheat 
 * randomly but each agent has 1 unit of good and there is a total of 0.5*(number of agents) amount of cash and wheat within 
 * the system. Then two agents are picked randomly and depending on if one has more wheat than they have utlity for and one 
@@ -17,20 +17,23 @@ public class Simulation{
 
 	static Random rng = new Random();
 
-	static ArrayList<Agent> agents = new ArrayList<Agent>();
+	ArrayList<Agent> agents = new ArrayList<Agent>();
 
 	static int maxTimeForHaggling;
 	static int maxRounds;
-	static double cost;
 
-	static double govtWheat = 0;
-	static double govtCash = 0;
-	
+	// Transaction rates
+	static PrintWriter amts1;
+	static PrintWriter rates;
 
-	public Simulation(int numAgents, int rounds, int maxTime, double c){
+	// Transaction rates
+	int amtAgree = 0;
+	int amtTotal = 0;
+	int tracker = 0;
+
+	public Simulation(int numAgents, int rounds, int maxTime, int integer){
 		maxRounds = rounds;
 		maxTimeForHaggling = maxTime;
-		cost = c;
 
 		for(int i=0; i<numAgents; i++){
 			//give each agent an id number starting from 0 to n-1
@@ -40,10 +43,8 @@ public class Simulation{
 		distributeCashAndWheat();
 
 		try{
-			BufferedWriter before = new BufferedWriter(new FileWriter("BeforeCashWheat.txt", true));
-			PrintWriter before1 = new PrintWriter(before);
-			BufferedWriter beforeU = new BufferedWriter(new FileWriter("BeforeUtility.txt", true));
-			PrintWriter beforeU1 = new PrintWriter(beforeU);
+			PrintWriter before1 = new PrintWriter(new BufferedWriter(new FileWriter("DataFiles/BeforeCashWheat.txt", true)));
+			PrintWriter beforeU1 = new PrintWriter(new BufferedWriter(new FileWriter("DataFiles/BeforeUtility.txt", true)));
 
 			for(int i=0; i<agents.size(); i++){
 				before1.println(agents.get(i).getCash() + "\t" + agents.get(i).getWheat());
@@ -56,6 +57,16 @@ public class Simulation{
 			System.out.println("Error error!");
 		}
 
+		// Transaction rates
+		try{
+			String fileAmts = "DataFiles/Agree/AgreementRates+"+integer+".txt";
+			String fileRates = "DataFiles/Rates/Rates+"+integer+".txt";
+			amts1 = new PrintWriter(new BufferedWriter(new FileWriter(fileAmts, true)));
+			rates = new PrintWriter(new BufferedWriter(new FileWriter(fileRates, true)));
+		} catch(IOException e){
+			System.out.println("Error error! Cannot find file.");
+		}
+
 		printAgentInfo();
 
 		run();
@@ -63,14 +74,9 @@ public class Simulation{
 		printAgentInfo();
 
 		try{
-			BufferedWriter utility = new BufferedWriter(new FileWriter("AfterUtility.txt", true));
-			BufferedWriter amount = new BufferedWriter(new FileWriter("TotalAmount.txt", true));
-			BufferedWriter after = new BufferedWriter(new FileWriter("AfterCashWheat.txt", true));
-			BufferedWriter govt = new BufferedWriter(new FileWriter("GovtCashWheat.txt", true));
-			PrintWriter utility1 = new PrintWriter(utility);
-			PrintWriter amount1 = new PrintWriter(amount);
-			PrintWriter after1 = new PrintWriter(after);
-			PrintWriter govt1 = new PrintWriter(govt);
+			PrintWriter utility1 = new PrintWriter(new BufferedWriter(new FileWriter("DataFiles/AfterUtility.txt", true)));
+			PrintWriter amount1 = new PrintWriter(new BufferedWriter(new FileWriter("DataFiles/TotalAmount.txt", true)));
+			PrintWriter after1 = new PrintWriter(new BufferedWriter(new FileWriter("DataFiles/AfterCashWheat.txt", true)));
 
 			for(int i=0; i<agents.size(); i++){
 				utility1.println(agents.get(i).getUtility());
@@ -78,22 +84,23 @@ public class Simulation{
 				amount1.println((agents.get(i).getCash() + agents.get(i).getWheat()));
 			}
 
-			govt1.println(govtCash + " " + govtWheat);
-
 			utility1.close();
 			amount1.close();
 			after1.close();
-			govt1.close();
 		} catch (IOException e) {
 			System.out.println("Error error!");
 		}
+
+		// Transaction rates
+		// amts1.close();
+		// rates.close();
 	}
 
 
 	/**
 	* Runs the simulation
 	*/
-	public static void run(){
+	public void run(){
 		ArrayList<Agent> total = cloneArraylist(agents);
 		ArrayList<Agent> particpants = cloneArraylist(agents);
 
@@ -135,6 +142,9 @@ public class Simulation{
 					maxUtility(particpants, one);
 					maxUtility(particpants, two);
 
+					//Transaction rates
+					//amts1.println(tracker + " " + (double)amtAgree/amtTotal);
+
 					removeAgentsFromHaggling(total, index, indexPair);
 
 				} else if(cashAmt1 < wheatAmt1 && wheatAmt2 < cashAmt2){
@@ -142,6 +152,9 @@ public class Simulation{
 
 					maxUtility(particpants, one);
 					maxUtility(particpants, two);
+
+					//Transaction rates
+					//amts1.println(tracker + " " + (double)amtAgree/amtTotal);
 
 					removeAgentsFromHaggling(total, index, indexPair);
 
@@ -170,7 +183,6 @@ public class Simulation{
 
 			total = cloneArraylist(particpants);
 		}
-		System.out.println(govtCash + " " + govtWheat);
 	}
 
 
@@ -178,7 +190,7 @@ public class Simulation{
 	* This handles all the haggling between a specific designated buyer and seller.
 	* It follows a special case of the Rubenstein model.
 	*/
-	public static void haggling(Agent buyer, Agent seller){
+	public void haggling(Agent buyer, Agent seller){
 		System.out.println("Agent " + buyer.getID() + " is the buyer and Agent " + seller.getID() + " is the seller.");
 		System.out.printf("The original payoffs are %.4f for the buyer and %.4f for the seller." , buyer.getUtility(), seller.getUtility());
 		System.out.println();
@@ -190,21 +202,25 @@ public class Simulation{
 
 		double cash = 0;
 		double wheat = 0;
-		double alpha = 0;
 		int t = 1;
 		boolean consensus = false;
 
-		double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())*buyer.getExponent();
-		double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())*(1-seller.getExponent());
+		//double surplusCash = buyer.getCash() - (buyer.getCash()+buyer.getWheat())*buyer.getExponent();
+		//double surplusWheat = seller.getWheat() - (seller.getCash()+seller.getWheat())*(1-seller.getExponent());
+		double surplusCash = Math.min(buyer.getCash(), seller.getCash());
+		double surplusWheat = Math.min(buyer.getWheat(), seller.getWheat());
+
+		//Transaction rates
+		amtTotal++;
+		tracker++;
 
 		while(!consensus && t <= maxTimeForHaggling){
 			cash = Math.random() * surplusCash;
 			wheat = Math.random() * surplusWheat;
-			alpha = maxAlpha(buyer, seller, cash, wheat, t);
 
 			//if it is an odd numbered time
 			if(t%2 == 1){
-				double bPayoff = buyer.findUtility(buyer.getCash()-cash*Math.pow(d1, t-1), buyer.getWheat()+wheat*Math.pow(d1, t-1)-alpha*cost*(wheat/cash));
+				double bPayoff = buyer.findUtility(buyer.getCash()-cash*Math.pow(d1, t-1), buyer.getWheat()+wheat*Math.pow(d1, t-1));
 
 				int i = 0;
 
@@ -212,20 +228,19 @@ public class Simulation{
 				while(bPayoff <= buyer.getUtility() && i<100){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
-					alpha = maxAlpha(buyer, seller, cash, wheat, t);
-					bPayoff = buyer.findUtility(buyer.getCash()-cash*Math.pow(d1, t-1), buyer.getWheat()+wheat*Math.pow(d1, t-1)-alpha*cost*(wheat/cash));
+					bPayoff = buyer.findUtility(buyer.getCash()-cash*Math.pow(d1, t-1), buyer.getWheat()+wheat*Math.pow(d1, t-1));
 					i++;
 				}
 				
 				//see if the amount works for the seller
-				double sPayoff = seller.findUtility(seller.getCash()+cash*Math.pow(d2, t-1)-(1-alpha)*cost, seller.getWheat()-wheat*Math.pow(d2, t-1));
+				double sPayoff = seller.findUtility(seller.getCash()+cash*Math.pow(d2, t-1), seller.getWheat()-wheat*Math.pow(d2, t-1));
 
 				if(sPayoff>seller.getUtility() && bPayoff>buyer.getUtility()){
 					consensus = true;
 				}
 
 			} else {
-				double sPayoff = seller.findUtility(seller.getCash()+cash*Math.pow(d2, t-1)-(1-alpha)*cost, seller.getWheat()-wheat*Math.pow(d2, t-1));
+				double sPayoff = seller.findUtility(seller.getCash()+cash*Math.pow(d2, t-1), seller.getWheat()-wheat*Math.pow(d2, t-1));
 
 				int i = 0;
 
@@ -233,13 +248,12 @@ public class Simulation{
 				while(sPayoff <= seller.getUtility() && i<100){
 					cash = Math.random() * surplusCash;
 					wheat = Math.random() * surplusWheat;
-					alpha = maxAlpha(buyer, seller, cash, wheat, t);
-					sPayoff = seller.findUtility(seller.getCash()+cash*Math.pow(d2, t-1)-(1-alpha)*cost, seller.getWheat()-wheat*Math.pow(d2, t-1));
+					sPayoff = seller.findUtility(seller.getCash()+cash*Math.pow(d2, t-1), seller.getWheat()-wheat*Math.pow(d2, t-1));
 					i++;
 				}
 				
 				//see if the amount works for the buyer
-				double bPayoff = buyer.findUtility(buyer.getCash()-cash*Math.pow(d1, t-1), buyer.getWheat()+wheat*Math.pow(d1, t-1)-alpha*cost*(wheat/cash));
+				double bPayoff = buyer.findUtility(buyer.getCash()-cash*Math.pow(d1, t-1), buyer.getWheat()+wheat*Math.pow(d1, t-1));
 
 				if(sPayoff>seller.getUtility() && bPayoff>buyer.getUtility()){
 					consensus = true;
@@ -251,17 +265,18 @@ public class Simulation{
 
 		if(consensus == true){
 			buyer.setCash(buyer.getCash() - cash);
-			buyer.setWheat(buyer.getWheat() + wheat - alpha*cost*(wheat/cash));
-			govtWheat += alpha*cost*(wheat/cash);
+			buyer.setWheat(buyer.getWheat() + wheat);
 
-			seller.setCash(seller.getCash() + cash - (1-alpha)*cost);
+			seller.setCash(seller.getCash() + cash);
 			seller.setWheat(seller.getWheat() - wheat);
-			govtCash += (1-alpha)*cost;
 
 			System.out.println("They came to a consensus at time " + (t-1));
 			System.out.printf("The buyer gave %.4f cash and the seller gave %.4f wheat to the buyer.", cash, wheat);
 			System.out.println();
-			System.out.println("Alpha was "+ alpha);
+			
+			//Transaction rates
+			amtAgree++;
+			//rates.println(amtAgree+" "+cash/wheat);
 		} else {
 			System.out.println("The buyer and seller could not come to a consensus.");
 		}
@@ -319,53 +334,11 @@ public class Simulation{
 
 
 	/**
-	* Given two agents and the amounts they intend to trade as well as the time of the turn 
-	* they are in, this method finds the alpha that maximizes the product of the change in 
-	* utility for both the buyer and seller.
-	*/
-	private static double maxAlpha(Agent one, Agent two, double cash, double wheat, int time){
-		double alpha = 0;
-		double maxVal = Integer.MIN_VALUE;
-
-		for(double i=0; i<=1; i+=0.05){
-			double val = equation(one, two, cash, wheat, time, i);
-
-			if(maxVal<val){
-				maxVal = val;
-				alpha = i;
-			}
-		}
-
-		return alpha;
-	}
-
-
-	/**
-	* This is the equation for maximizing alpha. It multiplies the change in utility from both players.
-	* It was verified it was right by hand.
-	*/
-	private static double equation(Agent one, Agent two, double cash, double wheat, int time, double alpha){
-		//Agent one's potential new utility
-		double part11 = one.findUtility(one.getCash()-Math.pow(one.getDelta(), time-1)*cash, one.getWheat()+Math.pow(one.getDelta(), time-1)*wheat - alpha*cost*(wheat/cash));
-		//The change in utility for agent one
-		double part12 = part11 - one.getUtility();
-
-		//Agent two's potential new utility
-		double part21 = two.findUtility(two.getCash()+Math.pow(two.getDelta(), time-1)*cash - (1-alpha)*cost, two.getWheat()-Math.pow(two.getDelta(), time-1)*wheat);
-		//The change in utility for agent two
-		double part22 = part21 - two.getUtility();
-
-		//multiply the change in utility for both parties
-		return part12*part22;
-	}
-
-
-	/**
 	* This method distributes the amount of wheat and cash such that each agent 
 	* has a total unit of good and that there is only 0.5 * numAgents amount of
 	* cash and wheat in the entire system.
 	*/
-	private static void distributeCashAndWheat(){
+	private void distributeCashAndWheat(){
 		double totalWheat = 0.5 * agents.size();
 		double distributedWheat = 0;
 
@@ -451,7 +424,7 @@ public class Simulation{
 	/**
 	* Prints the amount each agent has, along with the exponent
 	*/
-	public static void printAgentInfo(){
+	public void printAgentInfo(){
 		for(int i=0; i<agents.size(); i++){
 			agents.get(i).printInfo();
 		}

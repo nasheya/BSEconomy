@@ -1,5 +1,6 @@
 import Jama.*;
 import java.util.ArrayList;
+import java.io.*;
 
 public class Tester {
 	public static void main(String[] args){
@@ -10,6 +11,18 @@ public class Tester {
 		//Simulation2 set2 = new Simulation2(a);
 		//Simulation3 set3 = new Simulation3(5,5,2,2,2,2);
 
-		Simulation newSet = new Simulation(50, 500, 5);
+		for(int i=1; i<=Integer.parseInt(args[0]); i++){
+			try{
+				File file = new File("Output/Output"+i+".txt");
+				FileOutputStream fis = new FileOutputStream(file);
+				PrintStream out = new PrintStream(fis);
+				System.setOut(out);
+				Simulation newSet = new Simulation(50, 50, 5, i);
+			} catch(IOException e){
+				System.err.println("Error error!");
+			}
+			
+		}
+		
 	}
 }

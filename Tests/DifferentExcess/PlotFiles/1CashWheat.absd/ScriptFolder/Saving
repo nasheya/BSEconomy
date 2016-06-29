@@ -1,0 +1,7 @@
+print TO_ABS "-x saveDocument -f /Users/nr2rt/Desktop/BSEconomy/PlotFiles/1CashWheat.absd -bY -kN\n";
+die "Can't save document! Script stopped \n" unless <FROM_ABS> =~ /succeeded/;
+print TO_ABS "-x display -rY\n";
+print TO_ABS "-x savePNG -f /Users/nr2rt/Desktop/BSEconomy/Graphs/1CashWheat.png\n";
+die "Can't save PNG file! Script stopped \n" unless <FROM_ABS> =~ /succeeded/;
+print TO_ABS "-x saveDocument -f /Users/nr2rt/Desktop/BSEconomy/PlotFiles/1CashWheat.absd -bY -kN\n";
+die "Can't save document! Script stopped \n" unless <FROM_ABS> =~ /succeeded/;

@@ -1,9 +1,23 @@
+mkdir Output
+mkdir PlotFiles
+mkdir DataFiles
+mkdir Graphs
+
+cd DataFiles
+mkdir Agree
+mkdir Rates
+
+cd ..
+
 javac *.java
 
-for i in `seq 1 50`;
-	do
-			fileName=Output/simulation$i.txt
-			java Tester -> $fileName
-	done 
+#for i in `seq 1 50`;
+	#do
+			#fileName=Output/simulation$i.txt
+			#java Tester -> $fileName
+	#done 
 
-open -a Abscissa BeforeCashWheat.txt AfterCashWheat.txt CashWheatLayout.abs
+java Tester 50
+
+open -a Abscissa DataFiles/BeforeCashWheat.txt DataFiles/AfterCashWheat.txt LayoutsGeneral/CashWheatLayout.abs
+open -a MATLAB_R2015a matlabScript.m
