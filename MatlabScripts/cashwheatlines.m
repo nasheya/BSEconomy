@@ -1,0 +1,22 @@
+% % % Cash Wheat Graph % % % 
+a = importdata('../../Desktop/BSEconomy/DataFiles/AfterCashWheat.txt');
+b = importdata('../../Desktop/BSEconomy/DataFiles/BeforeCashWheat.txt');
+plot(b(1:2500,1:1),b(1:2500,2:2));
+hold on;
+plot(a(1:2500,1:1),a(1:2500,2:2),'.');
+xlabel('Cash');
+ylabel('Wheat');
+title('Cash and Wheat Distribution of 50 Simulations with a 25% Tax (50 Players, 500 Rounds)');
+legend('Before','After');
+x = linspace(0,1);
+y=9/16*x;
+plot(x,y);
+txt1 = 'm=9/16';
+text(1.01,9/16,txt1);
+y=16/9*x;
+plot(x,y);
+txt1 = 'm=16/9';
+text(1.01,16/9,txt1);
+savefig('../../Desktop/BSEconomy/PlotFiles/CashWheatLines.fig');
+print('../../Desktop/BSEconomy/Graphs/CashWheatLines.png','-dpng');
+close();
