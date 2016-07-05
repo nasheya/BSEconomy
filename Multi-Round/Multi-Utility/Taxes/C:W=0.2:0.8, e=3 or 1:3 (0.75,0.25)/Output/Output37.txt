@@ -1,0 +1,2515 @@
+Agent 0 has 0.4272 amount of cash, 0.5728 amount of wheat, and a 0.2500 exponent.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 3 has 0.2523 amount of cash, 0.7477 amount of wheat, and a 0.2500 exponent.
+Agent 4 has 0.4562 amount of cash, 0.5438 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 6 has 0.3490 amount of cash, 0.6510 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0355 amount of cash, 0.9645 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1243 amount of cash, 0.8757 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.0226 amount of cash, 0.9774 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 12 has 0.3778 amount of cash, 0.6222 amount of wheat, and a 0.2500 exponent.
+Agent 13 has 0.4499 amount of cash, 0.5501 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.3150 amount of cash, 0.6850 amount of wheat, and a 0.2500 exponent.
+Agent 15 has 0.1472 amount of cash, 0.8528 amount of wheat, and a 0.2500 exponent.
+Agent 16 has 0.2729 amount of cash, 0.7271 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.4920 amount of cash, 0.5080 amount of wheat, and a 0.2500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0193 amount of cash, 0.9807 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 22 has 0.2816 amount of cash, 0.7184 amount of wheat, and a 0.2500 exponent.
+Agent 23 has 0.5094 amount of cash, 0.4906 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2375 amount of cash, 0.7625 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.5713 amount of cash, 0.4287 amount of wheat, and a 0.7500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.3045 amount of cash, 0.6955 amount of wheat, and a 0.7500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+Agent 39 has 0.1034 amount of cash, 0.8966 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.0867 amount of cash, 0.9133 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+Agent 43 has 0.4090 amount of cash, 0.5910 amount of wheat, and a 0.7500 exponent.
+Agent 44 has 0.0789 amount of cash, 0.9211 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1620 amount of cash, 0.8380 amount of wheat, and a 0.7500 exponent.
+Agent 47 has 0.2361 amount of cash, 0.7639 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 49 has 0.0560 amount of cash, 0.9440 amount of wheat, and a 0.7500 exponent.
+
+
+ROUND 1 WITH 50 AGENTS
+Round 0
+Agent 22 is the buyer and Agent 25 is the seller.
+The original payoffs are 0.5684 for the buyer and 0.3179 for the seller.
+Agent 22 has 0.2816 amount of cash, 0.7184 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2375 amount of cash, 0.7625 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0009 cash and the seller gave 0.0036 wheat to the buyer.
+
+Round 1
+Agents 42 and 33 could not trade.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 2
+Agents 42 and 11 could not trade.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 3
+Agents 34 and 36 could not trade.
+Agent 34 has 0.3045 amount of cash, 0.6955 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 4
+Agent 6 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5570 for the buyer and 0.4224 for the seller.
+Agent 6 has 0.3490 amount of cash, 0.6510 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0355 amount of cash, 0.9645 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0270 cash and the seller gave 0.0539 wheat to the buyer.
+
+Round 5
+Agent 23 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.4952 for the buyer and 0.5317 for the seller.
+Agent 23 has 0.5094 amount of cash, 0.4906 amount of wheat, and a 0.2500 exponent.
+Agent 30 has 0.5713 amount of cash, 0.4287 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.1022 cash and the seller gave 0.1274 wheat to the buyer.
+
+Round 6
+Agents 29 and 15 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 15 has 0.1472 amount of cash, 0.8528 amount of wheat, and a 0.2500 exponent.
+
+Round 7
+Agents 33 and 1 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agents 28 and 48 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 9
+Agents 36 and 48 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 10
+Agents 20 and 8 could not trade.
+Agent 20 has 0.0193 amount of cash, 0.9807 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+
+Round 11
+Agent 3 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5699 for the buyer and 0.2443 for the seller.
+Agent 3 has 0.2523 amount of cash, 0.7477 amount of wheat, and a 0.2500 exponent.
+Agent 46 has 0.1620 amount of cash, 0.8380 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0021 cash and the seller gave 0.0129 wheat to the buyer.
+
+Round 12
+Agents 34 and 36 could not trade.
+Agent 34 has 0.3045 amount of cash, 0.6955 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 13
+Agents 43 and 35 could not trade.
+Agent 43 has 0.4090 amount of cash, 0.5910 amount of wheat, and a 0.7500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 14
+Agents 41 and 33 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 15
+Agents 29 and 20 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 20 has 0.0193 amount of cash, 0.9807 amount of wheat, and a 0.2500 exponent.
+
+Round 16
+Agents 31 and 36 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 17
+Agents 16 and 4 could not trade.
+Agent 16 has 0.2729 amount of cash, 0.7271 amount of wheat, and a 0.2500 exponent.
+Agent 4 has 0.4562 amount of cash, 0.5438 amount of wheat, and a 0.2500 exponent.
+
+Round 18
+Agents 39 and 11 could not trade.
+Agent 39 has 0.1034 amount of cash, 0.8966 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 19
+Agents 9 and 44 could not trade.
+Agent 9 has 0.1243 amount of cash, 0.8757 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.0789 amount of cash, 0.9211 amount of wheat, and a 0.7500 exponent.
+
+Round 20
+Agent 14 is the buyer and Agent 49 is the seller.
+The original payoffs are 0.5641 for the buyer and 0.1135 for the seller.
+Agent 14 has 0.3150 amount of cash, 0.6850 amount of wheat, and a 0.2500 exponent.
+Agent 49 has 0.0560 amount of cash, 0.9440 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0542 cash and the seller gave 0.4607 wheat to the buyer.
+
+Round 21
+Agent 0 is the buyer and Agent 47 is the seller.
+The original payoffs are 0.5323 for the buyer and 0.3166 for the seller.
+Agent 0 has 0.4272 amount of cash, 0.5728 amount of wheat, and a 0.2500 exponent.
+Agent 47 has 0.2361 amount of cash, 0.7639 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1623 cash and the seller gave 0.4633 wheat to the buyer.
+
+Round 22
+Agents 42 and 26 could not trade.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 23
+Agents 43 and 21 could not trade.
+Agent 43 has 0.4090 amount of cash, 0.5910 amount of wheat, and a 0.7500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 24
+Agents 28 and 44 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 44 has 0.0789 amount of cash, 0.9211 amount of wheat, and a 0.7500 exponent.
+
+Round 25
+Agents 11 and 42 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+
+Round 26
+Agent 4 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.5204 for the buyer and 0.3744 for the seller.
+Agent 4 has 0.4562 amount of cash, 0.5438 amount of wheat, and a 0.2500 exponent.
+Agent 34 has 0.3045 amount of cash, 0.6955 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.2019 cash and the seller gave 0.2950 wheat to the buyer.
+
+Round 27
+Agent 12 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.5492 for the buyer and 0.5497 for the seller.
+Agent 12 has 0.3778 amount of cash, 0.6222 amount of wheat, and a 0.2500 exponent.
+Agent 15 has 0.1472 amount of cash, 0.8528 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 3
+The buyer gave 0.0339 cash and the seller gave 0.0303 wheat to the buyer.
+
+Round 28
+Agents 19 and 11 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 29
+Agent 13 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.5231 for the buyer and 0.5375 for the seller.
+Agent 13 has 0.4499 amount of cash, 0.5501 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1243 amount of cash, 0.8757 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0036 cash and the seller gave 0.0043 wheat to the buyer.
+
+Round 30
+Agents 36 and 1 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+
+Round 31
+Agents 45 and 21 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 32
+Agents 2 and 37 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 37 and 45 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 34
+Agents 2 and 45 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 35
+Agent 16 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5691 for the buyer and 0.3674 for the seller.
+Agent 16 has 0.2729 amount of cash, 0.7271 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0193 amount of cash, 0.9807 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0134 cash and the seller gave 0.0536 wheat to the buyer.
+
+Round 36
+Agents 39 and 5 could not trade.
+Agent 39 has 0.1034 amount of cash, 0.8966 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 37
+Agents 8 and 33 could not trade.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 38
+Agents 31 and 24 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 39
+Agents 29 and 5 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 40
+Agents 41 and 36 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 41
+Agents 26 and 33 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 42
+Agents 8 and 41 could not trade.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 43
+Agents 1 and 31 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+
+Round 44
+Agents 28 and 42 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+
+Round 45
+Agents 35 and 42 could not trade.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+
+Round 46
+Agent 18 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.5040 for the buyer and 0.1562 for the seller.
+Agent 18 has 0.4920 amount of cash, 0.5080 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.0867 amount of cash, 0.9133 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.2348 cash and the seller gave 0.6360 wheat to the buyer.
+
+Round 47
+Agents 26 and 48 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+
+ROUND 2 WITH 50 AGENTS
+Round 0
+Agents 34 and 46 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 1
+Agents 34 and 25 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 2
+Agents 1 and 17 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 3
+Agents 20 and 49 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+
+Round 4
+Agents 21 and 15 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+
+Round 5
+Agents 1 and 38 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+
+Round 6
+Agents 31 and 30 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 7
+Agents 38 and 21 could not trade.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agent 12 is the buyer and Agent 43 is the seller.
+The original payoffs are 0.5511 for the buyer and 0.4484 for the seller.
+Agent 12 has 0.3439 amount of cash, 0.6449 amount of wheat, and a 0.2500 exponent.
+Agent 43 has 0.4090 amount of cash, 0.5910 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0927 cash and the seller gave 0.2185 wheat to the buyer.
+
+Round 9
+Agent 16 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.5852 for the buyer and 0.5350 for the seller.
+Agent 16 has 0.2595 amount of cash, 0.7673 amount of wheat, and a 0.2500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agents 41 and 45 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 11
+Agents 44 and 41 could not trade.
+Agent 44 has 0.0789 amount of cash, 0.9211 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 12
+Agents 7 and 27 could not trade.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+
+Round 13
+Agents 11 and 21 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 14
+Agents 18 and 33 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 15
+Agents 20 and 46 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 16
+Agents 18 and 48 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 17
+Agents 48 and 14 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 18
+Agents 48 and 25 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 19
+Agents 26 and 2 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 20
+Agents 8 and 29 could not trade.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+
+Round 21
+Agents 20 and 10 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.0226 amount of cash, 0.9774 amount of wheat, and a 0.2500 exponent.
+
+Round 22
+Agents 11 and 33 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 23
+Agents 41 and 46 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 24
+Agents 20 and 21 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 25
+Agent 23 is the buyer and Agent 42 is the seller.
+The original payoffs are 0.5351 for the buyer and 0.0047 for the seller.
+Agent 23 has 0.4073 amount of cash, 0.5861 amount of wheat, and a 0.2500 exponent.
+Agent 42 has 0.0008 amount of cash, 0.9992 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1364 cash and the seller gave 0.1287 wheat to the buyer.
+
+Round 26
+Agents 49 and 46 could not trade.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 27
+Agents 28 and 3 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+
+Round 28
+Agents 21 and 11 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 29
+Agents 3 and 20 could not trade.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 30
+Agents 14 and 3 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+
+Round 31
+Agents 14 and 32 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 32
+Agents 20 and 39 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1034 amount of cash, 0.8966 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 25 and 15 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+
+Round 34
+Agents 46 and 44 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 44 has 0.0789 amount of cash, 0.9211 amount of wheat, and a 0.7500 exponent.
+
+Round 35
+Agents 27 and 38 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+
+Round 36
+Agents 9 and 48 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 37
+Agent 6 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5712 for the buyer and 0.1458 for the seller.
+Agent 6 has 0.3221 amount of cash, 0.6914 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.0789 amount of cash, 0.9211 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0669 cash and the seller gave 0.5590 wheat to the buyer.
+
+Round 38
+Agents 15 and 4 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 39
+Agents 26 and 18 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 40
+Agents 24 and 5 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 41
+Agents 31 and 18 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 42
+Agents 49 and 26 could not trade.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 43
+Agents 48 and 41 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 44
+Agents 5 and 33 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 45
+Agent 22 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.5696 for the buyer and 0.5598 for the seller.
+Agent 22 has 0.2807 amount of cash, 0.7211 amount of wheat, and a 0.2500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 46
+Agents 10 and 8 could not trade.
+Agent 10 has 0.0226 amount of cash, 0.9774 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+
+Round 47
+Agents 17 and 24 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 48
+Agents 21 and 27 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+
+Round 49
+Agents 41 and 4 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 50
+Agents 29 and 25 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 51
+Agents 32 and 28 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+
+Round 52
+Agents 41 and 4 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 53
+Agents 33 and 39 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 39 has 0.1034 amount of cash, 0.8966 amount of wheat, and a 0.7500 exponent.
+
+Round 54
+Agents 7 and 47 could not trade.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+
+Round 55
+Agents 20 and 7 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+
+Round 56
+Agents 45 and 20 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 57
+Agents 8 and 32 could not trade.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 58
+Agents 9 and 26 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 59
+Agents 45 and 40 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 60
+Agents 49 and 20 could not trade.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 61
+Agents 32 and 10 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 10 has 0.0226 amount of cash, 0.9774 amount of wheat, and a 0.2500 exponent.
+
+Round 62
+Agent 13 is the buyer and Agent 10 is the seller.
+The original payoffs are 0.5244 for the buyer and 0.3812 for the seller.
+Agent 13 has 0.4463 amount of cash, 0.5533 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.0226 amount of cash, 0.9774 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1050 cash and the seller gave 0.1148 wheat to the buyer.
+
+Round 63
+Agents 21 and 47 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+
+
+ROUND 3 WITH 50 AGENTS
+Round 0
+Agents 1 and 4 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 1
+Agent 13 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.5465 for the buyer and 0.5350 for the seller.
+Agent 13 has 0.3414 amount of cash, 0.6394 amount of wheat, and a 0.2500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agents 36 and 40 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 3
+Agents 35 and 7 could not trade.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+
+Round 4
+Agents 47 and 26 could not trade.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 5
+Agents 38 and 5 could not trade.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 6
+Agents 17 and 25 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 7
+Agents 19 and 24 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agents 6 and 40 could not trade.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 9
+Agents 36 and 26 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 10
+Agents 44 and 5 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 11
+Agents 24 and 18 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 12
+Agents 25 and 11 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 13
+Agents 34 and 40 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 14
+Agents 11 and 31 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+
+Round 15
+Agents 47 and 10 could not trade.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 16
+Agents 18 and 5 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 17
+Agents 44 and 14 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 18
+Agents 47 and 32 could not trade.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 19
+Agents 48 and 33 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 20
+Agents 4 and 7 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+
+Round 21
+Agents 14 and 35 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 22
+Agent 23 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.5418 for the buyer and 0.1774 for the seller.
+Agent 23 has 0.2709 amount of cash, 0.6826 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1034 amount of cash, 0.8966 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0085 cash and the seller gave 0.0668 wheat to the buyer.
+
+Round 23
+Agents 40 and 19 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 24
+Agents 34 and 20 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 25
+Agents 27 and 45 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 26
+Agents 24 and 41 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 27
+Agents 38 and 5 could not trade.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 28
+Agents 5 and 20 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 29
+Agents 37 and 21 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 30
+Agents 35 and 43 could not trade.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+
+Round 31
+Agents 38 and 49 could not trade.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+
+Round 32
+Agents 3 and 32 could not trade.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 7 and 8 could not trade.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+
+Round 34
+Agents 5 and 41 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 35
+Agents 37 and 2 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 36
+Agents 36 and 9 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 37
+Agents 49 and 2 could not trade.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 38
+Agents 38 and 37 could not trade.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 39
+Agents 10 and 41 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 40
+Agents 36 and 11 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 41
+Agents 17 and 43 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+
+Round 42
+Agents 24 and 9 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 43
+Agents 29 and 34 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 44
+Agents 43 and 36 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 45
+Agents 34 and 41 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 46
+Agents 19 and 11 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 47
+Agents 36 and 9 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 48
+Agents 40 and 14 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 49
+Agents 33 and 5 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 50
+Agents 4 and 45 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 51
+Agent 16 is the buyer and Agent 47 is the seller.
+The original payoffs are 0.5852 for the buyer and 0.3425 for the seller.
+Agent 16 has 0.2595 amount of cash, 0.7673 amount of wheat, and a 0.2500 exponent.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 52
+Agents 0 and 18 could not trade.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 53
+Agents 20 and 11 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 54
+Agents 26 and 2 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 55
+Agents 2 and 35 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 56
+Agents 44 and 33 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 57
+Agents 14 and 38 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+
+Round 58
+Agents 41 and 21 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 59
+Agents 18 and 1 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+
+Round 60
+Agents 1 and 31 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+
+Round 61
+Agents 48 and 1 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+
+Round 62
+Agents 46 and 6 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+
+Round 63
+Agents 11 and 17 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 64
+Agents 3 and 28 could not trade.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+
+Round 65
+Agents 34 and 36 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 66
+Agents 1 and 45 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 67
+Agents 29 and 31 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+
+Round 68
+Agents 25 and 11 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 69
+Agents 46 and 14 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 70
+Agents 45 and 14 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 71
+Agents 29 and 48 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 72
+Agents 46 and 5 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 73
+Agents 5 and 19 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 74
+Agents 43 and 42 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+
+Round 75
+Agents 43 and 6 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+
+Round 76
+Agents 4 and 10 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 77
+Agents 1 and 35 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 78
+Agents 46 and 29 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+
+Round 79
+Agent 22 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.5696 for the buyer and 0.3983 for the seller.
+Agent 22 has 0.2807 amount of cash, 0.7211 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0273 amount of cash, 0.9727 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0085 cash and the seller gave 0.0618 wheat to the buyer.
+
+Round 80
+Agents 33 and 4 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+
+ROUND 4 WITH 50 AGENTS
+Round 0
+Agents 10 and 40 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 1
+Agents 1 and 21 could not trade.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 2
+Agents 19 and 37 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 3
+Agents 2 and 11 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 4
+Agent 16 is the buyer and Agent 12 is the seller.
+The original payoffs are 0.5852 for the buyer and 0.6038 for the seller.
+Agent 16 has 0.2595 amount of cash, 0.7673 amount of wheat, and a 0.2500 exponent.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agents 14 and 27 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+
+Round 6
+Agents 25 and 26 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 7
+Agents 40 and 37 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 8
+Agents 26 and 38 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+
+Round 9
+Agents 21 and 45 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 10
+Agents 29 and 21 could not trade.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 11
+Agents 17 and 2 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 12
+Agents 5 and 32 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 13
+Agents 21 and 24 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 14
+Agents 17 and 10 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 15
+Agent 22 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.5923 for the buyer and 0.2721 for the seller.
+Agent 22 has 0.2723 amount of cash, 0.7675 amount of wheat, and a 0.2500 exponent.
+Agent 29 has 0.1890 amount of cash, 0.8110 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0073 cash and the seller gave 0.0183 wheat to the buyer.
+
+Round 16
+Agents 15 and 14 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 17
+Agents 25 and 39 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 18
+Agent 23 is the buyer and Agent 49 is the seller.
+The original payoffs are 0.5668 for the buyer and 0.1446 for the seller.
+Agent 23 has 0.2624 amount of cash, 0.7327 amount of wheat, and a 0.2500 exponent.
+Agent 49 has 0.0967 amount of cash, 0.4833 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0136 cash and the seller gave 0.0888 wheat to the buyer.
+
+Round 19
+Agents 40 and 47 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+
+Round 20
+Agents 15 and 42 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+
+Round 21
+Agents 10 and 40 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 22
+Agents 48 and 5 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 23
+Agents 4 and 35 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 24
+Agents 39 and 6 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+
+Round 25
+Agents 39 and 40 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 26
+Agents 10 and 34 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 27
+Agents 46 and 43 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+
+Round 28
+Agents 44 and 38 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+
+Round 29
+Agents 37 and 38 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+
+Round 30
+Agents 26 and 35 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 31
+Agents 45 and 44 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 32
+Agents 27 and 10 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 33
+Agents 7 and 9 could not trade.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 34
+Agents 14 and 24 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 35
+Agents 37 and 9 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 36
+Agents 15 and 28 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+
+Round 37
+Agents 39 and 34 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 38
+Agents 34 and 47 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+
+Round 39
+Agents 20 and 11 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 40
+Agents 17 and 27 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+
+Round 41
+Agents 30 and 36 could not trade.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 42
+Agents 6 and 36 could not trade.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 43
+Agents 32 and 31 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+
+Round 44
+Agents 0 and 30 could not trade.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 45
+Agent 13 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5465 for the buyer and 0.4529 for the seller.
+Agent 13 has 0.3414 amount of cash, 0.6394 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0557 amount of cash, 0.9106 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0258 cash and the seller gave 0.0556 wheat to the buyer.
+
+Round 46
+Agents 41 and 32 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+
+ROUND 5 WITH 50 AGENTS
+Round 0
+Agent 13 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5619 for the buyer and 0.5548 for the seller.
+Agent 13 has 0.3155 amount of cash, 0.6811 amount of wheat, and a 0.2500 exponent.
+Agent 1 has 0.1596 amount of cash, 0.8404 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 3
+The buyer gave 0.0353 cash and the seller gave 0.0413 wheat to the buyer.
+
+Round 1
+Agents 11 and 20 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 2
+Agents 21 and 19 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 3
+Agents 11 and 36 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 4
+Agents 12 and 29 could not trade.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+
+Round 5
+Agents 35 and 34 could not trade.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 6
+Agents 14 and 36 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 7
+Agents 41 and 15 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agents 37 and 48 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 9
+Agents 43 and 17 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 10
+Agents 23 and 20 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 11
+Agents 28 and 24 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 12
+Agent 16 is the buyer and Agent 14 is the seller.
+The original payoffs are 0.5852 for the buyer and 0.7309 for the seller.
+Agent 16 has 0.2595 amount of cash, 0.7673 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agents 43 and 17 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 14
+Agents 25 and 11 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 15
+Agents 35 and 11 could not trade.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 16
+Agent 22 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5962 for the buyer and 0.3695 for the seller.
+Agent 22 has 0.2650 amount of cash, 0.7812 amount of wheat, and a 0.2500 exponent.
+Agent 38 has 0.2983 amount of cash, 0.7017 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0015 cash and the seller gave 0.0048 wheat to the buyer.
+
+Round 17
+Agents 44 and 4 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+
+ROUND 6 WITH 50 AGENTS
+Round 0
+Agents 4 and 40 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 1
+Agents 41 and 23 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+
+Round 2
+Agents 47 and 11 could not trade.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+
+Round 3
+Agents 24 and 3 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+
+Round 4
+Agents 11 and 44 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 5
+Agents 20 and 26 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 6
+Agents 23 and 33 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 7
+Agents 44 and 9 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agents 26 and 15 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+
+Round 9
+Agents 3 and 9 could not trade.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 10
+Agent 16 is the buyer and Agent 21 is the seller.
+The original payoffs are 0.5852 for the buyer and 0.5696 for the seller.
+Agent 16 has 0.2595 amount of cash, 0.7673 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agents 31 and 17 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 12
+Agents 46 and 39 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 13
+Agents 43 and 33 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 14
+Agents 25 and 19 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 15
+Agents 49 and 43 could not trade.
+Agent 49 has 0.1069 amount of cash, 0.3944 amount of wheat, and a 0.7500 exponent.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+
+Round 16
+Agents 26 and 2 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 17
+Agents 42 and 18 could not trade.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 18
+Agents 23 and 0 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+
+Round 19
+Agents 33 and 30 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 20
+Agents 34 and 8 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 21
+Agents 10 and 7 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0751 amount of cash, 0.8550 amount of wheat, and a 0.2500 exponent.
+
+Round 22
+Agents 24 and 44 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 23
+Agents 20 and 45 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 24
+Agents 6 and 46 could not trade.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 25
+Agents 10 and 17 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 26
+Agents 45 and 38 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.2995 amount of cash, 0.6969 amount of wheat, and a 0.7500 exponent.
+
+Round 27
+Agents 9 and 5 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 28
+Agents 19 and 18 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 29
+Agents 46 and 10 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 30
+Agents 38 and 42 could not trade.
+Agent 38 has 0.2995 amount of cash, 0.6969 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+
+Round 31
+Agents 48 and 8 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 32
+Agents 30 and 29 could not trade.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 46 and 4 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 34
+Agents 41 and 33 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 35
+Agents 18 and 40 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 36
+Agents 26 and 9 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 37
+Agents 12 and 42 could not trade.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+
+Round 38
+Agents 26 and 23 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+
+Round 39
+Agent 13 is the buyer and Agent 47 is the seller.
+The original payoffs are 0.5640 for the buyer and 0.3425 for the seller.
+Agent 13 has 0.2802 amount of cash, 0.7120 amount of wheat, and a 0.2500 exponent.
+Agent 47 has 0.3578 amount of cash, 0.3006 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0231 cash and the seller gave 0.0298 wheat to the buyer.
+
+Round 40
+Agents 23 and 9 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 41
+Agents 24 and 44 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 42
+Agents 19 and 38 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 38 has 0.2995 amount of cash, 0.6969 amount of wheat, and a 0.7500 exponent.
+
+Round 43
+Agents 43 and 0 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+
+Round 44
+Agents 26 and 27 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+
+Round 45
+Agents 20 and 14 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 46
+Agents 39 and 29 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+
+Round 47
+Agent 22 is the buyer and Agent 14 is the seller.
+The original payoffs are 0.5974 for the buyer and 0.7309 for the seller.
+Agent 22 has 0.2635 amount of cash, 0.7848 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 48
+Agents 42 and 24 could not trade.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+
+ROUND 7 WITH 50 AGENTS
+Round 0
+Agents 44 and 40 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 1
+Agent 16 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5852 for the buyer and 0.3699 for the seller.
+Agent 16 has 0.2595 amount of cash, 0.7673 amount of wheat, and a 0.2500 exponent.
+Agent 38 has 0.2995 amount of cash, 0.6969 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0022 cash and the seller gave 0.0102 wheat to the buyer.
+
+Round 2
+Agents 17 and 8 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 3
+Agents 27 and 45 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 4
+Agents 12 and 47 could not trade.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+
+Round 5
+Agents 37 and 19 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 6
+Agents 39 and 1 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+
+Round 7
+Agents 9 and 7 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0751 amount of cash, 0.8550 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agent 13 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.5649 for the buyer and 0.7689 for the seller.
+Agent 13 has 0.2571 amount of cash, 0.7344 amount of wheat, and a 0.2500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agents 48 and 0 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+
+Round 10
+Agents 33 and 41 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 11
+Agents 23 and 28 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+
+Round 12
+Agents 40 and 1 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+
+Round 13
+Agents 4 and 28 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+
+Round 14
+Agents 25 and 24 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 15
+Agents 17 and 44 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 16
+Agents 43 and 20 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 17
+Agents 14 and 45 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 18
+Agents 17 and 35 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 19
+Agents 44 and 41 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 20
+Agents 3 and 25 could not trade.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 21
+Agents 28 and 18 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 22
+Agents 48 and 36 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 23
+Agents 17 and 45 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 24
+Agents 29 and 14 could not trade.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 25
+Agents 9 and 45 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 26
+Agents 15 and 39 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 27
+Agents 44 and 30 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 28
+Agents 18 and 5 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 29
+Agents 3 and 5 could not trade.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 30
+Agents 25 and 2 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 31
+Agents 14 and 9 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 32
+Agents 40 and 42 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 37 and 45 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 34
+Agents 2 and 34 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 35
+Agent 22 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.5974 for the buyer and 0.7041 for the seller.
+Agent 22 has 0.2635 amount of cash, 0.7848 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 36
+Agents 4 and 17 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+
+ROUND 8 WITH 50 AGENTS
+Round 0
+Agent 13 is the buyer and Agent 3 is the seller.
+The original payoffs are 0.5649 for the buyer and 0.5742 for the seller.
+Agent 13 has 0.2571 amount of cash, 0.7344 amount of wheat, and a 0.2500 exponent.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agents 9 and 2 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 2
+Agents 38 and 25 could not trade.
+Agent 38 has 0.3011 amount of cash, 0.6866 amount of wheat, and a 0.7500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 3
+Agents 32 and 25 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 4
+Agents 11 and 32 could not trade.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 5
+Agents 45 and 34 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 6
+Agents 2 and 8 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 7
+Agents 29 and 8 could not trade.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agents 45 and 16 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+
+Round 9
+Agents 31 and 1 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+
+Round 10
+Agents 26 and 30 could not trade.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 11
+Agents 4 and 9 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 12
+Agents 38 and 47 could not trade.
+Agent 38 has 0.3011 amount of cash, 0.6866 amount of wheat, and a 0.7500 exponent.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+
+Round 13
+Agents 36 and 37 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 14
+Agents 40 and 34 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+
+Round 15
+Agents 27 and 5 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+
+Round 16
+Agents 49 and 45 could not trade.
+Agent 49 has 0.1069 amount of cash, 0.3944 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Round 17
+Agents 17 and 48 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 18
+Agents 34 and 26 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 19
+Agents 39 and 0 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+
+Round 20
+Agents 27 and 33 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 21
+Agents 28 and 2 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 22
+Agents 14 and 35 could not trade.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 23
+Agents 47 and 46 could not trade.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 24
+Agents 34 and 49 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 49 has 0.1069 amount of cash, 0.3944 amount of wheat, and a 0.7500 exponent.
+
+Round 25
+Agents 31 and 16 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+
+Round 26
+Agents 20 and 6 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+
+Round 27
+Agents 31 and 33 could not trade.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 28
+Agents 23 and 8 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 29
+Agents 4 and 39 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 30
+Agents 44 and 7 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 7 has 0.0751 amount of cash, 0.8550 amount of wheat, and a 0.2500 exponent.
+
+Round 31
+Agents 33 and 15 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+
+Round 32
+Agents 29 and 32 could not trade.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 43 and 26 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 34
+Agents 1 and 17 could not trade.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+
+Round 35
+Agents 21 and 39 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 36
+Agents 24 and 48 could not trade.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+
+Round 37
+Agents 1 and 4 could not trade.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 38
+Agents 9 and 25 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 39
+Agents 29 and 2 could not trade.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 40
+Agents 4 and 2 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+
+Round 41
+Agents 0 and 18 could not trade.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 42
+Agents 28 and 39 could not trade.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 43
+Agents 18 and 44 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 44
+Agents 47 and 20 could not trade.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+
+Round 45
+Agents 0 and 41 could not trade.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 46
+Agents 32 and 41 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 47
+Agents 44 and 40 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 48
+Agents 10 and 21 could not trade.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 49
+Agents 47 and 4 could not trade.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 50
+Agents 20 and 41 could not trade.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 51
+Agents 43 and 33 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 52
+Agents 29 and 33 could not trade.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 53
+Agents 33 and 30 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 54
+Agents 17 and 39 could not trade.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 55
+Agents 18 and 40 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 56
+Agents 30 and 19 could not trade.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 57
+Agents 19 and 14 could not trade.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 58
+Agents 25 and 32 could not trade.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 59
+Agents 45 and 49 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 49 has 0.1069 amount of cash, 0.3944 amount of wheat, and a 0.7500 exponent.
+
+Round 60
+Agents 21 and 27 could not trade.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+
+Round 61
+Agents 16 and 24 could not trade.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 62
+Agents 46 and 9 could not trade.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 63
+Agents 40 and 28 could not trade.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+
+Round 64
+Agents 16 and 23 could not trade.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+
+Round 65
+Agents 23 and 39 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+Round 66
+Agents 37 and 40 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 67
+Agents 0 and 36 could not trade.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 68
+Agents 27 and 12 could not trade.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+
+Round 69
+Agents 7 and 35 could not trade.
+Agent 7 has 0.0751 amount of cash, 0.8550 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 70
+Agents 35 and 4 could not trade.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 71
+Agents 12 and 44 could not trade.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+
+Round 72
+Agent 22 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5974 for the buyer and 0.2841 for the seller.
+Agent 22 has 0.2635 amount of cash, 0.7848 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0066 amount of cash, 0.9934 amount of wheat, and a 0.2500 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0008 cash and the seller gave 0.0185 wheat to the buyer.
+
+Round 73
+Agents 1 and 39 could not trade.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+
+
+ROUND 9 WITH 50 AGENTS
+Round 0
+Agents 48 and 35 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 1
+Agents 45 and 47 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+
+Round 2
+Agents 16 and 10 could not trade.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 3
+Agents 23 and 41 could not trade.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+
+Round 4
+Agents 38 and 43 could not trade.
+Agent 38 has 0.3011 amount of cash, 0.6866 amount of wheat, and a 0.7500 exponent.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+
+Round 5
+Agents 2 and 8 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+
+Round 6
+Agents 0 and 49 could not trade.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 49 has 0.1069 amount of cash, 0.3944 amount of wheat, and a 0.7500 exponent.
+
+Round 7
+Agents 15 and 24 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 8
+Agents 4 and 35 could not trade.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+
+Round 9
+Agents 29 and 33 could not trade.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+
+Round 10
+Agents 33 and 0 could not trade.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+
+Round 11
+Agents 2 and 6 could not trade.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+
+Round 12
+Agents 43 and 46 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 13
+Agents 11 and 10 could not trade.
+Agent 11 has 0.0072 amount of cash, 0.9749 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 14
+Agents 34 and 30 could not trade.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+
+Round 15
+Agents 36 and 9 could not trade.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 16
+Agents 30 and 9 could not trade.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 17
+Agents 32 and 24 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+
+Round 18
+Agents 12 and 37 could not trade.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 19
+Agents 44 and 4 could not trade.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+
+Round 20
+Agents 5 and 18 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 21
+Agents 43 and 46 could not trade.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+
+Round 22
+Agents 45 and 9 could not trade.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+
+Round 23
+Agents 32 and 22 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 22 has 0.2627 amount of cash, 0.7987 amount of wheat, and a 0.2500 exponent.
+
+Round 24
+Agents 7 and 26 could not trade.
+Agent 7 has 0.0751 amount of cash, 0.8550 amount of wheat, and a 0.2500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+
+Round 25
+Agents 12 and 25 could not trade.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+
+Round 26
+Agents 1 and 36 could not trade.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+
+Round 27
+Agents 15 and 32 could not trade.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+
+Round 28
+Agents 22 and 37 could not trade.
+Agent 22 has 0.2627 amount of cash, 0.7987 amount of wheat, and a 0.2500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+
+Round 29
+Agents 48 and 40 could not trade.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+
+Round 30
+Agents 18 and 10 could not trade.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+
+Round 31
+Agents 5 and 16 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+
+Round 32
+Agents 41 and 42 could not trade.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+
+Round 33
+Agents 30 and 18 could not trade.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+
+Round 34
+Agents 32 and 19 could not trade.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+
+Round 35
+Agents 1 and 16 could not trade.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+
+Round 36
+Agents 39 and 16 could not trade.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+
+Round 37
+Agents 9 and 21 could not trade.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+
+Round 38
+Agents 5 and 14 could not trade.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+
+Round 39
+Agent 13 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.5649 for the buyer and 0.0908 for the seller.
+Agent 13 has 0.2571 amount of cash, 0.7344 amount of wheat, and a 0.2500 exponent.
+Agent 28 has 0.0414 amount of cash, 0.9586 amount of wheat, and a 0.7500 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0074 cash and the seller gave 0.2590 wheat to the buyer.
+
+Round 40
+Agents 37 and 45 could not trade.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+
+Agent 0 has 0.2650 amount of cash, 0.9202 amount of wheat, and a 0.2500 exponent.
+Agent 1 has 0.1861 amount of cash, 0.7991 amount of wheat, and a 0.2500 exponent.
+Agent 2 has 0.1745 amount of cash, 0.8255 amount of wheat, and a 0.2500 exponent.
+Agent 3 has 0.2502 amount of cash, 0.7574 amount of wheat, and a 0.2500 exponent.
+Agent 4 has 0.2543 amount of cash, 0.7650 amount of wheat, and a 0.2500 exponent.
+Agent 5 has 0.0224 amount of cash, 0.9776 amount of wheat, and a 0.2500 exponent.
+Agent 6 has 0.2551 amount of cash, 1.1106 amount of wheat, and a 0.2500 exponent.
+Agent 7 has 0.0751 amount of cash, 0.8550 amount of wheat, and a 0.2500 exponent.
+Agent 8 has 0.0337 amount of cash, 0.9108 amount of wheat, and a 0.2500 exponent.
+Agent 9 has 0.1269 amount of cash, 0.8715 amount of wheat, and a 0.2500 exponent.
+Agent 10 has 0.1013 amount of cash, 0.8626 amount of wheat, and a 0.2500 exponent.
+Agent 11 has 0.0072 amount of cash, 0.9749 amount of wheat, and a 0.2500 exponent.
+Agent 12 has 0.2512 amount of cash, 0.8088 amount of wheat, and a 0.2500 exponent.
+Agent 13 has 0.2498 amount of cash, 0.9287 amount of wheat, and a 0.2500 exponent.
+Agent 14 has 0.2607 amount of cash, 1.0305 amount of wheat, and a 0.2500 exponent.
+Agent 15 has 0.1726 amount of cash, 0.8226 amount of wheat, and a 0.2500 exponent.
+Agent 16 has 0.2573 amount of cash, 0.7750 amount of wheat, and a 0.2500 exponent.
+Agent 17 has 0.1463 amount of cash, 0.8537 amount of wheat, and a 0.2500 exponent.
+Agent 18 has 0.2572 amount of cash, 0.9850 amount of wheat, and a 0.2500 exponent.
+Agent 19 has 0.0394 amount of cash, 0.9606 amount of wheat, and a 0.2500 exponent.
+Agent 20 has 0.0293 amount of cash, 0.9271 amount of wheat, and a 0.2500 exponent.
+Agent 21 has 0.2366 amount of cash, 0.7634 amount of wheat, and a 0.2500 exponent.
+Agent 22 has 0.2627 amount of cash, 0.7987 amount of wheat, and a 0.2500 exponent.
+Agent 23 has 0.2488 amount of cash, 0.7994 amount of wheat, and a 0.2500 exponent.
+Agent 24 has 0.0202 amount of cash, 0.9798 amount of wheat, and a 0.2500 exponent.
+Agent 25 has 0.2381 amount of cash, 0.7590 amount of wheat, and a 0.7500 exponent.
+Agent 26 has 0.0086 amount of cash, 0.9914 amount of wheat, and a 0.7500 exponent.
+Agent 27 has 0.0703 amount of cash, 0.9297 amount of wheat, and a 0.7500 exponent.
+Agent 28 has 0.0469 amount of cash, 0.6995 amount of wheat, and a 0.7500 exponent.
+Agent 29 has 0.1945 amount of cash, 0.7926 amount of wheat, and a 0.7500 exponent.
+Agent 30 has 0.6479 amount of cash, 0.3013 amount of wheat, and a 0.7500 exponent.
+Agent 31 has 0.1976 amount of cash, 0.8024 amount of wheat, and a 0.7500 exponent.
+Agent 32 has 0.3016 amount of cash, 0.6984 amount of wheat, and a 0.7500 exponent.
+Agent 33 has 0.0907 amount of cash, 0.9093 amount of wheat, and a 0.7500 exponent.
+Agent 34 has 0.4560 amount of cash, 0.4005 amount of wheat, and a 0.7500 exponent.
+Agent 35 has 0.0519 amount of cash, 0.9481 amount of wheat, and a 0.7500 exponent.
+Agent 36 has 0.3697 amount of cash, 0.6303 amount of wheat, and a 0.7500 exponent.
+Agent 37 has 0.2838 amount of cash, 0.7162 amount of wheat, and a 0.7500 exponent.
+Agent 38 has 0.3011 amount of cash, 0.6866 amount of wheat, and a 0.7500 exponent.
+Agent 39 has 0.1097 amount of cash, 0.8298 amount of wheat, and a 0.7500 exponent.
+Agent 40 has 0.2628 amount of cash, 0.2773 amount of wheat, and a 0.7500 exponent.
+Agent 41 has 0.0722 amount of cash, 0.9278 amount of wheat, and a 0.7500 exponent.
+Agent 42 has 0.1031 amount of cash, 0.8705 amount of wheat, and a 0.7500 exponent.
+Agent 43 has 0.4785 amount of cash, 0.3725 amount of wheat, and a 0.7500 exponent.
+Agent 44 has 0.1290 amount of cash, 0.3622 amount of wheat, and a 0.7500 exponent.
+Agent 45 has 0.0584 amount of cash, 0.9416 amount of wheat, and a 0.7500 exponent.
+Agent 46 has 0.1635 amount of cash, 0.8251 amount of wheat, and a 0.7500 exponent.
+Agent 47 has 0.3751 amount of cash, 0.2708 amount of wheat, and a 0.7500 exponent.
+Agent 48 has 0.3548 amount of cash, 0.6452 amount of wheat, and a 0.7500 exponent.
+Agent 49 has 0.1069 amount of cash, 0.3944 amount of wheat, and a 0.7500 exponent.
+
