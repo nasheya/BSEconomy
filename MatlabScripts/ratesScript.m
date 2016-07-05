@@ -40,7 +40,7 @@ if yl(1,2)>5
     ylim([0,5]);
 end
 
-title('Transaction Rate Convergence from 50 Simulations with 25% Tax (10 Agents, 500 Rounds)');
+title('Transaction Rate Convergence from 50 Simulations (50 Agents, 500 Rounds)');
 xlabel('Time');
 ylabel('Transaction Rate (Cash/Wheat)');
 

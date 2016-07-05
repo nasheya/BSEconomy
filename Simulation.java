@@ -130,25 +130,27 @@ public class Simulation{
 				Agent two = total.get(indexPair);
 
 				//Have to get the rounded amounts of the cash and wheat or else it may mess up
-				double cashAmt1 = round(one.getRoundedAmount(1, true)*(1-one.getExponent()) , 4);
-				double cashAmt2 = round(two.getRoundedAmount(1, true)*(1-two.getExponent()) , 4);
-				double wheatAmt1 = round(one.getRoundedAmount(1, false)*one.getExponent() , 4);
-				double wheatAmt2 = round(two.getRoundedAmount(1, false)*two.getExponent() , 4);
+				double wc1 = round(one.getRoundedAmount(1, false)/one.getRoundedAmount(1, true), 4);
+				double exp1 = round(one.getExponent()/(1-one.getExponent()) , 4);
+				double wc2 = round(two.getRoundedAmount(1, false)/two.getRoundedAmount(1, true), 4);
+				double exp2 = round(two.getExponent()/(1-two.getExponent()) , 4);
+				double ratio1 = round(wc1*exp1, 4);
+				double ratio2 = round(wc2*exp2, 4);
 
 				//if someone has more cash than wheat and the other person also has more wheat than cash, then trade
-				if(cashAmt1 > wheatAmt1 && wheatAmt2 > cashAmt2){
+				if(ratio1 < ratio2){
 					haggling(one, two);
 
-					maxUtility(particpants, one);
-					maxUtility(particpants, two);
+					// maxUtility(particpants, one);
+					// maxUtility(particpants, two);
 
 					removeAgentsFromHaggling(total, index, indexPair);
 
-				} else if(wheatAmt1 > cashAmt1 && cashAmt2 > wheatAmt2){
+				} else if(ratio1 > ratio2){
 					haggling(two, one);
 
-					maxUtility(particpants, one);
-					maxUtility(particpants, two);
+					// maxUtility(particpants, one);
+					// maxUtility(particpants, two);
 
 					removeAgentsFromHaggling(total, index, indexPair);
 
@@ -158,13 +160,13 @@ public class Simulation{
 					two.printInfo();
 					System.out.println();
 
-					if(maxUtility(particpants, one)){
-						total.remove(total.indexOf(one));
-					}
+					// if(maxUtility(particpants, one)){
+					// 	total.remove(total.indexOf(one));
+					// }
 					
-					if(maxUtility(particpants, two)){
-						total.remove(total.indexOf(two));
-					}
+					// if(maxUtility(particpants, two)){
+					// 	total.remove(total.indexOf(two));
+					// }
 
 					//if the set is not tradeable, then just break
 					if(!tradeable(total)){
@@ -297,18 +299,18 @@ public class Simulation{
 	* Finds out if the agent given have reached its maximum utility, and if so, removes it from the list
 	* NOTE: MUST ALWAYS ROUND OR WILL NOT RECOGNIZE AS AMOUNTS BEING EQUAL
 	*/
-	private static boolean maxUtility(ArrayList<Agent> particpants, Agent one){
-		if(round((1-one.getExponent())*one.getRoundedAmount(1, true), 4) == round(one.getRoundedAmount(1, false)*one.getExponent(), 4)){
-			int index = particpants.indexOf(one);
-			particpants.remove(index);
+	// private static boolean maxUtility(ArrayList<Agent> particpants, Agent one){
+	// 	if(round((1-one.getExponent())*one.getRoundedAmount(1, true), 4) == round(one.getRoundedAmount(1, false)*one.getExponent(), 4)){
+	// 		int index = particpants.indexOf(one);
+	// 		particpants.remove(index);
 
-			System.out.println("Agent " + one.getID() + " got removed.");
+	// 		System.out.println("Agent " + one.getID() + " got removed.");
 			
-			return true;
-		}
+	// 		return true;
+	// 	}
 
-		return false;
-	}
+	// 	return false;
+	// }
 
 
 	/**

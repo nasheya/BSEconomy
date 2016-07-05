@@ -1,0 +1,2286 @@
+Agent 0 has 0.0829 amount of cash, 0.9171 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.0906 amount of cash, 0.9094 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+Agent 3 has 0.2764 amount of cash, 0.7236 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.0835 amount of cash, 0.9165 amount of wheat, and a 0.4000 exponent.
+Agent 5 has 0.5167 amount of cash, 0.4833 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2013 amount of cash, 0.7987 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+Agent 9 has 0.6769 amount of cash, 0.3231 amount of wheat, and a 0.4000 exponent.
+Agent 10 has 0.4101 amount of cash, 0.5899 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4433 amount of cash, 0.5567 amount of wheat, and a 0.4000 exponent.
+Agent 12 has 0.5787 amount of cash, 0.4213 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.2400 amount of cash, 0.7600 amount of wheat, and a 0.4000 exponent.
+Agent 14 has 0.6232 amount of cash, 0.3768 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.2649 amount of cash, 0.7351 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.6321 amount of cash, 0.3679 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0296 amount of cash, 0.9704 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1120 amount of cash, 0.8880 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+Agent 21 has 0.5691 amount of cash, 0.4309 amount of wheat, and a 0.4000 exponent.
+Agent 22 has 0.6279 amount of cash, 0.3721 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+Agent 24 has 0.3161 amount of cash, 0.6839 amount of wheat, and a 0.4000 exponent.
+Agent 25 has 0.6005 amount of cash, 0.3995 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1105 amount of cash, 0.8895 amount of wheat, and a 0.4000 exponent.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.0265 amount of cash, 0.9735 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.2828 amount of cash, 0.7172 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4420 amount of cash, 0.5580 amount of wheat, and a 0.4000 exponent.
+Agent 31 has 0.3316 amount of cash, 0.6684 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+Agent 33 has 0.5941 amount of cash, 0.4059 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.1741 amount of cash, 0.8259 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 37 has 0.4220 amount of cash, 0.5780 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.1268 amount of cash, 0.8732 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.0764 amount of cash, 0.9236 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3319 amount of cash, 0.6681 amount of wheat, and a 0.4000 exponent.
+Agent 41 has 0.3941 amount of cash, 0.6059 amount of wheat, and a 0.4000 exponent.
+Agent 42 has 0.4041 amount of cash, 0.5959 amount of wheat, and a 0.4000 exponent.
+Agent 43 has 0.6699 amount of cash, 0.3301 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1319 amount of cash, 0.8681 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0047 amount of cash, 0.9953 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0121 amount of cash, 0.9879 amount of wheat, and a 0.4000 exponent.
+Agent 47 has 0.2224 amount of cash, 0.7776 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.5525 amount of cash, 0.4475 amount of wheat, and a 0.4000 exponent.
+Agent 49 has 0.6198 amount of cash, 0.3802 amount of wheat, and a 0.4000 exponent.
+
+
+ROUND 1 WITH 50 AGENTS
+Round 0
+Agent 31 is the buyer and Agent 36 is the seller.
+The original payoffs are 0.5050 for the buyer and 0.5035 for the seller.
+Agent 31 has 0.3316 amount of cash, 0.6684 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 17 is the buyer and Agent 47 is the seller.
+The original payoffs are 0.4568 for the buyer and 0.4713 for the seller.
+Agent 17 has 0.6321 amount of cash, 0.3679 amount of wheat, and a 0.4000 exponent.
+Agent 47 has 0.2224 amount of cash, 0.7776 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1623 cash and the seller gave 0.0966 wheat to the buyer.
+
+Round 2
+Agent 15 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.4829 for the buyer and 0.3506 for the seller.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.0829 amount of cash, 0.9171 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 34 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.4431 for the buyer and 0.4036 for the seller.
+Agent 34 has 0.1741 amount of cash, 0.8259 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.1268 amount of cash, 0.8732 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 25 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.4703 for the buyer and 0.4943 for the seller.
+Agent 25 has 0.6005 amount of cash, 0.3995 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.2828 amount of cash, 0.7172 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0418 cash and the seller gave 0.0256 wheat to the buyer.
+
+Round 5
+Agent 40 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.5050 for the buyer and 0.4654 for the seller.
+Agent 40 has 0.3319 amount of cash, 0.6681 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 12 is the buyer and Agent 48 is the seller.
+The original payoffs are 0.4784 for the buyer and 0.4869 for the seller.
+Agent 12 has 0.5787 amount of cash, 0.4213 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.5525 amount of cash, 0.4475 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 10 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.4792 for the seller.
+Agent 10 has 0.4101 amount of cash, 0.5899 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.2400 amount of cash, 0.7600 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0094 cash and the seller gave 0.0174 wheat to the buyer.
+
+Round 8
+Agent 33 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.4727 for the buyer and 0.5082 for the seller.
+Agent 33 has 0.5941 amount of cash, 0.4059 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4433 amount of cash, 0.5567 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 39 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.3408 for the buyer and 0.2171 for the seller.
+Agent 39 has 0.0764 amount of cash, 0.9236 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 4 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.3516 for the buyer and 0.1428 for the seller.
+Agent 4 has 0.0835 amount of cash, 0.9165 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 24 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5023 for the buyer and 0.3424 for the seller.
+Agent 24 has 0.3161 amount of cash, 0.6839 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 43 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.4381 for the buyer and 0.5083 for the seller.
+Agent 43 has 0.6699 amount of cash, 0.3301 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4420 amount of cash, 0.5580 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 16 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.4887 for the buyer and 0.1166 for the seller.
+Agent 16 has 0.2649 amount of cash, 0.7351 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0047 amount of cash, 0.9953 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 19 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.3880 for the buyer and 0.3615 for the seller.
+Agent 19 has 0.1120 amount of cash, 0.8880 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.0906 amount of cash, 0.9094 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 5 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.4964 for the buyer and 0.1700 for the seller.
+Agent 5 has 0.5167 amount of cash, 0.4833 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0121 amount of cash, 0.9879 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0058 cash and the seller gave 0.1288 wheat to the buyer.
+
+Round 16
+Agent 49 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.4623 for the buyer and 0.2304 for the seller.
+Agent 49 has 0.6198 amount of cash, 0.3802 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.0265 amount of cash, 0.9735 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0335 cash and the seller gave 0.2125 wheat to the buyer.
+
+Round 17
+Agent 44 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.4086 for the buyer and 0.3862 for the seller.
+Agent 44 has 0.1319 amount of cash, 0.8681 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1105 amount of cash, 0.8895 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 27 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.4602 for the seller.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2013 amount of cash, 0.7987 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 3 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.4924 for the buyer and 0.4380 for the seller.
+Agent 3 has 0.2764 amount of cash, 0.7236 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 9 is the buyer and Agent 41 is the seller.
+The original payoffs are 0.4343 for the buyer and 0.5101 for the seller.
+Agent 9 has 0.6769 amount of cash, 0.3231 amount of wheat, and a 0.4000 exponent.
+Agent 41 has 0.3941 amount of cash, 0.6059 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0149 cash and the seller gave 0.0053 wheat to the buyer.
+
+Round 21
+Agent 37 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.5097 for the buyer and 0.2404 for the seller.
+Agent 37 has 0.4220 amount of cash, 0.5780 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0296 amount of cash, 0.9704 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0139 cash and the seller gave 0.1464 wheat to the buyer.
+
+Round 22
+Agent 22 is the buyer and Agent 14 is the seller.
+The original payoffs are 0.4587 for the buyer and 0.4608 for the seller.
+Agent 22 has 0.6279 amount of cash, 0.3721 amount of wheat, and a 0.4000 exponent.
+Agent 14 has 0.6232 amount of cash, 0.3768 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 35 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.4601 for the buyer and 0.2759 for the seller.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 21 is the buyer and Agent 42 is the seller.
+The original payoffs are 0.4816 for the buyer and 0.5102 for the seller.
+Agent 21 has 0.5691 amount of cash, 0.4309 amount of wheat, and a 0.4000 exponent.
+Agent 42 has 0.4041 amount of cash, 0.5959 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 2 WITH 50 AGENTS
+Round 0
+Agent 11 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.5082 for the buyer and 0.2542 for the seller.
+Agent 11 has 0.4433 amount of cash, 0.5567 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0436 amount of cash, 0.8239 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0263 cash and the seller gave 0.0454 wheat to the buyer.
+
+Round 1
+Agent 41 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.5151 for the buyer and 0.5110 for the seller.
+Agent 41 has 0.4090 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 16 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.4887 for the buyer and 0.2171 for the seller.
+Agent 16 has 0.2649 amount of cash, 0.7351 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 47 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.5419 for the buyer and 0.1428 for the seller.
+Agent 47 has 0.3847 amount of cash, 0.6810 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 22 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.4587 for the buyer and 0.3516 for the seller.
+Agent 22 has 0.6279 amount of cash, 0.3721 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.0835 amount of cash, 0.9165 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1612 cash and the seller gave 0.3028 wheat to the buyer.
+
+Round 5
+Agent 30 is the buyer and Agent 10 is the seller.
+The original payoffs are 0.5083 for the buyer and 0.5142 for the seller.
+Agent 30 has 0.4420 amount of cash, 0.5580 amount of wheat, and a 0.4000 exponent.
+Agent 10 has 0.4006 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0008 cash and the seller gave 0.0008 wheat to the buyer.
+
+Round 6
+Agent 35 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.4601 for the buyer and 0.4380 for the seller.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 25 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.4742 for the buyer and 0.3862 for the seller.
+Agent 25 has 0.5587 amount of cash, 0.4251 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1105 amount of cash, 0.8895 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0242 cash and the seller gave 0.0516 wheat to the buyer.
+
+Round 8
+Agent 9 is the buyer and Agent 17 is the seller.
+The original payoffs are 0.4346 for the buyer and 0.4666 for the seller.
+Agent 9 has 0.6620 amount of cash, 0.3283 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.4698 amount of cash, 0.4645 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 42 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5102 for the buyer and 0.3615 for the seller.
+Agent 42 has 0.4041 amount of cash, 0.5959 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.0906 amount of cash, 0.9094 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0026 cash and the seller gave 0.0064 wheat to the buyer.
+
+Round 10
+Agent 12 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.4784 for the buyer and 0.4431 for the seller.
+Agent 12 has 0.5787 amount of cash, 0.4213 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.1741 amount of cash, 0.8259 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1134 cash and the seller gave 0.2157 wheat to the buyer.
+
+Round 11
+Agent 24 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.5023 for the buyer and 0.1166 for the seller.
+Agent 24 has 0.3161 amount of cash, 0.6839 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0047 amount of cash, 0.9953 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 43 is the buyer and Agent 49 is the seller.
+The original payoffs are 0.4381 for the buyer and 0.5901 for the seller.
+Agent 43 has 0.6699 amount of cash, 0.3301 amount of wheat, and a 0.4000 exponent.
+Agent 49 has 0.5863 amount of cash, 0.5927 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 14 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.4608 for the buyer and 0.4036 for the seller.
+Agent 14 has 0.6232 amount of cash, 0.3768 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.1268 amount of cash, 0.8732 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1032 cash and the seller gave 0.1319 wheat to the buyer.
+
+Round 14
+Agent 37 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.4086 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1319 amount of cash, 0.8681 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 5 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.5694 for the buyer and 0.3880 for the seller.
+Agent 5 has 0.5109 amount of cash, 0.6121 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1120 amount of cash, 0.8880 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 3
+The buyer gave 0.0408 cash and the seller gave 0.1199 wheat to the buyer.
+
+Round 16
+Agent 31 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5050 for the buyer and 0.3424 for the seller.
+Agent 31 has 0.3316 amount of cash, 0.6684 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 21 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.4816 for the buyer and 0.3408 for the seller.
+Agent 21 has 0.5691 amount of cash, 0.4309 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.0764 amount of cash, 0.9236 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0743 cash and the seller gave 0.2317 wheat to the buyer.
+
+Round 18
+Agent 13 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.4800 for the buyer and 0.4602 for the seller.
+Agent 13 has 0.2494 amount of cash, 0.7426 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2013 amount of cash, 0.7987 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 15 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.4829 for the buyer and 0.4654 for the seller.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 48 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.4869 for the buyer and 0.2755 for the seller.
+Agent 48 has 0.5525 amount of cash, 0.4475 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.0600 amount of cash, 0.7610 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1344 cash and the seller gave 0.2495 wheat to the buyer.
+
+Round 21
+Agent 36 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.3506 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.0829 amount of cash, 0.9171 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 33 is the buyer and Agent 3 is the seller.
+The original payoffs are 0.4727 for the buyer and 0.4924 for the seller.
+Agent 33 has 0.5941 amount of cash, 0.4059 amount of wheat, and a 0.4000 exponent.
+Agent 3 has 0.2764 amount of cash, 0.7236 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1072 cash and the seller gave 0.0907 wheat to the buyer.
+
+Round 23
+Agent 27 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.2759 for the seller.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 40 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5050 for the buyer and 0.1828 for the seller.
+Agent 40 has 0.3319 amount of cash, 0.6681 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0179 amount of cash, 0.8590 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 3 WITH 50 AGENTS
+Round 0
+Agent 37 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.4034 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 13 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.4800 for the buyer and 0.4601 for the seller.
+Agent 13 has 0.2494 amount of cash, 0.7426 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 9 is the buyer and Agent 41 is the seller.
+The original payoffs are 0.4346 for the buyer and 0.5151 for the seller.
+Agent 9 has 0.6620 amount of cash, 0.3283 amount of wheat, and a 0.4000 exponent.
+Agent 41 has 0.4090 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 10 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.4086 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1319 amount of cash, 0.8681 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 29 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.5110 for the buyer and 0.1428 for the seller.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 21 is the buyer and Agent 24 is the seller.
+The original payoffs are 0.5896 for the buyer and 0.5023 for the seller.
+Agent 21 has 0.4948 amount of cash, 0.6626 amount of wheat, and a 0.4000 exponent.
+Agent 24 has 0.3161 amount of cash, 0.6839 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 5
+The buyer gave 0.0204 cash and the seller gave 0.0258 wheat to the buyer.
+
+Round 6
+Agent 36 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.2759 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 30 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5084 for the buyer and 0.3641 for the seller.
+Agent 30 has 0.4412 amount of cash, 0.5587 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.0932 amount of cash, 0.9031 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0396 cash and the seller gave 0.1153 wheat to the buyer.
+
+Round 8
+Agent 49 is the buyer and Agent 47 is the seller.
+The original payoffs are 0.5901 for the buyer and 0.5419 for the seller.
+Agent 49 has 0.5863 amount of cash, 0.5927 amount of wheat, and a 0.4000 exponent.
+Agent 47 has 0.3847 amount of cash, 0.6810 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 3
+The buyer gave 0.0536 cash and the seller gave 0.0397 wheat to the buyer.
+
+Round 9
+Agent 33 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.4927 for the buyer and 0.4602 for the seller.
+Agent 33 has 0.4869 amount of cash, 0.4966 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2013 amount of cash, 0.7987 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0678 cash and the seller gave 0.1208 wheat to the buyer.
+
+Round 10
+Agent 14 is the buyer and Agent 27 is the seller.
+The original payoffs are 0.5131 for the buyer and 0.5101 for the seller.
+Agent 14 has 0.5200 amount of cash, 0.5086 amount of wheat, and a 0.4000 exponent.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 39 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.3760 for the buyer and 0.3506 for the seller.
+Agent 39 has 0.1506 amount of cash, 0.6920 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.0829 amount of cash, 0.9171 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 12 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5618 for the buyer and 0.4887 for the seller.
+Agent 12 has 0.4652 amount of cash, 0.6371 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.2649 amount of cash, 0.7351 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 6
+The buyer gave 0.0108 cash and the seller gave 0.0159 wheat to the buyer.
+
+Round 13
+Agent 32 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.4380 for the buyer and 0.2968 for the seller.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0699 amount of cash, 0.7785 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 22 is the buyer and Agent 48 is the seller.
+The original payoffs are 0.5823 for the buyer and 0.5681 for the seller.
+Agent 22 has 0.4667 amount of cash, 0.6749 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 8 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.4654 for the buyer and 0.4027 for the seller.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1529 amount of cash, 0.7680 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 11 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5198 for the buyer and 0.1828 for the seller.
+Agent 11 has 0.4170 amount of cash, 0.6020 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0179 amount of cash, 0.8590 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0069 cash and the seller gave 0.1265 wheat to the buyer.
+
+Round 17
+Agent 31 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.5050 for the buyer and 0.4516 for the seller.
+Agent 31 has 0.3316 amount of cash, 0.6684 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.2875 amount of cash, 0.6102 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 5 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.5050 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3319 amount of cash, 0.6681 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 43 is the buyer and Agent 42 is the seller.
+The original payoffs are 0.4381 for the buyer and 0.5121 for the seller.
+Agent 43 has 0.6699 amount of cash, 0.3301 amount of wheat, and a 0.4000 exponent.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 20 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.3424 for the buyer and 0.2171 for the seller.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 25 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.4990 for the buyer and 0.3474 for the seller.
+Agent 25 has 0.5345 amount of cash, 0.4767 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.1944 amount of cash, 0.5115 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0821 cash and the seller gave 0.0645 wheat to the buyer.
+
+Round 22
+Agent 4 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.4249 for the buyer and 0.4829 for the seller.
+Agent 4 has 0.2447 amount of cash, 0.6137 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 17 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.4666 for the buyer and 0.1166 for the seller.
+Agent 17 has 0.4698 amount of cash, 0.4645 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0047 amount of cash, 0.9953 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0678 cash and the seller gave 0.2746 wheat to the buyer.
+
+Round 24
+Agent 3 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5181 for the buyer and 0.4642 for the seller.
+Agent 3 has 0.3837 amount of cash, 0.6329 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 4 WITH 50 AGENTS
+Round 0
+Agent 29 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.5110 for the buyer and 0.2876 for the seller.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 14 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5131 for the buyer and 0.3865 for the seller.
+Agent 14 has 0.5200 amount of cash, 0.5086 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.1328 amount of cash, 0.7878 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0950 cash and the seller gave 0.1902 wheat to the buyer.
+
+Round 2
+Agent 35 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.4601 for the buyer and 0.2171 for the seller.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 34 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.4516 for the buyer and 0.4654 for the seller.
+Agent 34 has 0.2875 amount of cash, 0.6102 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 47 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.5507 for the buyer and 0.5050 for the seller.
+Agent 47 has 0.4383 amount of cash, 0.6412 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3319 amount of cash, 0.6681 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0033 cash and the seller gave 0.0038 wheat to the buyer.
+
+Round 5
+Agent 16 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.4901 for the buyer and 0.2968 for the seller.
+Agent 16 has 0.2757 amount of cash, 0.7192 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0699 amount of cash, 0.7785 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 28 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.3689 for the buyer and 0.4829 for the seller.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 41 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.5151 for the buyer and 0.3506 for the seller.
+Agent 41 has 0.4090 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.0829 amount of cash, 0.9171 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0029 cash and the seller gave 0.0097 wheat to the buyer.
+
+Round 8
+Agent 10 is the buyer and Agent 5 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.6132 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 30 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5479 for the buyer and 0.4249 for the seller.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2447 amount of cash, 0.6137 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 36 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.4642 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 9 is the buyer and Agent 31 is the seller.
+The original payoffs are 0.4346 for the buyer and 0.5050 for the seller.
+Agent 9 has 0.6620 amount of cash, 0.3283 amount of wheat, and a 0.4000 exponent.
+Agent 31 has 0.3316 amount of cash, 0.6684 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0935 cash and the seller gave 0.0618 wheat to the buyer.
+
+Round 12
+Agent 27 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.4684 for the seller.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 21 is the buyer and Agent 17 is the seller.
+The original payoffs are 0.5932 for the buyer and 0.5793 for the seller.
+Agent 21 has 0.4744 amount of cash, 0.6884 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.4020 amount of cash, 0.7391 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0062 cash and the seller gave 0.0063 wheat to the buyer.
+
+Round 14
+Agent 33 is the buyer and Agent 48 is the seller.
+The original payoffs are 0.5288 for the buyer and 0.5681 for the seller.
+Agent 33 has 0.4191 amount of cash, 0.6174 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 24 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5032 for the buyer and 0.1892 for the seller.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0248 amount of cash, 0.7325 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 42 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.3424 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 49 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5905 for the buyer and 0.4086 for the seller.
+Agent 49 has 0.5326 amount of cash, 0.6324 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1319 amount of cash, 0.8681 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0340 cash and the seller gave 0.0835 wheat to the buyer.
+
+Round 18
+Agent 43 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.4381 for the buyer and 0.4800 for the seller.
+Agent 43 has 0.6699 amount of cash, 0.3301 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.2494 amount of cash, 0.7426 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.1133 cash and the seller gave 0.0942 wheat to the buyer.
+
+Round 19
+Agent 22 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5823 for the buyer and 0.5790 for the seller.
+Agent 22 has 0.4667 amount of cash, 0.6749 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4102 amount of cash, 0.7286 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 37 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.2759 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 25 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.5038 for the buyer and 0.4027 for the seller.
+Agent 25 has 0.4524 amount of cash, 0.5412 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1529 amount of cash, 0.7680 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0247 cash and the seller gave 0.0596 wheat to the buyer.
+
+Round 22
+Agent 39 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.3760 for the buyer and 0.4034 for the seller.
+Agent 39 has 0.1506 amount of cash, 0.6920 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 32 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.4380 for the buyer and 0.1428 for the seller.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 12 is the buyer and Agent 3 is the seller.
+The original payoffs are 0.5648 for the buyer and 0.5181 for the seller.
+Agent 12 has 0.4544 amount of cash, 0.6529 amount of wheat, and a 0.4000 exponent.
+Agent 3 has 0.3837 amount of cash, 0.6329 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 5
+The buyer gave 0.0036 cash and the seller gave 0.0037 wheat to the buyer.
+
+
+ROUND 5 WITH 50 AGENTS
+Round 0
+Agent 41 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.1892 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0248 amount of cash, 0.7325 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 38 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.4642 for the buyer and 0.1428 for the seller.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 36 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.4034 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 3 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.2171 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 47 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.5510 for the buyer and 0.3532 for the seller.
+Agent 47 has 0.4350 amount of cash, 0.6450 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.0858 amount of cash, 0.9074 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0015 cash and the seller gave 0.0027 wheat to the buyer.
+
+Round 5
+Agent 48 is the buyer and Agent 37 is the seller.
+The original payoffs are 0.5681 for the buyer and 0.5758 for the seller.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 21 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5933 for the buyer and 0.5790 for the seller.
+Agent 21 has 0.4682 amount of cash, 0.6947 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4102 amount of cash, 0.7286 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0005 cash and the seller gave 0.0005 wheat to the buyer.
+
+Round 7
+Agent 31 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.5262 for the buyer and 0.3689 for the seller.
+Agent 31 has 0.4252 amount of cash, 0.6065 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 24 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5032 for the buyer and 0.4901 for the seller.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.2757 amount of cash, 0.7192 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 35 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.4601 for the buyer and 0.3424 for the seller.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 12 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5649 for the buyer and 0.4064 for the seller.
+Agent 12 has 0.4508 amount of cash, 0.6566 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2278 amount of cash, 0.5976 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0054 cash and the seller gave 0.0076 wheat to the buyer.
+
+Round 11
+Agent 7 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.4684 for the buyer and 0.4215 for the seller.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1660 amount of cash, 0.7846 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 13 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.5140 for the buyer and 0.4654 for the seller.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 27 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.5053 for the seller.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 33 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.5288 for the buyer and 0.3760 for the seller.
+Agent 33 has 0.4191 amount of cash, 0.6174 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1506 amount of cash, 0.6920 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0040 cash and the seller gave 0.0115 wheat to the buyer.
+
+Round 15
+Agent 42 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.5479 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 22 is the buyer and Agent 5 is the seller.
+The original payoffs are 0.5823 for the buyer and 0.6132 for the seller.
+Agent 22 has 0.4667 amount of cash, 0.6749 amount of wheat, and a 0.4000 exponent.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 29 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5110 for the buyer and 0.4249 for the seller.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2447 amount of cash, 0.6137 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 10 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.4829 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 49 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.6194 for the buyer and 0.2968 for the seller.
+Agent 49 has 0.4986 amount of cash, 0.7159 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0699 amount of cash, 0.7785 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0037 cash and the seller gave 0.0039 wheat to the buyer.
+
+Round 20
+Agent 43 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.4730 for the buyer and 0.4516 for the seller.
+Agent 43 has 0.5566 amount of cash, 0.4243 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.2875 amount of cash, 0.6102 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0705 cash and the seller gave 0.0446 wheat to the buyer.
+
+Round 21
+Agent 17 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5799 for the buyer and 0.2759 for the seller.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 14 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.5728 for the buyer and 0.2876 for the seller.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 9 is the buyer and Agent 25 is the seller.
+The original payoffs are 0.4536 for the buyer and 0.5245 for the seller.
+Agent 9 has 0.5685 amount of cash, 0.3902 amount of wheat, and a 0.4000 exponent.
+Agent 25 has 0.4277 amount of cash, 0.6008 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 19 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.4073 for the buyer and 0.4380 for the seller.
+Agent 19 has 0.1776 amount of cash, 0.7084 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 6 WITH 50 AGENTS
+Round 0
+Agent 41 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.5790 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 48 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5681 for the buyer and 0.4684 for the seller.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 33 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.4642 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 31 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5262 for the buyer and 0.2759 for the seller.
+Agent 31 has 0.4252 amount of cash, 0.6065 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0427 amount of cash, 0.9573 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0087 cash and the seller gave 0.0470 wheat to the buyer.
+
+Round 4
+Agent 17 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.5799 for the buyer and 0.5053 for the seller.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 25 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.5245 for the buyer and 0.4380 for the seller.
+Agent 25 has 0.4277 amount of cash, 0.6008 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1671 amount of cash, 0.8329 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 3
+The buyer gave 0.0067 cash and the seller gave 0.0138 wheat to the buyer.
+
+Round 6
+Agent 10 is the buyer and Agent 36 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.5035 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 34 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.4710 for the buyer and 0.3689 for the seller.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 43 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.4757 for the buyer and 0.4901 for the seller.
+Agent 43 has 0.4860 amount of cash, 0.4690 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.2757 amount of cash, 0.7192 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 3
+The buyer gave 0.0442 cash and the seller gave 0.0638 wheat to the buyer.
+
+Round 9
+Agent 8 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.4654 for the buyer and 0.4215 for the seller.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1660 amount of cash, 0.7846 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 39 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.3762 for the buyer and 0.1892 for the seller.
+Agent 39 has 0.1546 amount of cash, 0.6804 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0248 amount of cash, 0.7325 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 5 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.1428 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 47 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.5516 for the buyer and 0.4073 for the seller.
+Agent 47 has 0.4335 amount of cash, 0.6477 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1776 amount of cash, 0.7084 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0007 cash and the seller gave 0.0018 wheat to the buyer.
+
+Round 13
+Agent 22 is the buyer and Agent 37 is the seller.
+The original payoffs are 0.5823 for the buyer and 0.5758 for the seller.
+Agent 22 has 0.4667 amount of cash, 0.6749 amount of wheat, and a 0.4000 exponent.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 49 is the buyer and Agent 42 is the seller.
+The original payoffs are 0.6196 for the buyer and 0.5121 for the seller.
+Agent 49 has 0.4949 amount of cash, 0.7198 amount of wheat, and a 0.4000 exponent.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 9 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.4536 for the buyer and 0.3550 for the seller.
+Agent 9 has 0.5685 amount of cash, 0.3902 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.0873 amount of cash, 0.9048 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0812 cash and the seller gave 0.1556 wheat to the buyer.
+
+Round 16
+Agent 26 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.4034 for the buyer and 0.3021 for the seller.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0736 amount of cash, 0.7746 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 21 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.5933 for the buyer and 0.5140 for the seller.
+Agent 21 has 0.4677 amount of cash, 0.6952 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 27 is the buyer and Agent 14 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.5728 for the seller.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 24 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5032 for the buyer and 0.4070 for the seller.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 12 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5661 for the buyer and 0.4249 for the seller.
+Agent 12 has 0.4454 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2447 amount of cash, 0.6137 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0011 cash and the seller gave 0.0013 wheat to the buyer.
+
+Round 21
+Agent 3 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.5479 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 35 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.4601 for the buyer and 0.3424 for the seller.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 29 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.5110 for the buyer and 0.4829 for the seller.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 45 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.2876 for the buyer and 0.2171 for the seller.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 7 WITH 50 AGENTS
+Round 0
+Agent 46 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.1892 for the buyer and 0.2171 for the seller.
+Agent 46 has 0.0248 amount of cash, 0.7325 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 33 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.4215 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1660 amount of cash, 0.7846 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 18 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.3021 for the buyer and 0.2884 for the seller.
+Agent 18 has 0.0736 amount of cash, 0.7746 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 25 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.5283 for the buyer and 0.3762 for the seller.
+Agent 25 has 0.4210 amount of cash, 0.6147 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1546 amount of cash, 0.6804 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0046 cash and the seller gave 0.0056 wheat to the buyer.
+
+Round 4
+Agent 9 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.5216 for the buyer and 0.1428 for the seller.
+Agent 9 has 0.4873 amount of cash, 0.5458 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0078 amount of cash, 0.9922 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 1
+The buyer gave 0.0238 cash and the seller gave 0.3522 wheat to the buyer.
+
+Round 5
+Agent 47 is the buyer and Agent 3 is the seller.
+The original payoffs are 0.5521 for the buyer and 0.5182 for the seller.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 40 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5053 for the buyer and 0.4684 for the seller.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 42 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.3424 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 28 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.3689 for the buyer and 0.4829 for the seller.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 5 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.4073 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1783 amount of cash, 0.7066 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 0 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.4125 for the buyer and 0.4034 for the seller.
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 37 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.4251 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2458 amount of cash, 0.6124 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 43 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.4944 for the buyer and 0.4654 for the seller.
+Agent 43 has 0.4418 amount of cash, 0.5328 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2106 amount of cash, 0.7894 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0416 cash and the seller gave 0.0785 wheat to the buyer.
+
+Round 13
+Agent 12 is the buyer and Agent 36 is the seller.
+The original payoffs are 0.5662 for the buyer and 0.5035 for the seller.
+Agent 12 has 0.4443 amount of cash, 0.6656 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 14 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.5728 for the buyer and 0.5140 for the seller.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 34 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.4710 for the buyer and 0.4070 for the seller.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 49 is the buyer and Agent 27 is the seller.
+The original payoffs are 0.6196 for the buyer and 0.5101 for the seller.
+Agent 49 has 0.4949 amount of cash, 0.7198 amount of wheat, and a 0.4000 exponent.
+Agent 27 has 0.3926 amount of cash, 0.6074 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0066 cash and the seller gave 0.0067 wheat to the buyer.
+
+Round 17
+Agent 24 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.5032 for the buyer and 0.5110 for the seller.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 21 is the buyer and Agent 41 is the seller.
+The original payoffs are 0.5933 for the buyer and 0.5185 for the seller.
+Agent 21 has 0.4677 amount of cash, 0.6952 amount of wheat, and a 0.4000 exponent.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 17 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5799 for the buyer and 0.4642 for the seller.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 30 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5479 for the buyer and 0.5790 for the seller.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 31 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.5457 for the buyer and 0.4601 for the seller.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 22 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5823 for the buyer and 0.4920 for the seller.
+Agent 22 has 0.4667 amount of cash, 0.6749 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3200 amount of cash, 0.6554 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0053 cash and the seller gave 0.0055 wheat to the buyer.
+
+Round 23
+Agent 10 is the buyer and Agent 48 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.5681 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 32 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.4405 for the buyer and 0.2876 for the seller.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 8 WITH 50 AGENTS
+Round 0
+Agent 48 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.5681 for the buyer and 0.5053 for the seller.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 34 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.4710 for the buyer and 0.4684 for the seller.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 13 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5140 for the buyer and 0.4251 for the seller.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2458 amount of cash, 0.6124 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 36 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.4696 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2522 amount of cash, 0.7109 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 33 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.3689 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 22 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.5825 for the buyer and 0.3788 for the seller.
+Agent 22 has 0.4615 amount of cash, 0.6804 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1593 amount of cash, 0.6748 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0029 cash and the seller gave 0.0041 wheat to the buyer.
+
+Round 6
+Agent 12 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.5662 for the buyer and 0.4405 for the seller.
+Agent 12 has 0.4443 amount of cash, 0.6656 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 37 is the buyer and Agent 17 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.5799 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 21 is the buyer and Agent 10 is the seller.
+The original payoffs are 0.5933 for the buyer and 0.5143 for the seller.
+Agent 21 has 0.4677 amount of cash, 0.6952 amount of wheat, and a 0.4000 exponent.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 49 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.6198 for the buyer and 0.1892 for the seller.
+Agent 49 has 0.4883 amount of cash, 0.7265 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0248 amount of cash, 0.7325 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0014 cash and the seller gave 0.0165 wheat to the buyer.
+
+Round 10
+Agent 1 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.4070 for the buyer and 0.4073 for the seller.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1783 amount of cash, 0.7066 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 18 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.3021 for the buyer and 0.2884 for the seller.
+Agent 18 has 0.0736 amount of cash, 0.7746 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 30 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5479 for the buyer and 0.4215 for the seller.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1660 amount of cash, 0.7846 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 11 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.5790 for the buyer and 0.6892 for the seller.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+Agent 9 has 0.4634 amount of cash, 0.8979 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 3 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.3424 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 27 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.4927 for the seller.
+Agent 27 has 0.3992 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3252 amount of cash, 0.6499 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 14 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.5728 for the buyer and 0.4601 for the seller.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 47 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.5521 for the buyer and 0.4829 for the seller.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 31 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.5457 for the buyer and 0.5110 for the seller.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 25 is the buyer and Agent 24 is the seller.
+The original payoffs are 0.5289 for the buyer and 0.5032 for the seller.
+Agent 25 has 0.4164 amount of cash, 0.6203 amount of wheat, and a 0.4000 exponent.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 0 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.4125 for the buyer and 0.2171 for the seller.
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 41 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.2876 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 43 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5161 for the buyer and 0.4642 for the seller.
+Agent 43 has 0.4003 amount of cash, 0.6113 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 5 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.1922 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0316 amount of cash, 0.6400 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 42 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.4034 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 9 WITH 50 AGENTS
+Round 0
+Agent 47 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.5521 for the buyer and 0.4073 for the seller.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1783 amount of cash, 0.7066 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 11 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5790 for the buyer and 0.4070 for the seller.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 3 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.2884 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 8 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.4696 for the buyer and 0.4405 for the seller.
+Agent 8 has 0.2522 amount of cash, 0.7109 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 39 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.3801 for the buyer and 0.3021 for the seller.
+Agent 39 has 0.1622 amount of cash, 0.6707 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0736 amount of cash, 0.7746 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 43 is the buyer and Agent 40 is the seller.
+The original payoffs are 0.5161 for the buyer and 0.5053 for the seller.
+Agent 43 has 0.4003 amount of cash, 0.6113 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 21 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5933 for the buyer and 0.4642 for the seller.
+Agent 21 has 0.4677 amount of cash, 0.6952 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2300 amount of cash, 0.7413 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0016 cash and the seller gave 0.0030 wheat to the buyer.
+
+Round 7
+Agent 27 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.2171 for the seller.
+Agent 27 has 0.3992 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 31 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.5457 for the buyer and 0.1922 for the seller.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0316 amount of cash, 0.6400 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 4 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.4251 for the buyer and 0.4034 for the seller.
+Agent 4 has 0.2458 amount of cash, 0.6124 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 9 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.6892 for the buyer and 0.3424 for the seller.
+Agent 9 has 0.4634 amount of cash, 0.8979 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 25 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.5289 for the buyer and 0.3689 for the seller.
+Agent 25 has 0.4164 amount of cash, 0.6203 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 42 is the buyer and Agent 36 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.5035 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 5 is the buyer and Agent 17 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.5799 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 22 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5831 for the buyer and 0.4215 for the seller.
+Agent 22 has 0.4586 amount of cash, 0.6845 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1660 amount of cash, 0.7846 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0013 cash and the seller gave 0.0038 wheat to the buyer.
+
+Round 15
+Agent 12 is the buyer and Agent 14 is the seller.
+The original payoffs are 0.5662 for the buyer and 0.5728 for the seller.
+Agent 12 has 0.4443 amount of cash, 0.6656 amount of wheat, and a 0.4000 exponent.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 29 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.5110 for the buyer and 0.4601 for the seller.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 48 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5681 for the buyer and 0.4684 for the seller.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 49 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.6274 for the buyer and 0.2876 for the seller.
+Agent 49 has 0.4869 amount of cash, 0.7430 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 24 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.5032 for the buyer and 0.4829 for the seller.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 37 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.5140 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 33 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.4927 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3252 amount of cash, 0.6499 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 10 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.4710 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 30 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.5479 for the buyer and 0.4125 for the seller.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 41 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.1907 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0262 amount of cash, 0.7160 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 10 WITH 50 AGENTS
+Round 0
+Agent 17 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.5799 for the buyer and 0.2171 for the seller.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 15 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.4829 for the buyer and 0.1907 for the seller.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0262 amount of cash, 0.7160 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 3 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.5790 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 41 is the buyer and Agent 48 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.5681 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 12 is the buyer and Agent 22 is the seller.
+The original payoffs are 0.5662 for the buyer and 0.5844 for the seller.
+Agent 12 has 0.4443 amount of cash, 0.6656 amount of wheat, and a 0.4000 exponent.
+Agent 22 has 0.4573 amount of cash, 0.6882 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 38 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.4644 for the buyer and 0.4601 for the seller.
+Agent 38 has 0.2316 amount of cash, 0.7383 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 5 is the buyer and Agent 36 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.5035 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 37 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.4034 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 28 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.3689 for the buyer and 0.5479 for the seller.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 49 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.6274 for the buyer and 0.4070 for the seller.
+Agent 49 has 0.4869 amount of cash, 0.7430 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 9 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.6892 for the buyer and 0.2876 for the seller.
+Agent 9 has 0.4634 amount of cash, 0.8979 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 29 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5110 for the buyer and 0.2884 for the seller.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 10 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5143 for the buyer and 0.4927 for the seller.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3252 amount of cash, 0.6499 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 40 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.5053 for the buyer and 0.4125 for the seller.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 25 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.5289 for the buyer and 0.4073 for the seller.
+Agent 25 has 0.4164 amount of cash, 0.6203 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1783 amount of cash, 0.7066 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0016 cash and the seller gave 0.0016 wheat to the buyer.
+
+Round 15
+Agent 44 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.4216 for the buyer and 0.1922 for the seller.
+Agent 44 has 0.1673 amount of cash, 0.7809 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0316 amount of cash, 0.6400 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 21 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.5940 for the buyer and 0.3021 for the seller.
+Agent 21 has 0.4660 amount of cash, 0.6982 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0736 amount of cash, 0.7746 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 42 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.4405 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 31 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5457 for the buyer and 0.3424 for the seller.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 33 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.5140 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 47 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5521 for the buyer and 0.4684 for the seller.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 43 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.5161 for the buyer and 0.4696 for the seller.
+Agent 43 has 0.4003 amount of cash, 0.6113 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2522 amount of cash, 0.7109 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 14 is the buyer and Agent 24 is the seller.
+The original payoffs are 0.5728 for the buyer and 0.5032 for the seller.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 27 is the buyer and Agent 34 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.4710 for the seller.
+Agent 27 has 0.3992 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 4 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.4251 for the buyer and 0.3801 for the seller.
+Agent 4 has 0.2458 amount of cash, 0.6124 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1622 amount of cash, 0.6707 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 11 WITH 50 AGENTS
+Round 0
+Agent 42 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.5110 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 31 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.5457 for the buyer and 0.4601 for the seller.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 12 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.5662 for the buyer and 0.3021 for the seller.
+Agent 12 has 0.4443 amount of cash, 0.6656 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0736 amount of cash, 0.7746 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 4
+The buyer gave 0.0003 cash and the seller gave 0.0012 wheat to the buyer.
+
+Round 3
+Agent 15 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.4829 for the buyer and 0.3801 for the seller.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1622 amount of cash, 0.6707 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 34 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.4710 for the buyer and 0.5790 for the seller.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 5 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.6132 for the buyer and 0.4405 for the seller.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 3 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.4644 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2316 amount of cash, 0.7383 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 33 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.4125 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 25 is the buyer and Agent 43 is the seller.
+The original payoffs are 0.5289 for the buyer and 0.5161 for the seller.
+Agent 25 has 0.4147 amount of cash, 0.6219 amount of wheat, and a 0.4000 exponent.
+Agent 43 has 0.4003 amount of cash, 0.6113 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 23 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.2884 for the buyer and 0.1922 for the seller.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0316 amount of cash, 0.6400 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 36 is the buyer and Agent 19 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.4083 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1799 amount of cash, 0.7050 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 27 is the buyer and Agent 10 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.5143 for the seller.
+Agent 27 has 0.3992 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 30 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.5479 for the buyer and 0.4216 for the seller.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1673 amount of cash, 0.7809 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 14 is the buyer and Agent 48 is the seller.
+The original payoffs are 0.5728 for the buyer and 0.5681 for the seller.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 9 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.6892 for the buyer and 0.3424 for the seller.
+Agent 9 has 0.4634 amount of cash, 0.8979 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 40 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5053 for the buyer and 0.4070 for the seller.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 16
+Agent 24 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.5032 for the buyer and 0.4927 for the seller.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3252 amount of cash, 0.6499 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 37 is the buyer and Agent 45 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.2876 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 49 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.6274 for the buyer and 0.1907 for the seller.
+Agent 49 has 0.4869 amount of cash, 0.7430 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0262 amount of cash, 0.7160 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 41 is the buyer and Agent 13 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.5140 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 17 is the buyer and Agent 26 is the seller.
+The original payoffs are 0.5799 for the buyer and 0.4034 for the seller.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 22 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.5844 for the buyer and 0.2171 for the seller.
+Agent 22 has 0.4573 amount of cash, 0.6882 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 47 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5521 for the buyer and 0.4251 for the seller.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2458 amount of cash, 0.6124 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 21 is the buyer and Agent 28 is the seller.
+The original payoffs are 0.5940 for the buyer and 0.3689 for the seller.
+Agent 21 has 0.4660 amount of cash, 0.6982 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 7 is the buyer and Agent 8 is the seller.
+The original payoffs are 0.4684 for the buyer and 0.4696 for the seller.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2522 amount of cash, 0.7109 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+
+ROUND 12 WITH 50 AGENTS
+Round 0
+Agent 47 is the buyer and Agent 1 is the seller.
+The original payoffs are 0.5521 for the buyer and 0.4070 for the seller.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 1
+Agent 48 is the buyer and Agent 35 is the seller.
+The original payoffs are 0.5681 for the buyer and 0.4601 for the seller.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 2
+Agent 42 is the buyer and Agent 11 is the seller.
+The original payoffs are 0.5121 for the buyer and 0.5790 for the seller.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 3
+Agent 49 is the buyer and Agent 39 is the seller.
+The original payoffs are 0.6274 for the buyer and 0.3801 for the seller.
+Agent 49 has 0.4869 amount of cash, 0.7430 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1622 amount of cash, 0.6707 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 4
+Agent 13 is the buyer and Agent 38 is the seller.
+The original payoffs are 0.5140 for the buyer and 0.4644 for the seller.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2316 amount of cash, 0.7383 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 5
+Agent 22 is the buyer and Agent 7 is the seller.
+The original payoffs are 0.5844 for the buyer and 0.4684 for the seller.
+Agent 22 has 0.4573 amount of cash, 0.6882 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 6
+Agent 34 is the buyer and Agent 16 is the seller.
+The original payoffs are 0.4710 for the buyer and 0.4927 for the seller.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3252 amount of cash, 0.6499 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 7
+Agent 8 is the buyer and Agent 15 is the seller.
+The original payoffs are 0.4696 for the buyer and 0.4829 for the seller.
+Agent 8 has 0.2522 amount of cash, 0.7109 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 8
+Agent 14 is the buyer and Agent 17 is the seller.
+The original payoffs are 0.5728 for the buyer and 0.5799 for the seller.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 9
+Agent 37 is the buyer and Agent 24 is the seller.
+The original payoffs are 0.5758 for the buyer and 0.5032 for the seller.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 10
+Agent 41 is the buyer and Agent 9 is the seller.
+The original payoffs are 0.5185 for the buyer and 0.6892 for the seller.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 9 has 0.4634 amount of cash, 0.8979 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 11
+Agent 45 is the buyer and Agent 18 is the seller.
+The original payoffs are 0.2876 for the buyer and 0.3023 for the seller.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0739 amount of cash, 0.7734 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 12
+Agent 31 is the buyer and Agent 29 is the seller.
+The original payoffs are 0.5457 for the buyer and 0.5110 for the seller.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 13
+Agent 43 is the buyer and Agent 5 is the seller.
+The original payoffs are 0.5161 for the buyer and 0.6132 for the seller.
+Agent 43 has 0.4003 amount of cash, 0.6113 amount of wheat, and a 0.4000 exponent.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 14
+Agent 36 is the buyer and Agent 32 is the seller.
+The original payoffs are 0.5035 for the buyer and 0.4405 for the seller.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 15
+Agent 21 is the buyer and Agent 6 is the seller.
+The original payoffs are 0.5940 for the buyer and 0.1922 for the seller.
+Agent 21 has 0.4660 amount of cash, 0.6982 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0316 amount of cash, 0.6400 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0003 cash and the seller gave 0.0022 wheat to the buyer.
+
+Round 16
+Agent 12 is the buyer and Agent 10 is the seller.
+The original payoffs are 0.5667 for the buyer and 0.5143 for the seller.
+Agent 12 has 0.4440 amount of cash, 0.6668 amount of wheat, and a 0.4000 exponent.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 17
+Agent 19 is the buyer and Agent 44 is the seller.
+The original payoffs are 0.4083 for the buyer and 0.4216 for the seller.
+Agent 19 has 0.1799 amount of cash, 0.7050 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1673 amount of cash, 0.7809 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 18
+Agent 40 is the buyer and Agent 20 is the seller.
+The original payoffs are 0.5053 for the buyer and 0.3424 for the seller.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 19
+Agent 27 is the buyer and Agent 30 is the seller.
+The original payoffs are 0.5101 for the buyer and 0.5479 for the seller.
+Agent 27 has 0.3992 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 20
+Agent 28 is the buyer and Agent 0 is the seller.
+The original payoffs are 0.3689 for the buyer and 0.4125 for the seller.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 21
+Agent 33 is the buyer and Agent 46 is the seller.
+The original payoffs are 0.5326 for the buyer and 0.1907 for the seller.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0262 amount of cash, 0.7160 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 22
+Agent 3 is the buyer and Agent 23 is the seller.
+The original payoffs are 0.5182 for the buyer and 0.2884 for the seller.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 23
+Agent 26 is the buyer and Agent 2 is the seller.
+The original payoffs are 0.4034 for the buyer and 0.2171 for the seller.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+The buyer and seller could not come to a consensus.
+
+Round 24
+Agent 25 is the buyer and Agent 4 is the seller.
+The original payoffs are 0.5289 for the buyer and 0.4251 for the seller.
+Agent 25 has 0.4147 amount of cash, 0.6219 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2458 amount of cash, 0.6124 amount of wheat, and a 0.4000 exponent.
+They came to a consensus at time 2
+The buyer gave 0.0001 cash and the seller gave 0.0001 wheat to the buyer.
+
+Agent 0 has 0.1685 amount of cash, 0.7492 amount of wheat, and a 0.4000 exponent.
+Agent 1 has 0.2332 amount of cash, 0.5900 amount of wheat, and a 0.4000 exponent.
+Agent 2 has 0.0227 amount of cash, 0.9773 amount of wheat, and a 0.4000 exponent.
+Agent 3 has 0.3872 amount of cash, 0.6292 amount of wheat, and a 0.4000 exponent.
+Agent 4 has 0.2459 amount of cash, 0.6123 amount of wheat, and a 0.4000 exponent.
+Agent 5 has 0.4701 amount of cash, 0.7320 amount of wheat, and a 0.4000 exponent.
+Agent 6 has 0.0320 amount of cash, 0.6378 amount of wheat, and a 0.4000 exponent.
+Agent 7 has 0.2690 amount of cash, 0.6779 amount of wheat, and a 0.4000 exponent.
+Agent 8 has 0.2522 amount of cash, 0.7109 amount of wheat, and a 0.4000 exponent.
+Agent 9 has 0.4634 amount of cash, 0.8979 amount of wheat, and a 0.4000 exponent.
+Agent 10 has 0.4014 amount of cash, 0.6066 amount of wheat, and a 0.4000 exponent.
+Agent 11 has 0.4107 amount of cash, 0.7280 amount of wheat, and a 0.4000 exponent.
+Agent 12 has 0.4440 amount of cash, 0.6668 amount of wheat, and a 0.4000 exponent.
+Agent 13 has 0.3627 amount of cash, 0.6484 amount of wheat, and a 0.4000 exponent.
+Agent 14 has 0.4250 amount of cash, 0.6988 amount of wheat, and a 0.4000 exponent.
+Agent 15 has 0.2490 amount of cash, 0.7510 amount of wheat, and a 0.4000 exponent.
+Agent 16 has 0.3252 amount of cash, 0.6499 amount of wheat, and a 0.4000 exponent.
+Agent 17 has 0.4082 amount of cash, 0.7329 amount of wheat, and a 0.4000 exponent.
+Agent 18 has 0.0739 amount of cash, 0.7734 amount of wheat, and a 0.4000 exponent.
+Agent 19 has 0.1799 amount of cash, 0.7050 amount of wheat, and a 0.4000 exponent.
+Agent 20 has 0.0774 amount of cash, 0.9226 amount of wheat, and a 0.4000 exponent.
+Agent 21 has 0.4657 amount of cash, 0.7005 amount of wheat, and a 0.4000 exponent.
+Agent 22 has 0.4573 amount of cash, 0.6882 amount of wheat, and a 0.4000 exponent.
+Agent 23 has 0.0514 amount of cash, 0.9103 amount of wheat, and a 0.4000 exponent.
+Agent 24 has 0.3365 amount of cash, 0.6581 amount of wheat, and a 0.4000 exponent.
+Agent 25 has 0.4147 amount of cash, 0.6220 amount of wheat, and a 0.4000 exponent.
+Agent 26 has 0.1347 amount of cash, 0.8379 amount of wheat, and a 0.4000 exponent.
+Agent 27 has 0.3992 amount of cash, 0.6007 amount of wheat, and a 0.4000 exponent.
+Agent 28 has 0.2765 amount of cash, 0.4470 amount of wheat, and a 0.4000 exponent.
+Agent 29 has 0.3246 amount of cash, 0.6916 amount of wheat, and a 0.4000 exponent.
+Agent 30 has 0.4016 amount of cash, 0.6740 amount of wheat, and a 0.4000 exponent.
+Agent 31 has 0.4164 amount of cash, 0.6535 amount of wheat, and a 0.4000 exponent.
+Agent 32 has 0.1737 amount of cash, 0.8191 amount of wheat, and a 0.4000 exponent.
+Agent 33 has 0.4151 amount of cash, 0.6289 amount of wheat, and a 0.4000 exponent.
+Agent 34 has 0.3580 amount of cash, 0.5655 amount of wheat, and a 0.4000 exponent.
+Agent 35 has 0.2011 amount of cash, 0.7989 amount of wheat, and a 0.4000 exponent.
+Agent 36 has 0.3229 amount of cash, 0.6771 amount of wheat, and a 0.4000 exponent.
+Agent 37 has 0.4080 amount of cash, 0.7245 amount of wheat, and a 0.4000 exponent.
+Agent 38 has 0.2316 amount of cash, 0.7383 amount of wheat, and a 0.4000 exponent.
+Agent 39 has 0.1622 amount of cash, 0.6707 amount of wheat, and a 0.4000 exponent.
+Agent 40 has 0.3352 amount of cash, 0.6643 amount of wheat, and a 0.4000 exponent.
+Agent 41 has 0.4061 amount of cash, 0.6103 amount of wheat, and a 0.4000 exponent.
+Agent 42 has 0.4015 amount of cash, 0.6023 amount of wheat, and a 0.4000 exponent.
+Agent 43 has 0.4003 amount of cash, 0.6113 amount of wheat, and a 0.4000 exponent.
+Agent 44 has 0.1673 amount of cash, 0.7809 amount of wheat, and a 0.4000 exponent.
+Agent 45 has 0.0725 amount of cash, 0.7207 amount of wheat, and a 0.4000 exponent.
+Agent 46 has 0.0262 amount of cash, 0.7160 amount of wheat, and a 0.4000 exponent.
+Agent 47 has 0.4328 amount of cash, 0.6495 amount of wheat, and a 0.4000 exponent.
+Agent 48 has 0.4181 amount of cash, 0.6970 amount of wheat, and a 0.4000 exponent.
+Agent 49 has 0.4869 amount of cash, 0.7430 amount of wheat, and a 0.4000 exponent.
+
