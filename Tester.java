@@ -19,7 +19,7 @@ public class Tester {
 				FileOutputStream fis = new FileOutputStream(file);
 				PrintStream out = new PrintStream(fis);
 				System.setOut(out);
-				Simulation newSet = new Simulation(50, 500, 6, 0.7, i);
+				Simulation newSet = new Simulation(50, 500, 6, 0.5, i);
 			} catch(IOException e){
 				System.err.println("Error error! Cannot find output folder.");
 			}

@@ -17,7 +17,7 @@ public class Agent {
 		amtCash = 1 - amtWheat; //usually replaced later
 		delta = Math.random();
 		//exponent = Math.round(Math.random()*10000.0)/10000.0;
-		exponent = 0.4;
+		exponent = 0.5;
 	}
 
 	public void setWheat(double wheat){
