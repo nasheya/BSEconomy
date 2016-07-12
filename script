@@ -17,7 +17,7 @@ javac *.java
 			#java Tester -> $fileName
 	#done 
 
-java Tester 50
+java Tester 
 
 #open -a Abscissa DataFiles/BeforeCashWheat.txt DataFiles/AfterCashWheat.txt LayoutsGeneral/CashWheatLayout.abs
-open -a MATLAB_R2015a MatlabScripts/matlabScript.m MatlabScripts/ratesScript.m
+open -a MATLAB_R2015a MatlabScripts/matlabScript.m

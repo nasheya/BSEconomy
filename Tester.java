@@ -13,16 +13,18 @@ public class Tester {
 
 		//Simulation newSet = new Simulation(50, 50, 6, 0.5, 0);
 
-		for(int i=1; i<=Integer.parseInt(args[0]); i++){
-			try{
-				File file = new File("Output/Output"+i+".txt");
-				FileOutputStream fis = new FileOutputStream(file);
-				PrintStream out = new PrintStream(fis);
-				System.setOut(out);
-				Simulation newSet = new Simulation(50, 500, 6, 0.5, i);
-			} catch(IOException e){
-				System.err.println("Error error! Cannot find output folder.");
-			}
+		for(int i=1; i<=50; i++){
+			Simulation newSet = new Simulation(1000, 500, 0.7, i);
+			
+			// try{
+			// 	File file = new File("Output/Output"+i+".txt");
+			// 	FileOutputStream fis = new FileOutputStream(file);
+			// 	PrintStream out = new PrintStream(fis);
+			// 	System.setOut(out);
+			// 	Simulation newSet = new Simulation(1000, 500, 0.7, i);
+			// } catch(IOException e){
+			// 	System.err.println("Error error! Cannot find output folder.");
+			// }
 			
 		}
 		

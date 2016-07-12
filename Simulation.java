@@ -8,7 +8,6 @@
 */
 
 
-import Jama.*;
 import java.util.ArrayList;
 import java.util.Random;
 import java.io.*;
@@ -19,7 +18,6 @@ public class Simulation{
 
 	ArrayList<Agent> agents = new ArrayList<Agent>();
 
-	static int maxTimeForHaggling;
 	static int maxRounds;
 
 	// Transaction rates
@@ -31,9 +29,8 @@ public class Simulation{
 	int amtTotal = 0;
 	int tracker = 0;
 
-	public Simulation(int numAgents, int rounds, int maxTime, double x, int integer){
+	public Simulation(int numAgents, int rounds, double x, int integer){
 		maxRounds = rounds;
-		maxTimeForHaggling = maxTime;
 
 		for(int i=0; i<numAgents; i++){
 			//give each agent an id number starting from 0 to n-1
@@ -141,16 +138,10 @@ public class Simulation{
 				if(ratio1 < ratio2){
 					haggling(one, two);
 
-					// maxUtility(particpants, one);
-					// maxUtility(particpants, two);
-
 					removeAgentsFromHaggling(total, index, indexPair);
 
 				} else if(ratio1 > ratio2){
 					haggling(two, one);
-
-					// maxUtility(particpants, one);
-					// maxUtility(particpants, two);
 
 					removeAgentsFromHaggling(total, index, indexPair);
 
@@ -159,14 +150,6 @@ public class Simulation{
 					one.printInfo();
 					two.printInfo();
 					System.out.println();
-
-					// if(maxUtility(particpants, one)){
-					// 	total.remove(total.indexOf(one));
-					// }
-					
-					// if(maxUtility(particpants, two)){
-					// 	total.remove(total.indexOf(two));
-					// }
 
 					//if the set is not tradeable, then just break
 					if(!tradeable(total)){
@@ -193,66 +176,44 @@ public class Simulation{
 		buyer.printInfo();
 		seller.printInfo();
 
-		double cash = 0;
-		double wheat = 0;
-		int t = 1;
+		double totalCash = round(buyer.getCash() + seller.getCash(), 4);
+		double totalWheat = round(buyer.getWheat() + seller.getWheat(), 4);
+
+		double originalBC = buyer.getCash();
+		double originalSW = seller.getWheat();
 		boolean consensus = false;
 
-		double surplusCash = Math.min(buyer.getCash(), seller.getCash()); //buyer.getCash() - (buyer.getCash()+buyer.getWheat())*buyer.getExponent();
-		double surplusWheat = Math.min(buyer.getWheat(), seller.getWheat()); //seller.getWheat() - (seller.getCash()+seller.getWheat())*(1-seller.getExponent());
+		//assuming it's the same utility curve so it doesn't matter what you choose
+		if(buyer.getUtility()+seller.getUtility()<buyer.findUtility(totalCash, totalWheat)){
+			double bu = buyer.findUtility(round(buyer.getCash()/totalCash, 4), round(buyer.getWheat()/totalWheat, 4));
+			double su = seller.findUtility(round(seller.getCash()/totalCash, 4), round(seller.getWheat()/totalWheat, 4));
 
-		while(!consensus && t <= maxTimeForHaggling){
-			cash = Math.random() * surplusCash;
-			wheat = Math.random() * surplusWheat;
+			double buA = buyer.findUtility(round((1+bu-su)*totalCash/2, 4), round((1+bu-su)*totalWheat/2, 4));
+			double suA = seller.findUtility(round((1+su-bu)*totalCash/2, 4), round((1+su-bu)*totalWheat/2, 4));
 
-			//if it is an odd numbered time
-			if(t%2 == 1){
-				int i = 0;
+			if(buA > buyer.getUtility() && suA > seller.getUtility()){
+				double rate = (originalBC-round((1+bu-su)*totalCash/2, 4))/(originalSW-round((1+su-bu)*totalWheat/2, 4));
 
-				//keep on trying to find an amount that works for the buyer in terms of payoff
-				while(buyer.findChangeInUtility(cash, wheat, true) <= buyer.getUtility() && i<100){
-					cash = Math.random() * surplusCash;
-					wheat = Math.random() * surplusWheat;
-					i++;
-				}
-
-				if(seller.findChangeInUtility(cash, wheat, false)>seller.getUtility() && buyer.findChangeInUtility(cash, wheat, true)>buyer.getUtility()){
+				if(!(Double.isNaN(rate) || rate==0)){
 					consensus = true;
-				}
 
-			} else {
-				int i = 0;
+					buyer.setCash(round((1+bu-su)*totalCash/2, 4));
+					buyer.setWheat(round((1+bu-su)*totalWheat/2, 4));
 
-				//keep on trying to find an amount that works for the buyer in terms of payoff
-				while(seller.findChangeInUtility(cash, wheat, false) <= seller.getUtility() && i<100){
-					cash = Math.random() * surplusCash;
-					wheat = Math.random() * surplusWheat;
-					i++;
-				}
+					seller.setCash(round((1+su-bu)*totalCash/2, 4));
+					seller.setWheat(round((1+su-bu)*totalWheat/2, 4));
 
-				if(seller.findChangeInUtility(cash, wheat, false)>seller.getUtility() && buyer.findChangeInUtility(cash, wheat, true)>buyer.getUtility()){
-					consensus = true;
+					amtAgree++;
+					rates.println(amtAgree+" "+rate);
 				}
 			}
 
-			t++;
+		} else {
+			consensus = false;
 		}
 
-		if(consensus == true){
-			buyer.setCash(buyer.getCash() - cash);
-			buyer.setWheat(buyer.getWheat() + wheat);
 
-			seller.setCash(seller.getCash() + cash);
-			seller.setWheat(seller.getWheat() - wheat);
-
-			System.out.println("They came to a consensus at time " + (t-1));
-			System.out.printf("The buyer gave %.4f cash and the seller gave %.4f wheat to the buyer.", cash, wheat);
-			System.out.println();
-			
-			//Transaction rates
-			amtAgree++;
-			rates.println(amtAgree+" "+cash/wheat);
-		} else {
+		if(consensus == false){
 			System.out.println("The buyer and seller could not come to a consensus.");
 		}
 
@@ -270,47 +231,23 @@ public class Simulation{
 	* only if everyone has more cash or more wheat than they want.
 	*/
 	private static boolean tradeable(ArrayList<Agent> total){
-		boolean moreWheat = true;
-		boolean moreCash = true;
+		double wc = round(total.get(0).getRoundedAmount(1, false)/total.get(0).getRoundedAmount(1, true), 4);
+		double exp = round(total.get(0).getExponent()/(1-total.get(0).getExponent()) , 4);
+		double ratio = round(wc*exp, 4);
 
 		//if *everybody* has an abundance of wheat or cash, don't trade
-		for(int i=0; i<total.size(); i++){
-			double cashAmt = round(total.get(i).getRoundedAmount(1, true)*(1-total.get(i).getExponent()), 4);
-			double wheatAmt = round(total.get(i).getRoundedAmount(1, false)*total.get(i).getExponent(), 4);
+		for(int i=1; i<total.size(); i++){
+			double wc1 = round(total.get(i).getRoundedAmount(1, false)/total.get(i).getRoundedAmount(1, true), 4);
+			double exp1 = round(total.get(i).getExponent()/(1-total.get(i).getExponent()) , 4);
+			double ratio1 = round(wc1*exp1, 4);
 
-			if(wheatAmt < cashAmt){
-				moreWheat = false;
-			}
-
-			if(cashAmt < wheatAmt){
-				moreCash = false;
+			if(ratio1!=ratio){
+				return true;
 			}
 		}
 
-		if(moreCash || moreWheat){
-			return false;
-		} else {
-			return true;
-		}
+		return false;
 	}
-
-
-	/**
-	* Finds out if the agent given have reached its maximum utility, and if so, removes it from the list
-	* NOTE: MUST ALWAYS ROUND OR WILL NOT RECOGNIZE AS AMOUNTS BEING EQUAL
-	*/
-	// private static boolean maxUtility(ArrayList<Agent> particpants, Agent one){
-	// 	if(round((1-one.getExponent())*one.getRoundedAmount(1, true), 4) == round(one.getRoundedAmount(1, false)*one.getExponent(), 4)){
-	// 		int index = particpants.indexOf(one);
-	// 		particpants.remove(index);
-
-	// 		System.out.println("Agent " + one.getID() + " got removed.");
-			
-	// 		return true;
-	// 	}
-
-	// 	return false;
-	// }
 
 
 	/**
