@@ -1,4 +1,3 @@
-import Jama.*;
 import java.util.ArrayList;
 import java.io.*;
 
@@ -13,9 +12,17 @@ public class Tester {
 
 		//Simulation newSet = new Simulation(50, 50, 6, 0.5, 0);
 
+		PrintStream dummyStream    = new PrintStream(new OutputStream(){
+		    public void write(int b) {
+		        //NO-OP
+		    }
+		});
+
+		System.setOut(dummyStream);
+
 		for(int i=1; i<=50; i++){
 			Simulation newSet = new Simulation(1000, 500, 0.7, i);
-			
+
 			// try{
 			// 	File file = new File("Output/Output"+i+".txt");
 			// 	FileOutputStream fis = new FileOutputStream(file);

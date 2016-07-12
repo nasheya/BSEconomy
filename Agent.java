@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import Jama.*;
 
 public class Agent {
 	private int myID;
