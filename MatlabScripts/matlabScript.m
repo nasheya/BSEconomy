@@ -19,7 +19,7 @@ bu = importdata('../../Desktop/BSEconomy/DataFiles/BeforeUtility.txt');
 histogram(bu,50);
 hold on;
 histogram(au,100);
-title(['Before and After Utility Distribution of ' s]);
+title(['Before and After Utility Distribution of ' s1]);
 xlabel('Total Utility');
 ylabel('Number of Players');
 legend('Before','After');

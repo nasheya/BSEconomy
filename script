@@ -1,4 +1,4 @@
-mkdir Output
+#mkdir Output
 mkdir PlotFiles
 mkdir DataFiles
 mkdir Graphs
@@ -20,4 +20,4 @@ javac *.java
 java Tester 
 
 #open -a Abscissa DataFiles/BeforeCashWheat.txt DataFiles/AfterCashWheat.txt LayoutsGeneral/CashWheatLayout.abs
-open -a MATLAB_R2015a MatlabScripts/matlabScript.m
+open -a MATLAB_R2015a MatlabScripts/matlabScript.m MatlabScripts/ratesScript.m
